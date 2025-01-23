@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "Speech at Inauguration Day Rally 2025"
-permalink: /2025-20-01-inauguration-2025-rally-speech/
+permalink: /2025-01-20-inauguration-2025-rally-speech/
 tag: post tag
 short_description: "This speech was given on January 20, 2025 by BRDSA member Jacob Newsom outside the Governor's mansion"
 ---
