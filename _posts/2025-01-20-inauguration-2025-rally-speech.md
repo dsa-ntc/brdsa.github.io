@@ -1,10 +1,10 @@
 ---
-layout: post 
+layout: post
 title: "Speech at Inauguration Day Rally 2025"
 permalink: /2025-01-20-inauguration-2025-rally-speech/
 tag: post tag
 short_description: "This speech was given on January 20, 2025 by BRDSA member Jacob Newsom outside the Governor's mansion"
-image: "Inaug2025speechphoto.JPG"
+image: "assets/images/Inaug2025speechphoto.JPG"
 image_alt: "Jacob delivering speech outside Landry's mansion"
 image_caption: "Jacob delivering speech outside Landry's mansion"
 ---
@@ -19,8 +19,6 @@ On the eve of the French Revolution, a pamphlet was published by Abbe Sieyes cal
 
 I'm an union man and, in my experience, when we show up, we win. I've packed these committee rooms before and I'll continue to do so, but we must begin to show up for our communities and show up for the least among us. Our numbers must be our strength. Here in Baton Rouge, our DSA local is beginning to organize on a variety of fronts, coordinating actions with some of our friends that I see out in the crowd today as well as doing community outreach, like our tenant union that we have begun. The renters of this city are what allow the city to function, yet, every single day, they are disrespected by the bourgeoise landlords and national property management corporations with little to no legal recourse to secure basic rights, things as simple as regular pest control or air-conditioning and heating. We have started this work and we will continue it; when you leave this place I want you to ask yourself, what will you do? I encourage you to return in the spring and stand with us in the halls of the capitol and in the committee rooms, but what will you do between now and then? Will you talk to you neighbors? Will you listen to their grievances? Will you organize your community? Let's create the world we want to see because they won't. We must believe that a better world is possible.
 
-
 -Jacob Newsom
 
 "A better world is possible"
-

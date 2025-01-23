@@ -1,10 +1,10 @@
 ---
-layout: post 
+layout: post
 title: "Draft Post"
 permalink: /draft-post-title/
 tag: draft post tag
 short_description: "Short article description"
-image: "Image file name"
+image: ""assets/images/filename.JPG""
 image_alt: "Description of image to display if image doesn't load"
 image_caption: "Caption to display underneath image"
 ---
