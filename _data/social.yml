@@ -11,7 +11,7 @@ twitter: &twitter
   username: BatonRougeDSA
 
 bluesky: &bluesky
-  label: "Blue Sky"
+  label: "Bluesky"
   icon: "fas fa-fw fa-cloud"
   url: "https://bsky.app/profile/batonrougedsa.bsky.social"
   username: batonrougedsa
@@ -28,9 +28,14 @@ github: &github
   url: "https://github.com/dsa-ntc/brdsa.github.io"
 
 email: &email
-  label: "Email"
-  icon: "fa fa-envelope"
+  label: "Send us an Email"
+  icon: "fa fa-paper-plane"
   url: "mailto:batonrougedsa@gmail.com"
+
+emaillist: &emailList
+  label: "Join Email List"
+  icon: "fa fa-envelope"
+  url: "https://actionnetwork.org/forms/join-brdsa"
 
 # We use the above links in different combinations in
 # different places in the site. Making lists in the manner
@@ -44,14 +49,15 @@ footer:
   - *twitter
   - *github
   - *email
+  - *emailList
 
 # This list appears in the dropdown of every blog post
 follow:
-  - *facebook
-  - *twitter
   - *instagram
+  - *bluesky
+  - *facebook
 
 # I don't see where this gets used yet
 share:
-  - *facebook
-  - *twitter
+  - *instagram
+  - *bluesky
