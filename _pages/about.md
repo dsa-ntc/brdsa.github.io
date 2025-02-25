@@ -12,4 +12,4 @@ As a part of a network of chapters that make up Louisiana DSA and the National o
 
 **[Join DSA](https://act.dsausa.org/donate/membership/?source=Baton%20Rouge) today! 
 Want to stay in the loop? [Join Baton Rouge DSA’s email list.](https://actionnetwork.org/forms/join-brdsa)**
-Learn more[here](../get-involved/).
+Learn more [here](../get-involved/).
