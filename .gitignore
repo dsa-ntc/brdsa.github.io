@@ -28,3 +28,6 @@ package-lock.json
 # Editor generated files
 .vscode
 *.swp
+
+# Environment config
+.envrc
