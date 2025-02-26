@@ -1,14 +1,17 @@
 # header links
 header:
+  - title: "About"
+    url: "/about/"
+    description: "Learn more about Baton Rouge DSA"
+  - title: "Get Involved"
+    url: "/get-involved/"
+    description: "Find out how you can get involved. Join DSA!"
+  - title: "Our Work"
+    url: "/campaigns/"
+    description: "Descriptions of the campaigns Baton Rouge DSA is working on"
   - title: "Statements"
     url: "/blog/"
     description: "Link to Baton Rouge DSA's Chapter Statements"
-  - title: "Get Involved"
-    url: "/get-involved/"
-    description: "Check out what Baton Rouge DSA is working on. Join DSA!"
-  - title: "Events Calendar"
-    url: "/calendar/"
-    description: "Chapter Events Calendar"
 
 # footer links
 footer:
