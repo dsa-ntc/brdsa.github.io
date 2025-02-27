@@ -17,6 +17,6 @@ Want to stay in the loop? [Join Baton Rouge DSA’s email list](https://actionne
 
 <div class="span9">
 
-        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FChicago&showPrint=0&src=YmF0b25yb3VnZWRzYUBnbWFpbC5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%230B8043" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://calendar.google.com/calendar/embed?src=33f91d95d3ed14ecfbf1848ae987b26e0b8979829a078c99a2d142fadbec13bd%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 </div>
