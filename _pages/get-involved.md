@@ -11,10 +11,12 @@ The [Democratic Socialists of America](https://www.dsausa.org/) is the largest s
 [Join DSA](https://act.dsausa.org/donate/membership/?source=Baton%20Rouge) today!
 Want to stay in the loop? [Join Baton Rouge DSA’s email list](https://actionnetwork.org/forms/join-brdsa).
 
+<link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v5/form/join-brdsa?format=js&source=widget'></script><div id='can-form-area-join-brdsa' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>
+
 <h2>Events</h2>
 
 <div class="span9">
-	
-		<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FChicago&showPrint=0&src=YmF0b25yb3VnZWRzYUBnbWFpbC5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%230B8043" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-</div>
 
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FChicago&showPrint=0&src=YmF0b25yb3VnZWRzYUBnbWFpbC5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%230B8043" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+</div>
