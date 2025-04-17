@@ -1,40 +1,41 @@
 facebook: &facebook
   label: "Facebook"
-  icon: "fab fa-fw fa-facebook"
+  icon: "fa-brands fa-facebook"
   url: "https://www.facebook.com/batonrougedsa/"
   username: batonrougedsa
 
 twitter: &twitter
   label: "Twitter"
-  icon: "fab fa-fw fa-twitter-square"
+  icon: "fa-brands fa-twitter"
   url: "https://twitter.com/BatonRougeDSA"
   username: BatonRougeDSA
 
 bluesky: &bluesky
   label: "Bluesky"
-  icon: "fas fa-fw fa-cloud"
+  # icon: "fa-brands fa-square-bluesky"
+  icon: "fa-brands fa-bluesky"
   url: "https://bsky.app/profile/batonrougedsa.bsky.social"
   username: batonrougedsa
 
 instagram: &instagram
   label: "Instagram"
-  icon: "fab fa-fw fa-instagram"
+  icon: "fa-brands fa-instagram"
   url: "https://www.instagram.com/batonrougedsa/"
   username: batonrougedsa
 
 github: &github
   label: "GitHub"
-  icon: "fab fa-fw fa-github"
+  icon: "fa-brands fa-github"
   url: "https://github.com/dsa-ntc/brdsa.github.io"
 
 email: &email
-  label: "Send us an Email"
-  icon: "fa fa-paper-plane"
+  label: "Send us an email"
+  icon: "fa-solid fa-paper-plane"
   url: "mailto:batonrougedsa@gmail.com"
 
 emaillist: &emailList
-  label: "Join Email List"
-  icon: "fa fa-envelope"
+  label: "Join our email list"
+  icon: "fa-solid fa-envelope"
   url: "https://actionnetwork.org/forms/join-brdsa"
 
 # We use the above links in different combinations in

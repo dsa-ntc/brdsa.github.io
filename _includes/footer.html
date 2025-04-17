@@ -18,11 +18,12 @@
                 <div class="col-md-2 col-sm-12">
                     <h4 class="text-red m-0">Socials</h3>
                     <!-- Social media links -->
-                    <ul class="my-3">
+                    <ul class="social-list">
                         {% for so_link in social %}
-                        <li>
+                        <li class="social-item">
                             {% if so_link.url %}
-                            <i class="{{ so_link.icon }}"></i><a href="{{ so_link.url }}">{{ so_link.label }}</a>
+                            <i class="{{ so_link.icon }} social-icon"></i>
+                            <a href="{{ so_link.url }}" class="social-link">{{ so_link.label }}</a>
                             {% else %}
                             <strong>{{ so_link.label }}</strong>
                             {% endif %}
@@ -32,10 +33,14 @@
                 </div>
                 <div class="col-md-2 col-sm-12">
                     <h4 class="text-red m-0">Sitemap</h3>
-                    <ul class="my-3">
+                    <ul class="social-list">
                         {% for fd_link in feed %}
-                        <li>
+                        <li class="social-item">
+                            {% if fd_link.url %}
                             <i class="{{ fd_link.icon }}"></i> <a href="{{ fd_link.url | relative_url }}">{{ fd_link.label }}</a>
+                            {% else %}
+                            <strong>{{ so_link.label }}</strong>
+                            {% endif %}
                         </li>
                         {% endfor %}
                     </ul>

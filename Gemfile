@@ -11,4 +11,4 @@ gem "jemoji"
 gem "jekyll-include-cache"
 gem "jekyll-data"
 gem "kramdown-parser-gfm"
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem 'tzinfo-data'

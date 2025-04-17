@@ -15,3 +15,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Remove unedited theme files
+
+
+## 2025-04-17
+
+### Added
+
+- added files for self-hosting FontAwesome v6.5.2 icons within GitHub pages (NOTE our remote layout lone-wolf still includes some v5 assets via CDN)
+
+### Changed
+
+- made changes to the social links CSS, updated FontAwesome classes listed in `social.yml`
+- made the calendar on `/get-involved` full-width
+- removed the platform specifier for `tzinfo-data` from the project gemfile 
