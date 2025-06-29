@@ -9,9 +9,13 @@ header:
   - title: "Our Work"
     url: "/campaigns/"
     description: "Descriptions of the campaigns Baton Rouge DSA is working on"
+  - title: "FITE"
+    url: /fite/
+    description: "Famine Is The Enemy"
   - title: "Statements"
     url: "/blog/"
-    description: "Link to Baton Rouge DSA's Chapter Statements"
+    description: "Baton Rouge DSA's Chapter Statements"
+
 
 # footer links
 footer:
