@@ -6,8 +6,10 @@ permalink: /fite/
 
 <h2>What is it?</h2>
 
-Famine Is The Enemy (FITE) is a mutual aid group that serves food (and other donations) to the community each Saturday from 12-1pm at [North 14th Street Park](https://maps.app.goo.gl/GJhM7rvKNZgw9kZF9). FITE is always looking for volunteers to cook, serve, or donate materials.
+[Famine Is The Enemy](https://www.instagram.com/fite_br/) (FITE) is a mutual aid group that serves food (and other donations) to the community each Saturday from 12-1pm at [North 14th Street Park](https://maps.app.goo.gl/GJhM7rvKNZgw9kZF9). FITE is always looking for volunteers to cook, serve, or donate materials.
+![image of FITE in April 2025](/assets/images/FITE04-2025).
 <h2>Donate</h2>
 You can donate to FITE in person by coming to our Saturday food distro, or online donating to Baton Rouge DSA and including a message that you would like your donation to be used for FITE.
-You can donate to Baton Rouge DSA on [Venmo](https://venmo.com/u/BRDSA).
+**You can donate to Baton Rouge DSA on [Venmo](https://venmo.com/u/BRDSA).**
 
+![BRDSA Venmo QR Code](/assets/images/qrcode_BRDSAvenmo.png "Venmo username: BRDSA")
