@@ -12,3 +12,4 @@ permalink: /fite/
 You can donate to FITE in person by coming to our Saturday food distro, or online donating to Baton Rouge DSA and including a message that you would like your donation to be used for FITE.
 **You can donate to Baton Rouge DSA on [Venmo](https://venmo.com/u/BRDSA).**
 <img style="float: right;" src="/assets/images/qrcode_BRDSAvenmo.png">
+<div display: block />
