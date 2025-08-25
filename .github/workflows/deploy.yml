@@ -2,7 +2,7 @@ name: svelte deploy gh pages
 
 on:
   push:
-    branches: ['svelte']
+    branches: ['main']
   workflow_dispatch:
 
 permissions:
