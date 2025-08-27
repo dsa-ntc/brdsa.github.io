@@ -1,6 +1,6 @@
  export const config  = {
 	title: 'Baton Rouge DSA',
-	location: 'https://brdsa.teauxfu.dev',
+	location: 'https://brdsa.org',
 	tagLine: 'Homepage for Baton Rouge DSA (BRDSA)',
 	description: 'Website for the Baton Rouge chapter of the Democratic Socialists of America (BRDSA)',
 	author: "BRDSA",

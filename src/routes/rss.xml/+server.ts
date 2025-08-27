@@ -4,19 +4,23 @@ import type { PostMetadata } from '$lib/types';
 
 export const prerender = true;
 
+// to validate output, use https://validator.w3.org/feed/check.cgi 
+// to see examples of valid output, see https://datatracker.ietf.org/doc/html/rfc4287#section-1.1
 
 function getItemsForPost(post: PostMetadata)
 {
-    const values = ['<item>'];
+    const values = ['<entry>'];
     values.push(`<title>${post.title}</title>`);
-    values.push(`<link href="${config.location}/blog/${post.slug}/"/>`);
-    values.push(`<id>${config.location}/blog/${post.slug}/</id>`);
+    values.push(`<link href="${config.location}/blog/${post.slug}" />`);
+    values.push(`<id>${config.location}/blog/${post.slug}</id>`);
     if(post.date)
     {
         values.push(`<updated>${new Date(post.date).toISOString()}</updated>`);
         values.push(`<published>${new Date(post.date).toISOString()}</published>`);
+        if(post.description)
+            values.push(`<summary>${post.description}</summary>`);
     }
-    values.push('</item>');
+    values.push('</entry>');
     return values.join('\n');
 }
 
@@ -25,26 +29,25 @@ export async function GET() {
 	return new Response(
 		`
         <?xml version="1.0" encoding="utf-8"?>
-        <rss version="2.0" xmlns="http://www.w3.org/2005/Atom">
-            <channel>
-                <title>${config.title}</title>
-                <link href="${config.location}"/>
-                <link href="${config.location}/rss.xml" rel="self"/>
-                <description>${config.description}</description>
-                <updated>${(new Date()).toISOString()}</updated>
-                <author>
-                    <name>Baton Rouge DSA</name>
-                </author>
-                <managingEditor>${config.email}</managingEditor>
-                <webMaster>${config.email}</webMaster>
-                <generator>JavaScript</generator>             
-            ${posts.map((post) => getItemsForPost(post)).join('\n')}
-            </channel>
-        </rss>
+        <feed xmlns="http://www.w3.org/2005/Atom">
+            <title>${config.title}</title>
+            <link href="${config.location}"/>
+            <link rel="self" type="application/atom+xml" href="${config.location}/rss.xml"/>
+            <id>${config.location}/rss.xml</id>
+            <subtitle>${config.description}</subtitle>
+            <updated>${(new Date()).toISOString()}</updated>
+            <author>
+                <name>Baton Rouge DSA</name>
+                <uri>${config.location}</uri>
+                <email>${config.email}</email>
+            </author>
+            <generator>SvelteKit</generator>             
+        ${posts.map((post) => getItemsForPost(post)).join('\n')}
+        </feed>
         `.trim(),
 		{
 			headers: {
-				'Content-Type': 'application/xml'
+				'Content-Type': 'application/atom+xml'
 			}
 		}
 	);
