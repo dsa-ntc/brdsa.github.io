@@ -1,4 +1,4 @@
-import { getRecipieModules, getRecipies, slugToPath } from '$lib/recipieUtils';
+import { getRecipeModules, getrecipes, slugToPath } from '$lib/recipeUtils';
 import { error } from '@sveltejs/kit';
 import type { Picture } from 'vite-imagetools';
 import type { EntryGenerator, PageLoad } from './$types';
@@ -8,7 +8,7 @@ import type { EntryGenerator, PageLoad } from './$types';
 
 export const load: PageLoad = (async ({ params }) => {
 	try {
-		const posts = getRecipieModules();
+		const posts = getRecipeModules();
 		const contentModule = posts[slugToPath(params.slug)];
 		const { default: component, metadata } = await contentModule().then();
 
@@ -38,8 +38,8 @@ export const load: PageLoad = (async ({ params }) => {
 			component
 		};
 	} catch (err) {
-		console.error('Error loading recipie:', err);
-		throw error(404, 'Recipie not found');
+		console.error('Error loading recipe:', err);
+		throw error(404, 'recipe not found');
 	}
 }) satisfies PageLoad;
 
@@ -47,7 +47,7 @@ export const load: PageLoad = (async ({ params }) => {
 // we do this by globbing over the posts dir
 // https://svelte.dev/docs/kit/page-options#entries
 export const entries: EntryGenerator = () => {
-	const posts = getRecipies(true);
+	const posts = getrecipes(true);
 	const slugs = posts.map((p) => ({ slug: p.slug ?? 'no-slug' }));
 	return slugs;
 };

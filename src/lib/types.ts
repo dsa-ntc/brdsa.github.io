@@ -15,7 +15,7 @@ export interface PostMetadata {
 	imageDescription?: string;
 }
 
-export interface Recipie extends PostMetadata {
+export interface recipe extends PostMetadata {
 	difficulty?: string;
 	source?: string;
 	feeds?: number;
@@ -28,7 +28,7 @@ export type PostModules = Record<
 	() => Promise<{default: Component; metadata: PostMetadata;}>
 >;
 
-export type RecipieModules = Record<
+export type recipeModules = Record<
 	string,
-	() => Promise<{default: Component; metadata: Recipie;}>
+	() => Promise<{default: Component; metadata: recipe;}>
 >;

@@ -3,17 +3,16 @@ title: Jambalaya (big and small)
 source: https://docs.google.com/document/d/166HsLlPp05iQ_Lou_3KJtllEbTd9NIL9l3ZhsseOX9w/edit?usp=drive_link
 difficulty: hard
 cookTime: 5 hrs
-feeds: 50
+feeds: 40-50
 ---
 
 # Jumbalaya
 
 ## Big Jambalaya
 
-Serves 39-54 (??)
-
 ### Ingredients
 Note: meat can be substituted, does not have to be this exact proportion
+
 - 6.75 lbs of beef sausage, sliced                     	             	                              	
 - 6.75 lbs of boneless/skinless chicken, cooked and cut into bite-size pieces
 - 6.75 lbs of boneless pork, cooked and cut into bite-size pieces

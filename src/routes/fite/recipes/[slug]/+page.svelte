@@ -2,7 +2,7 @@
 	import HeadSummary from "$lib/components/HeadSummary.svelte";
 	import PaletteHeader from "$lib/components/PaletteHeader.svelte";
 	import Prose from "$lib/components/Prose.svelte";
-	import { getSummary } from "$lib/recipieUtils.js";
+	import { getSummary } from "$lib/recipeUtils.js";
 	let { data } = $props();
 	const { post, hero } = data;
 </script>
@@ -10,7 +10,7 @@
 <svelte:head>
 	<HeadSummary
 		title={post.title}
-		description={post.description ?? "A recipie contributed to FITE"}
+		description={post.description ?? "A recipe contributed to FITE"}
 	/>
 </svelte:head>
 
@@ -49,7 +49,7 @@
 			<p
 				class="border-l-4 border-l-dsa-red p-2 dark:border-l-dsa-red1 dark:bg-dsa-black1 dark:text-white"
 			>
-				<a href="/fite/recipies">Back to list of recipies</a>
+				<a href="/fite/recipes">Back to list of recipes</a>
 			</p>
 		</Prose>
 	</div>

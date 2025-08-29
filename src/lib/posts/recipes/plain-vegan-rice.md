@@ -1,5 +1,5 @@
 ---
-# this is just a template to copy and edit when adding new recipies
+# this is just a template to copy and edit when adding new recipes
 title: Plain Vegan Rice
 source: https://docs.google.com/document/d/1Dn71xfFmYgywqW_dIdO-4uwjts-Tgw8mRhsBGtyzzxk/edit?usp=drive_link
 difficulty: easy

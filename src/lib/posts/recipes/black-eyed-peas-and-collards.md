@@ -9,6 +9,8 @@ price:
 
 # Black Eyed Peas and Collards
 
+_Editor's note: this recipe is a combination of the linked recipe and a handwritten recipe submitted by a volunteer._
+
 [Original recipe](https://www.africanbites.com/black-eyed-peas-recipe/)
 
 ## Ingredients 
@@ -18,17 +20,17 @@ Ingredients (total)
 ## Ingredients 
 
 ### Total 
-- 7 lbs black eyed peas
-- 7 large onions, diced
+
+- 10 lbs black eyed peas
+- 8 large onions (yellow or sweet), diced
 - 7 large stalks celery, diced
 - 21 tsp minced garlic
 - 3 1/2 tsp cayenne pepper
 - 14 tsp minced thyme
 - 7 bay leaves
 - 7 tsp creole seasoning
-- 42 c water
-- Original recipe calls for chicken broth; some or all can be replaced
-- 32 oz (20 c) shredded and washed collard greens
+- 4 x 48 oz chicken broth (can substitute water)
+- 32-48 oz (~ 20 c) shredded and washed collard greens (fresh or frozen)
 - 14 tsp salt
 - 7 tsp pepper
 - Some olive oil (or other oil)
@@ -68,9 +70,11 @@ Ingredients (total)
 ## Steps
 
 In two large soup pots, sauté the onions, celery, and garlic in some olive oil until the onions are clear.
+
 Add the other seasonings.
+
 Add the water and the black eyed peas.  Mix, cover, and bring to a boil.
-Reduce heat to a simmer and cook covered, stirring often, until the black eyed peas reach the desired softness, or for about 1½-2 hours.
-If the beans become too dry, add more water.
-Add the collard greens and cook for the last 10 minutes.
-Once the liquid is reduced, you can put the contents of both pots into the bigger pot for easier transportation.
+
+Reduce heat to a simmer and cook covered, stirring often, until the black eyed peas reach the desired softness, or for about 1½-2 hours. If the beans become too dry, add more water.
+
+Add the collard greens and cook for the last 10 minutes. Once the liquid is reduced, you can put the contents of both pots into the bigger pot for easier transportation.

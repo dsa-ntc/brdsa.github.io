@@ -5,7 +5,7 @@
 
 ## Customizing the website
 
-You can edit the site using the online GitHub editor, but this is more suited to minor changes like adding posts/recipies, typos / text adjustments, adding links, etc. Cloning the repo to develop locally is recommended for any substantial changes.
+You can edit the site using the online GitHub editor, but this is more suited to minor changes like adding posts/recipes, typos / text adjustments, adding links, etc. Cloning the repo to develop locally is recommended for any substantial changes.
 
 ### Adding pages
 
@@ -31,9 +31,9 @@ hidden: false
 ---
 ```
 
-#### Adding recipies
+#### Adding recipes
 
-Similar to markdown posts, we serve markdown recipies at `src/lib/posts/recipies` as a FITE cookbook at `/fite/recipies`. In addition to the ones on a post, extra frontmatter properties are available for recipies. 
+Similar to markdown posts, we serve markdown recipes at `src/lib/posts/recipes` as a FITE cookbook at `/fite/recipes`. In addition to the ones on a post, extra frontmatter properties are available for recipes. 
 
 ```yaml
 ---

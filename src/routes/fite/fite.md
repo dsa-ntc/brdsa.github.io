@@ -16,5 +16,5 @@ You can donate to FITE in person by coming to our Saturday food distro, or onlin
 
 ## Want to cook?
 
-Check out [our cookbook](/fite/recipies)!
+Check out [our cookbook](/fite/recipes)!
 

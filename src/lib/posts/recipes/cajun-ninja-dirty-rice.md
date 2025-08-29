@@ -9,8 +9,7 @@ cookTime: 3.5-4 hrs
 
 Scaled up from the Cajun Ninja "Dirty Rice" Video
  
-Feeds about 50 people, ~1 cup servings
-$50 total for ingredients in June 2025
+Feeds about 50 people, ~1 cup servings. $50 total for ingredients in June 2025
 I use a 17.75"L x 11"W x 9"H Magnalite pot with lid and everything fits.
  
 3.5 hours cooking, 0.5 hour prep to chop everything
