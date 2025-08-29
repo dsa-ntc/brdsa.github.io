@@ -17,7 +17,7 @@ export function getRecipeModules(): recipeModules {
 }
 
 // Get all posts with metadata (eager loading for immediate access)
-export function getrecipes(includeHidden = false): recipe[] {
+export function getRecipes(includeHidden = false): recipe[] {
 	const paths = import.meta.glob("/src/lib/posts/recipes/*.md", { eager: true });
 	const posts: recipe[] = [];
 	const seenSlugs = new Set<string>();

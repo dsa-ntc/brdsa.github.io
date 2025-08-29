@@ -1,4 +1,4 @@
-import { getRecipeModules, getrecipes, slugToPath } from '$lib/recipeUtils';
+import { getRecipeModules, getRecipes, slugToPath } from '$lib/recipeUtils';
 import { error } from '@sveltejs/kit';
 import type { Picture } from 'vite-imagetools';
 import type { EntryGenerator, PageLoad } from './$types';
@@ -47,7 +47,7 @@ export const load: PageLoad = (async ({ params }) => {
 // we do this by globbing over the posts dir
 // https://svelte.dev/docs/kit/page-options#entries
 export const entries: EntryGenerator = () => {
-	const posts = getrecipes(true);
+	const posts = getRecipes(true);
 	const slugs = posts.map((p) => ({ slug: p.slug ?? 'no-slug' }));
 	return slugs;
 };
