@@ -1,45 +1,46 @@
-name: svelte deploy gh pages
+name: Build and Deploy
 
 on:
   push:
-    branches: ['main']
+    branches:
+      - main
   workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
-concurrency:
-  group: 'pages'
-  cancel-in-progress: false
+    inputs:
+      deploy_comment:
+        description: "Reason for deployment"
+        required: true
+        default: "Manual deployment"
+        type: string
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Use Node.js
-        uses: actions/setup-node@v2
+      - uses: actions/checkout@master
+
+      - name: Connect to MFM to ensure shell access is active
+        uses: baisong/mayfirst-shell-action@v0.1.0
+        with:
+          comment: ${{ inputs.deploy_comment }}
+          user: ${{ vars.MFM_USER }}
+          password: ${{ secrets.MFM_PASSWORD }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 24
       - name: Install dependencies
         run: npm ci
-      - name: Build the code
+      - name: Build website
         run: npm run build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+
+      - name: Copy build to MFM server
+        uses: nogsantos/ssh-scp-deploy@v1.3.0
         with:
-          # Upload entire repository
-          path: 'build'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          src: ./build/*
+          host: ${{ vars.MFM_SSH_HOST }}
+          remote: ${{ vars.MFM_SCP_PATH }}
+          port: ${{ vars.MFM_SSH_PORT }}
+          user: ${{ vars.MFM_USER }}
+          key: ${{ secrets.MFM_SSH_KEY }}
