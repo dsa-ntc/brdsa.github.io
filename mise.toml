@@ -1,0 +1,6 @@
+[tools]
+node = "24"
+jq = "latest"
+
+[env]
+_.file = '.env'
