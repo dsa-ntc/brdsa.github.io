@@ -20,11 +20,18 @@ const config = {
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 	kit: {
 		adapter: adapter({
-			fallback: '404.html'
+			// default options are shown. On some platforms
+			// these options are set automatically — see below
+			pages: 'build',
+			assets: 'build',
+			fallback: undefined,
+			precompress: false,
+			strict: false
 		}),
 		// have to set this to make the GH workflow work
 		paths: {
-			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+			base: '',
+			assets: ''
 		},
 		prerender: {
 			handleHttpError: ({ path, referrer, message }) => {
