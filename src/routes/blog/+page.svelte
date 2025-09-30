@@ -47,7 +47,7 @@
 											.format("YYYY-MM-DD")}.</time
 									>
 									{#if post.author}
-										{post.author}.
+										{post.author}
 									{/if}
 								</span>
 							{/if}
