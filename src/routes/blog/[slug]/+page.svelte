@@ -43,8 +43,8 @@
 					</p>
 				{/if}
 				{#if post.author}
-					<p class="px-2">
-						{post.author}.
+					<p class="px-2 text-center">
+						{post.author} |
 						{#if post.date}
 							<time>{dayjs.tz(post.date, "YYYY-MM-DD", "America/Chicago").format("YYYY-MM-DD")}</time>.
 						{/if}
@@ -61,7 +61,7 @@
 			{/if}
 		</Prose>
 	</div>
-	<div class="flex justify-center">
+	<div class="flex justify-center indent-article">
 		<Prose>
 			<data.component></data.component>
 		</Prose>
