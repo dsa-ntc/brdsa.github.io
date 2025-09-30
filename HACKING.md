@@ -6,7 +6,8 @@ prereqs:
   - open the workspace file to use its settings. it makes the file explorer easier to use
   - installing some of the recommended plugins is optional, but get Svelte and TailWind at least
   - the markdown all in one plugin is nice too
-- a github account
+- a GitHub account
+- git [windows download](https://git-scm.com/downloads/win)
 
 ## Cloning the repo 
 
@@ -96,6 +97,10 @@ for main content included in a page, we use `enhanced:img` wherever possible, in
 On moving to MFM hosting, we ran into an issue with our build output not matching the directory structure that Apache expects. We fixed that by enabling this https://svelte.dev/docs/kit/page-options#trailingSlash
 
 ### Useful links
+
+https://git-scm.com/downloads/win
+
+https://www.markdownguide.org/basic-syntax/#reference-style-links
 
 action network css examples
 https://help.actionnetwork.org/hc/en-us/articles/115005729066-CSS-snippets-for-embed-customization

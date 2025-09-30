@@ -42,6 +42,10 @@
 	}
 }
 
+.indent-article p {
+	@apply indent-8
+}
+
 .prose h1 > a {
 	@apply no-underline;
 }
