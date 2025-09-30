@@ -4,7 +4,7 @@ date: 2025-09-29
 description: If those deploring "political violence" are serious about stopping it, let's start with abolishing ICE.
 imageUrl: imagine-a-world-without-political-violence.jpg
 imageDescription: a graphic of a group of people unweaving a chain fence
-author: Baton Rouge DSA
+author: Ben W., Alicia C. 
 hidden: false
 ---
 
