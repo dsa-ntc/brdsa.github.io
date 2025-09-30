@@ -15,7 +15,7 @@
 	<meta property="og:type" content="website" />
 	<meta
 		property="og:image"
-		content={`${config.location}/images/BRDSAlogo_3ColorOnWhite.png?enhanced`}
+		content={`${config.location}/images/BRDSAlogo_3ColorOnWhite.png`}
 	/>
 	<meta property="og:url" content={page.url.toString()} />
 </svelte:head>
