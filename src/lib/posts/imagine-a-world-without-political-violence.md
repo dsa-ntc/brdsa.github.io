@@ -1,11 +1,11 @@
 ---
 title: Imagine a World Without Political Violence
 date: 2025-09-29
-description: 
-imageUrl: 
-imageDescription: 
-author: Alicia C., Ben W.
-hidden: true
+description: If those deploring "political violence" are serious about stopping it, let's start with abolishing ICE.
+imageUrl: imagine-a-world-without-political-violence.jpg
+imageDescription: a graphic of a group of people unweaving a chain fence
+author: Baton Rouge DSA
+hidden: false
 ---
 
 On September 19, 2025, news broke about cases being filed against the warden of the Basile Detention center in Louisiana. Because Immigration and Customs Enforcement (ICE) has increased arrests in the past few months, more immigrants than ever are incarcerated in Basile and across Louisiana. Four of the people previously incarcerated in the Basile facility have filed legal complaints against the warden for sexual abuse, physical abuse, and coerced labor. In addition, transgender detainees report consistent abuse by prison staff.<sup>[1](#ref-1)</sup> Immigrants detained in the Angola Prison have begun a hunger strike to protest lack of medical care, medication, clean water, toilet paper, and hygiene products.<sup>[2](#ref-2)</sup> 
@@ -26,42 +26,42 @@ ICE, the US’s gestapo, is a non-solution to a non-problem. It is making our al
 
 A world without prisons, without detention centers, without poverty is possible. It will take a lot of work, but it is possible. If those deploring “political violence” are serious about stopping it, let’s start with abolishing ICE.
 
-Join the Baton Rouge Democratic Socialists of America. A better world is possible. Together, we can make it real.🌹
+[Join the Baton Rouge Democratic Socialists of America](https://act.dsausa.org/donate/membership/?source=Baton%20Rouge). A better world is possible. Together, we can make it real.🌹
 
 ## References
 
 <ol>
     <li>
-        <span id="ref-1"></span> <a href="https://lailluminator.com/2025/09/19/ice-abuse-louisiana/">https://lailluminator.com/2025/09/19/ice-abuse-louisiana/</a> 
+        <span id="ref-1"></span> <a href="https://lailluminator.com/2025/09/19/ice-abuse-louisiana/" target="_blank">https://lailluminator.com/2025/09/19/ice-abuse-louisiana/</a> 
     </li>
     <li>
-        <span id="ref-2"></span> <a href="https://lailluminator.com/briefs/angola-ice/">https://lailluminator.com/briefs/angola-ice/</a>
+        <span id="ref-2"></span> <a href="https://lailluminator.com/briefs/angola-ice/" target="_blank">https://lailluminator.com/briefs/angola-ice/</a>
     </li>
     <li>
-        <span id="ref-3"></span> <a href="https://www.latimes.com/politics/story/2025-09-16/charlie-kirk-railed-against-transgender-rights-his-killing-has-further-fueled-the-fight">https://www.latimes.com/politics/story/2025-09-16/charlie-kirk-railed-against-transgender-rights-his-killing-has-further-fueled-the-fight</a>
+        <span id="ref-3"></span> <a href="https://www.latimes.com/politics/story/2025-09-16/charlie-kirk-railed-against-transgender-rights-his-killing-has-further-fueled-the-fight" target="_blank">https://www.latimes.com/politics/story/2025-09-16/charlie-kirk-railed-against-transgender-rights-his-killing-has-further-fueled-the-fight</a>
     </li>
     <li>
-        <span id="ref-4"></span> <a href="https://www.bbc.com/news/articles/c3w65xg7vy4o">https://www.bbc.com/news/articles/c3w65xg7vy4o</a>
+        <span id="ref-4"></span> <a href="https://www.bbc.com/news/articles/c3w65xg7vy4o" target="_blank">https://www.bbc.com/news/articles/c3w65xg7vy4o</a>
     </li>
     <li>
-        <span id="ref-5"></span> <a href="https://web.mit.edu/21h.102/www/Primary%20source%20collections/Civil%20Rights/Beyond_Vietnam.htm">https://web.mit.edu/21h.102/www/Primary%20source%20collections/Civil%20Rights/Beyond_Vietnam.htm</a>
+        <span id="ref-5"></span> <a href="https://web.mit.edu/21h.102/www/Primary%20source%20collections/Civil%20Rights/Beyond_Vietnam.htm" target="_blank">https://web.mit.edu/21h.102/www/Primary%20source%20collections/Civil%20Rights/Beyond_Vietnam.htm</a>
     </li>
     <li>
-        <span id="ref-6"></span> <a href="https://www.theguardian.com/us-news/2023/sep/29/louisiana-police-brave-cave-abuse-officers-charged">https://www.theguardian.com/us-news/2023/sep/29/louisiana-police-brave-cave-abuse-officers-charged</a>
+        <span id="ref-6"></span> <a href="https://www.theguardian.com/us-news/2023/sep/29/louisiana-police-brave-cave-abuse-officers-charged" target="_blank">https://www.theguardian.com/us-news/2023/sep/29/louisiana-police-brave-cave-abuse-officers-charged</a>
     </li>
     <li>
-        <span id="ref-7"></span> <a href="https://abcnews.go.com/Politics/obamas-deportation-policy-numbers/story?id=41715661">https://abcnews.go.com/Politics/obamas-deportation-policy-numbers/story?id=41715661</a>
+        <span id="ref-7"></span> <a href="https://abcnews.go.com/Politics/obamas-deportation-policy-numbers/story?id=41715661" target="_blank">https://abcnews.go.com/Politics/obamas-deportation-policy-numbers/story?id=41715661</a>
     </li>
     <li>
-        <span id="ref-8"></span> <a href="https://www.opensecrets.org/orgs/geo-group/summary?id=D000022003">https://www.opensecrets.org/orgs/geo-group/summary?id=D000022003</a>
+        <span id="ref-8"></span> <a href="https://www.opensecrets.org/orgs/geo-group/summary?id=D000022003" target="_blank">https://www.opensecrets.org/orgs/geo-group/summary?id=D000022003</a>
     </li>
     <li>
         <span id="ref-9"></span> King, Martin Luther Jr. (2010). <em>Where Do We Go from Here: Chaos Or Community?</em>. Beacon Press. pp. ix–xxi. ISBN 978-0-8070-0067-0.
     </li>
     <li>
-        <span id="ref-10"></span> <a href="https://www.vera.org/news/why-punishing-people-in-jail-and-prison-isnt-working">https://www.vera.org/news/why-punishing-people-in-jail-and-prison-isnt-working</a>
+        <span id="ref-10"></span> <a href="https://www.vera.org/news/why-punishing-people-in-jail-and-prison-isnt-working" target="_blank">https://www.vera.org/news/why-punishing-people-in-jail-and-prison-isnt-working</a>
     </li>
     <li>
-        <span id="ref-11"></span> <a href="https://www.prisonpolicy.org/reports/pie2025.html">https://www.prisonpolicy.org/reports/pie2025.html</a>
+        <span id="ref-11"></span> <a href="https://www.prisonpolicy.org/reports/pie2025.html" target="_blank">https://www.prisonpolicy.org/reports/pie2025.html</a>
     </li>
 </ol>
