@@ -32,36 +32,36 @@ A world without prisons, without detention centers, without poverty is possible.
 
 <ol>
     <li>
-        <span id="ref-1"></span> <a href="https://lailluminator.com/2025/09/19/ice-abuse-louisiana/" target="_blank">https://lailluminator.com/2025/09/19/ice-abuse-louisiana/</a> 
+        <span id="ref-1"></span> <a href="https://lailluminator.com/2025/09/19/ice-abuse-louisiana/" target="_blank">Complaints allege sexual, physical abuse at Louisiana ICE facility</a> 
     </li>
     <li>
-        <span id="ref-2"></span> <a href="https://lailluminator.com/briefs/angola-ice/" target="_blank">https://lailluminator.com/briefs/angola-ice/</a>
+        <span id="ref-2"></span> <a href="https://lailluminator.com/briefs/angola-ice/" target="_blank">State officials deny mistreatment, hunger strike claims at Angola ICE site</a>
     </li>
     <li>
-        <span id="ref-3"></span> <a href="https://www.latimes.com/politics/story/2025-09-16/charlie-kirk-railed-against-transgender-rights-his-killing-has-further-fueled-the-fight" target="_blank">https://www.latimes.com/politics/story/2025-09-16/charlie-kirk-railed-against-transgender-rights-his-killing-has-further-fueled-the-fight</a>
+        <span id="ref-3"></span> <a href="https://www.latimes.com/politics/story/2025-09-16/charlie-kirk-railed-against-transgender-rights-his-killing-has-further-fueled-the-fight" target="_blank">Charlie Kirk railed against transgender rights. His killing has further fueled the fight</a>
     </li>
     <li>
-        <span id="ref-4"></span> <a href="https://www.bbc.com/news/articles/c3w65xg7vy4o" target="_blank">https://www.bbc.com/news/articles/c3w65xg7vy4o</a>
+        <span id="ref-4"></span> <a href="https://www.bbc.com/news/articles/c3w65xg7vy4o" target="_blank">Democrats reject Gaza protesters' demand to give speaking slot to Palestinian</a>
     </li>
     <li>
-        <span id="ref-5"></span> <a href="https://web.mit.edu/21h.102/www/Primary%20source%20collections/Civil%20Rights/Beyond_Vietnam.htm" target="_blank">https://web.mit.edu/21h.102/www/Primary%20source%20collections/Civil%20Rights/Beyond_Vietnam.htm</a>
+        <span id="ref-5"></span> <a href="https://web.mit.edu/21h.102/www/Primary%20source%20collections/Civil%20Rights/Beyond_Vietnam.htm" target="_blank">Excerpts from Martin Luther King, Jr., "Beyond Vietnam": Speech at Riverside Church Meeting, New York, N.Y., April 4, 1967. In Clayborne Carson et al., eds., Eyes on the Prize: A Reader and Guide (New York: Penguin, 1987), 201-04.</a>
     </li>
     <li>
-        <span id="ref-6"></span> <a href="https://www.theguardian.com/us-news/2023/sep/29/louisiana-police-brave-cave-abuse-officers-charged" target="_blank">https://www.theguardian.com/us-news/2023/sep/29/louisiana-police-brave-cave-abuse-officers-charged</a>
+        <span id="ref-6"></span> <a href="https://www.theguardian.com/us-news/2023/sep/29/louisiana-police-brave-cave-abuse-officers-charged" target="_blank">Four Louisiana officers charged in ‘Brave Cave’ abuse investigation</a>
     </li>
     <li>
-        <span id="ref-7"></span> <a href="https://abcnews.go.com/Politics/obamas-deportation-policy-numbers/story?id=41715661" target="_blank">https://abcnews.go.com/Politics/obamas-deportation-policy-numbers/story?id=41715661</a>
+        <span id="ref-7"></span> <a href="https://abcnews.go.com/Politics/obamas-deportation-policy-numbers/story?id=41715661" target="_blank">Obama Has Deported More People Than Any Other President</a>
     </li>
     <li>
-        <span id="ref-8"></span> <a href="https://www.opensecrets.org/orgs/geo-group/summary?id=D000022003" target="_blank">https://www.opensecrets.org/orgs/geo-group/summary?id=D000022003</a>
+        <span id="ref-8"></span> <a href="https://www.opensecrets.org/orgs/geo-group/summary?id=D000022003" target="_blank">Open Secrets: Geo Group</a>
     </li>
     <li>
         <span id="ref-9"></span> King, Martin Luther Jr. (2010). <em>Where Do We Go from Here: Chaos Or Community?</em>. Beacon Press. pp. ix–xxi. ISBN 978-0-8070-0067-0.
     </li>
     <li>
-        <span id="ref-10"></span> <a href="https://www.vera.org/news/why-punishing-people-in-jail-and-prison-isnt-working" target="_blank">https://www.vera.org/news/why-punishing-people-in-jail-and-prison-isnt-working</a>
+        <span id="ref-10"></span> <a href="https://www.vera.org/news/why-punishing-people-in-jail-and-prison-isnt-working" target="_blank">Why Punishing People in Jail and Prison Isn’t Working</a>
     </li>
     <li>
-        <span id="ref-11"></span> <a href="https://www.prisonpolicy.org/reports/pie2025.html" target="_blank">https://www.prisonpolicy.org/reports/pie2025.html</a>
+        <span id="ref-11"></span> <a href="https://www.prisonpolicy.org/reports/pie2025.html" target="_blank">Mass Incarceration: The Whole Pie 2025</a>
     </li>
 </ol>
