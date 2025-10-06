@@ -3,13 +3,15 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeSlug from 'rehype-slug';
+import rehypeExternalLinks from 'rehype-external-links';
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
 	extensions: ['.svx', '.md'],
 	rehypePlugins:
 		[
 			[rehypeSlug],
-			[rehypeAutolinkHeadings, { behavior: 'wrap'}]
+			[rehypeAutolinkHeadings, { behavior: 'wrap' }],
+			[rehypeExternalLinks, { target: ['_blank'], rel: ['nofollow']}]
 		]
 };
 
