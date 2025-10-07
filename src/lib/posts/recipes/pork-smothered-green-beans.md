@@ -3,7 +3,7 @@ title: Pork Smothered Green Beans
 source: https://www.sweetdaddy-d.com/smothered-green-beans/
 difficulty: easy
 cookTime: 3 hrs
-description: Hearty and filling.
+description: Hearty and filling. A recipie by Sweet Daddy D with a note from Jake C. 
 feeds: 40-50
 ---
 
