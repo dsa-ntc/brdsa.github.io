@@ -1,3 +1,12 @@
+---
+title: Fund communities, not police
+date: 2025-09-29
+description: A major expenditure that stands in the way of a more robust social safety net is the money spent on police. During your campaign for Mayor-President, the primary focus of your platform was waging an “all-out attack on crime.” In Baton Rouge and other major American cities, policing has been the primary method of addressing crime. Your campaign for Mayor-President was to “raise the standard,” so we are appealing to you to try a different, more effective, method of addressing crime in Baton Rouge. Evidence suggests that police alone do not decrease crime. Prevention begins with addressing the root causes of crime. Research has consistently shown that crime and poverty are linked. We believe the budgets of other social services should be increased in lieu of increases to the police budget. Funds devoted to addressing the social and material needs of the people of Baton Rouge would be more effective than an increase to the police budget at reducing crime.
+imageUrl: 
+imageDescription: 
+author: Baton Rouge DSA 
+hidden: false
+---
 
 Dear Mayor-President Edwards,
 
