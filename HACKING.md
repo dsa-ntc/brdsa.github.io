@@ -145,3 +145,9 @@ https://cssf1.com/how-to/create-hover-underline-animation-tailwind-css
 
 details/summary animation 
 https://www.youtube.com/watch?v=Vzj3jSUbMtI
+
+
+generating citations
+
+https://zbib.org/
+https://asouqi.github.io/bibtex-converter/
