@@ -28,5 +28,3 @@ _Editor's note: ingredient proportions improved by feedback from Katie B. Took a
 5. Add the garlic. 
 6. Uncover and reduce liquid.
 7. Add sausage back in, stir, garnish with parsley.
-
-## Editor's note
