@@ -4,7 +4,7 @@
 	tagLine: 'Homepage for Baton Rouge DSA (BRDSA)',
 	description: 'Website for the Baton Rouge chapter of the Democratic Socialists of America (BRDSA)',
 	author: "BRDSA",
-	email: "brdsa@gmail.com",
+	email: "contact@brdsa.org",
 	// title is visible, link is link, caption is put in tooltip <a href={link} title={caption}>{title}</a>
 	headerLinks: [
 		{ title: 'About', link: '/about', caption:'Learn about our organization' },
@@ -21,7 +21,7 @@
 		Facebook: 'https://www.facebook.com/batonrougedsa',
 		Twitter: 'https://twitter.com/BatonRougeDSA',
 		GitHub: 'https://github.com/dsa-ntc/brdsa.github.io',
-		EmailUs: 'mailto:batonrougedsa@gmail.com',
+		EmailUs: 'mailto:contact@brdsa.org',
 		Newsletter: 'https://actionnetwork.org/forms/join-brdsa',
 	}
 };
