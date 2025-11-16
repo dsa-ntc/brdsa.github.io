@@ -9,17 +9,17 @@ feeds:
 
 # Spaghetti and meat sauce
 
+Simple and effective, but uses a lot of pots. Consider mixing the sauce with the noodles beforehand if you have room.
+
 ## Ingredients 
 
-- 4x Prego 67oz.
-- 6lb spaghetti
-- 8oz mushroom
+- 8x Prego 67oz.
+- 12-15 lb spaghetti
+- 8-16 oz mushroom
 
 ## Steps
 
-- cook 4lb spaghetti in big pot (30min to boil, 10 to cook)
-- cook 2lb spaghetti in small pot (20min to boil, 10 to cook)
-- brown the meat in a big pot for around 20min, then drain
-- add meat and sauce to pot, bring to boil, simmer
-- add mushrooms or water as desired
+- boil the spaghetti. it helps to use separate pots, and takes ~30 min to come to boil, then ~10 min to cook
+- brown the meat in a big pot for around 20min, then drain. feel free to throw in some brown sugar
+- add meat and sauce to pot, bring to boil, add mushrooms if desired, simmer
   
