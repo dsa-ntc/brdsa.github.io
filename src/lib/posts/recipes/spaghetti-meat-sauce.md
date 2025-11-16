@@ -11,6 +11,8 @@ feeds:
 
 Simple and effective, but uses a lot of pots. Consider mixing the sauce with the noodles beforehand if you have room.
 
+_Editor's note: thanks to Wren for helping improve the recipe proportions_
+
 ## Ingredients 
 
 - 8x Prego 67oz.
