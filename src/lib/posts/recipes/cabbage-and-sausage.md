@@ -9,11 +9,13 @@ feeds:
 
 # Cabbage and sausage
 
+_Editor's note: ingredient proportions improved by feedback from Katie B. Took about 4 pots._
+
 ## Ingredients 
 
-- 2.5 lbs cabbage (about a dozen heads)
-- 8 yellow onions 
-- 5 lbs sausage
+- About 6 large cabbages
+- 10 yellow onions 
+- 8 lbs sausage
 - 6 sticks of butter
 - 2 heads of garlic (chopped or crushed)
 
