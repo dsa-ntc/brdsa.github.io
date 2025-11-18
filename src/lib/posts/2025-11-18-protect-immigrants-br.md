@@ -2,7 +2,7 @@
 title: Compassion and Fairness for Immigrants
 date: 2025-11-18
 description: Faith and community advocates across Louisiana are calling for compassion, transparency, and accountability as immigration enforcement actions continue to separate families and destabilize communities.
-imageUrl: speaker-roses.jpeg
+imageUrl: banner-megaphone-dolores-huerta.png
 imageDescription: roses emit from a megaphone held by a person
 author: Baton Rouge DSA 
 hidden: false
