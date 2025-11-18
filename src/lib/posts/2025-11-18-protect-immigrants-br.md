@@ -2,8 +2,8 @@
 title: Compassion and Fairness for Immigrants
 date: 2025-11-18
 description: Faith and community advocates across Louisiana are calling for compassion, transparency, and accountability as immigration enforcement actions continue to separate families and destabilize communities.
-imageUrl: 
-imageDescription: 
+imageUrl: speaker-roses.jpeg
+imageDescription: roses emit from a megaphone held by a person
 author: Baton Rouge DSA 
 hidden: false
 source: https://actionnetwork.org/petitions/faith-and-community-leaders-and-coalition-organizationscall-for-compassion-and-fairness-as-louisiana-families-face-painfulseparations/
