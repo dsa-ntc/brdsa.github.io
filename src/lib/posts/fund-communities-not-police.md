@@ -8,6 +8,10 @@ author: Baton Rouge DSA
 hidden: false
 ---
 
+<script>
+    import Prose from '$lib/components/Prose.svelte'
+</script>
+
 Dear Mayor-President Edwards,
 
 As we get closer to the deadline for the approval of the 2026 budget, we, the undersigned, would like to address two points within the upcoming budget discussions. First, we stand with the Emergency Medical Service (EMS) workers of Baton Rouge who are concerned about the merger between the fire department and EMS. We believe their job security, wages, and benefits should be given precedence over budgetary decisions that can be promoted as saving taxpayers money, but would infringe upon their conditions as workers. Second, we believe, more generally, that a more robust social safety net can be created in Baton Rouge.  
@@ -42,23 +46,24 @@ You can make your voice heard by <a href="https://actionnetwork.org/letters/tell
 
 ## References 
 
-<ol>
+
+<ol class="references">
     <li>           
-        <span id="ref-1"></span>McLendon, L., Eisenberg, R., & Wilson, N. (2024). <i>Improving Public Safety Through Better Accountability and Prevention</i>. The Center for American Progress. <a href="https://www.americanprogress.org/article/improving-public-safety-through-better-accountability-and-prevention/" target="_blank">https://www.americanprogress.org/article/improving-public-safety-through-better-accountability-and-prevention/</a>
+        <span id="ref-1"></span>McLendon, L., Eisenberg, R., & Wilson, N. (2024). <i>Improving Public Safety Through Better Accountability and Prevention</i>. The Center for American Progress. <a href="https://www.americanprogress.org/article/improving-public-safety-through-better-accountability-and-prevention/" target="_blank" >https://www.americanprogress.org/article/improving-public-safety-through-better-accountability-and-prevention/</a>
     </li>
     <li>
-        <span id="ref-2"></span>Kim, E., Bowers, K., Birks, D., & Johnson, S. D. (2024). Size isn’t everything: Understanding the relationship between police workforce and crime problems. Journal of Criminal Justice, 95, 102291. <a href="https://doi.org/10.1016/j.jcrimjus.2024.102291" target="_blank">https://doi.org/10.1016/j.jcrimjus.2024.102291</a>
+        <span id="ref-2"></span>Kim, E., Bowers, K., Birks, D., & Johnson, S. D. (2024). Size isn’t everything: Understanding the relationship between police workforce and crime problems. Journal of Criminal Justice, 95, 102291. <a href="https://doi.org/10.1016/j.jcrimjus.2024.102291" target="_blank" >https://doi.org/10.1016/j.jcrimjus.2024.102291</a>
     </li>
     <li>
-        <span id="ref-3"></span> Craigie, T.-A., Grawert, A., & Kimble, C. (2024). <i>Conviction, Imprisonment, and Lost Earnings: How Involvement with the Criminal Justice System Deepens Inequality</i>. Brennan Center For Justice. <a href="https://www.brennancenter.org/our-work/research-reports/conviction-imprisonment-and-lost-earnings-how-involvement-criminal" target="_blank">https://www.brennancenter.org/our-work/research-reports/conviction-imprisonment-and-lost-earnings-how-involvement-criminal</a>.
+        <span id="ref-3"></span> Craigie, T.-A., Grawert, A., & Kimble, C. (2024). <i>Conviction, Imprisonment, and Lost Earnings: How Involvement with the Criminal Justice System Deepens Inequality</i>. Brennan Center For Justice. <a href="https://www.brennancenter.org/our-work/research-reports/conviction-imprisonment-and-lost-earnings-how-involvement-criminal" target="_blank" >https://www.brennancenter.org/our-work/research-reports/conviction-imprisonment-and-lost-earnings-how-involvement-criminal</a>.
     </li>
     <li>
-        <span id="ref-4"></span> John R. Hipp & Charis E. Kubrin. (2017). From bad to worse: How changing inequality in nearby areas impacts local crime. RSF: The Russell Sage Foundation Journal of the Social Sciences, 3(2), 129. <a href="https://doi.org/10.7758/rsf.2017.3.2.06" target="_blank">https://doi.org/10.7758/rsf.2017.3.2.06</a>.
+        <span id="ref-4"></span> John R. Hipp & Charis E. Kubrin. (2017). From bad to worse: How changing inequality in nearby areas impacts local crime. RSF: The Russell Sage Foundation Journal of the Social Sciences, 3(2), 129. <a href="https://doi.org/10.7758/rsf.2017.3.2.06" target="_blank" >https://doi.org/10.7758/rsf.2017.3.2.06</a>.
     </li>
     <li>
-        <span id="ref-5"></span> Raphael, S., & Winter‐Ebmer, R. (2001). Identifying the effect of unemployment on crime. The Journal of Law and Economics, 44(1), 259–283. <a href=" https://doi.org/10.1086/320275" target="_blank"> https://doi.org/10.1086/320275</a>.
+        <span id="ref-5"></span> Raphael, S., & Winter‐Ebmer, R. (2001). Identifying the effect of unemployment on crime. The Journal of Law and Economics, 44(1), 259–283. <a href=" https://doi.org/10.1086/320275" target="_blank" > https://doi.org/10.1086/320275</a>.
     </li>
     <li>
-        <span id="ref-6"></span> Baton Rouge Louisiana QuickFacts. (n.d.). US Census Bureau. <a href="https://www.census.gov/quickfacts/fact/table/batonrougecitylouisiana/PST045224" target="_blank">Census data</a>
+        <span id="ref-6"></span> Baton Rouge Louisiana QuickFacts. (n.d.). US Census Bureau. <a href="https://www.census.gov/quickfacts/fact/table/batonrougecitylouisiana/PST045224" target="_blank" >Census data</a>
     </li>        
 </ol>

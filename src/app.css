@@ -76,3 +76,7 @@
 .prose figure a {
 	@apply decoration-dsa-red1;
 }
+
+.references a {
+	@apply break-all
+}
