@@ -6,34 +6,35 @@
 	import { page } from "$app/state";
 	import logo from "$lib/images/BRDSAlogo_3ColorOnWhite.png?enhanced";
 	import { config } from "$lib/config";
-	import searchIcon from '$lib/images/magnifying-glass-solid-full_red.svg';
+	import searchIcon from "$lib/images/magnifying-glass-solid-full_red.svg";
 
-	import { onMount } from 'svelte'
-	import { createPostsIndex, searchPostsIndex } from '$lib/search'
-	import pageIcon from '$lib/images/file-lines-regular-full-white.svg';
-	import foodIcon from '$lib/images/bowl-rice-solid-full-white.svg';
+	import { onMount } from "svelte";
+	import { createPostsIndex, searchPostsIndex } from "$lib/search";
+	import pageIcon from "$lib/images/file-lines-regular-full-white.svg";
+	import foodIcon from "$lib/images/bowl-rice-solid-full-white.svg";
 
-	let search: 'loading' | 'ready' = $state('loading');
-	let searchTerm = $state('');
+	let search: "loading" | "ready" = $state("loading");
+	let searchTerm = $state("");
 	let results: any[] = $state([]);
 
 	onMount(async () => {
-		const posts = await fetch('/search.json').then((res) => res.json());
-		createPostsIndex(posts)
-		search = 'ready'
+		const posts = await fetch("/search.json").then((res) => res.json());
+		createPostsIndex(posts);
+		search = "ready";
 	});
 
-	$effect(() => { if (search === 'ready') {
-    // runs each time `searchTerm` updates
-		results = searchPostsIndex(searchTerm)
+	$effect(() => {
+		if (search === "ready") {
+			// runs each time `searchTerm` updates
+			results = searchPostsIndex(searchTerm);
 		}
-	}); 
+	});
 
 	function toggleSearch() {
-		let searchBox = document.getElementById('searchbox');
-		searchBox?.classList.toggle('hidden');
+		let searchBox = document.getElementById("searchbox");
+		searchBox?.classList.toggle("hidden");
 
-		let searchUnderline = document.getElementById('searchUnderline');
+		let searchUnderline = document.getElementById("searchUnderline");
 		searchUnderline?.classList.toggle("w-0");
 	}
 </script>
@@ -43,10 +44,7 @@
 	<meta name="description" content={data.description} />
 	<meta property="og:title" content={data.title} />
 	<meta property="og:type" content="website" />
-	<meta
-		property="og:image"
-		content={`${config.location}/images/BRDSAlogo_3ColorOnWhite.png`}
-	/>
+	<meta property="og:image" content={`${config.location}/images/BRDSAlogo_3ColorOnWhite.png`} />
 	<meta property="og:url" content={page.url.toString()} />
 </svelte:head>
 
@@ -68,8 +66,16 @@
 				>
 			</li>
 			<li class="searchIcon">
-				<button onclick={toggleSearch} aria-label="Toggle Search box" title="Toggle Search" class="group"><img src={searchIcon} alt="Search Icon" class="searchImage dark:darkIcon">
-					<div id="searchUnderline" class="h-[2px] w-0 bg-dsa-red transition-all duration-500 group-hover:w-full dark:bg-dsa-red1"></div>
+				<button
+					onclick={toggleSearch}
+					aria-label="Toggle Search box"
+					title="Toggle Search"
+					class="group"
+					><img src={searchIcon} alt="Search Icon" class="searchImage dark:darkIcon" />
+					<div
+						id="searchUnderline"
+						class="h-[2px] w-0 bg-dsa-red transition-all duration-500 group-hover:w-full dark:bg-dsa-red1"
+					></div>
 				</button>
 			</li>
 			{#each data.sections as { title, link, caption }}
@@ -86,40 +92,48 @@
 	</nav>
 </header>
 <main class="flex grow">
-	{#if search === 'ready'}
-	<div class="search hidden" id='searchbox'>
-		<p class="instructions">Search <img src={pageIcon} alt="Page Icon"/>Statements and <img src={foodIcon} alt="Food Icon"/>Recipes</p>
-		<input
-			bind:value={searchTerm}
-			placeholder="Search"
-			autocomplete="off"
-			spellcheck="false"
-			type="search"
-			id="searchTerm"
-			name="searchTerm"
-		/>
-
-		<div class="results">
-			{#if results}
-				<ul>
-					{#each results as result}
-						<li>
-							<a href="{result.slug}">
-								<h3>{#if "Statement" == result.category}
-									<img src={pageIcon} alt="Page Icon">
-								{:else}
-									<img src={foodIcon} alt="Food Icon">
-								{/if}
-								<b>{@html result.category}:</b> {@html result.title}</h3>
-								<p>{@html result.text}</p>
-							</a>
-						</li>
-					{/each}
-				</ul>
-			{/if}
+	{#if search === "ready"}
+		<div class="hidden" id="searchbox">
+			<div class="search">
+				<p class="instructions">
+					Search <img src={pageIcon} alt="Page Icon" />Statements and
+					<img src={foodIcon} alt="Food Icon" />Recipes
+				</p>
+				<input
+					bind:value={searchTerm}
+					placeholder="Search"
+					autocomplete="off"
+					spellcheck="false"
+					type="search"
+					id="searchTerm"
+					name="searchTerm"
+				/>
+	
+				<div class="results">
+					{#if results}
+						<ul>
+							{#each results as result}
+								<li>
+									<a href={result.slug}>
+										<h3>
+											{#if "Statement" == result.category}
+												<img src={pageIcon} alt="Page Icon" />
+											{:else}
+												<img src={foodIcon} alt="Food Icon" />
+											{/if}
+											<b>{@html result.category}:</b>
+											{@html result.title}
+										</h3>
+										<p>{@html result.text}</p>
+									</a>
+								</li>
+							{/each}
+						</ul>
+					{/if}
+				</div>
+			</div>
 		</div>
-	</div>
-{/if}
+	{/if}
 	{@render children()}
 </main>
 <footer>
