@@ -23,6 +23,13 @@ export interface recipe extends PostMetadata {
 	price?: string;
 }
 
+export interface SearchItem  {
+	category?: string;
+	title?: string;
+	slug?: string;
+	text?: string;
+}
+
 export type PostModules = Record<
 	string,
 	() => Promise<{default: Component; metadata: PostMetadata;}>

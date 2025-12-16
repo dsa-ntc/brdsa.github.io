@@ -49,6 +49,8 @@
 	"dependencies": {
 		"chart.js": "^4.5.0",
 		"dayjs": "^1.11.13",
+		"flexsearch": "^0.8.212",
+		"gray-matter": "^4.0.3",
 		"rehype-external-links": "^3.0.0"
 	}
 }
