@@ -44,7 +44,6 @@ function stripMarkdown(markdown: string) {
                 break
             case 'script':
                 markdown = markdown.replace(patterns[pattern], '')
-            //console.log(`clearing ${pattern} from ${markdown}`)
             default:
                 markdown = markdown.replace(patterns[pattern], '')
         }
