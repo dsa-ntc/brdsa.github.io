@@ -1,6 +1,7 @@
 import { json } from "@sveltejs/kit";
 import type { SearchItem } from "$lib/types";
 import matter from "gray-matter";
+export const prerender = true;
 
 const patterns: Record<string, RegExp> = {
 	frontmatter: /---.*?---/gs,
