@@ -14,6 +14,7 @@ Below are some resources produced by our chapter. We're working on improving thi
 - [Defund the Police Zine](https://share.mayfirst.org/s/FCHsH8ZXXkLDiqA)
 - [Fancy Ecosocialism Zine](https://share.mayfirst.org/s/QLgYoySSSeczNsd)
 - [Ecosocialism Zine](https://share.mayfirst.org/s/Cbz9ErCStGTBeje)
+- [Join DSA Zine](https://share.mayfirst.org/s/dtXkt7g8H8zfsWa)
 - [Principles of Party Building Zine](https://share.mayfirst.org/s/4edHxMMezksytWz)
 - [Queer Liberation Zine](https://share.mayfirst.org/s/o8wWQ4ZKGSCaPqF)
 - [Socialist Feminism Zine](https://share.mayfirst.org/s/mEJ9HHAnzkf8k72)
@@ -28,6 +29,8 @@ Below are some resources produced by our chapter. We're working on improving thi
 ## Immigrant Rights
 - [Trifold Brochure (Español)](https://share.mayfirst.org/s/esiJEqGzZwqXJHZ)
 - [Misión Migrante Brochure (Español)](https://share.mayfirst.org/s/TcXWtMwtn8YZMdC)
+- [Conoces Tus Derechos para Inmigrantes (Español)](https://share.mayfirst.org/s/LdDJxZ7B6A4kmsp)
+- [Conoces Tus Derechos para Inmigrantes (English)](https://share.mayfirst.org/s/P52RqXPi4cBepJ4)
 
 ## Other Organizations in Baton Rouge (not comprehensive)
 - [Baton Rouge Unido](https://www.facebook.com/p/Baton-Rouge-Unido-61581212447544/)
