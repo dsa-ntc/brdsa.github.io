@@ -18,7 +18,7 @@
 			<p
 				class="border-l-4 border-l-dsa-red p-2 dark:border-l-dsa-red1 dark:bg-dsa-black1 dark:text-white"
 			>
-				This section is under construction. Thanks for visiting -- please check back later.
+				This page is under construction. Thanks for visiting, and please check back later.
 			</p>
 		</Prose>
 	</div>
