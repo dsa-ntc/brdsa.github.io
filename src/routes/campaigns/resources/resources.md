@@ -21,7 +21,7 @@ Below are some resources produced by our chapter. We're working on improving thi
 - [Workers Deserve More Zine](https://share.mayfirst.org/s/crXwGjHxNDJoRmk)
 
 ## For tenants or homeowners
-- [Tenants Rights Trifold Brochure (English)](https://share.mayfirst.org/s/PiM8PTk3GDWjGfe)
+- [Tenants Rights Trifold Brochure (English)](https://share.mayfirst.org/s/CRAbrfGxLcTQpxb)
 - [Tenants Rights Trifold Brochure (Español)](https://share.mayfirst.org/s/BWwS3YzJ89KPQHi)
 - [The Housing Market is Not Necessary Zine](https://share.mayfirst.org/s/sFGXb5sWeedRw8p)
 - [Black Mold Guide](https://share.mayfirst.org/s/FtW3eGLDwcJZmb6)
