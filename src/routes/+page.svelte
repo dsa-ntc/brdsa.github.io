@@ -1,11 +1,12 @@
 <script lang="ts">
-	import PaletteHeader from "$lib/components/PaletteHeader.svelte";
-	import Prose from "$lib/components/Prose.svelte";
 	import HeadSummary from "$lib/components/HeadSummary.svelte";
-	import type { PageProps } from "./$types";
-	import About from "./about/about.md";
+	import PaletteHeader from "$lib/components/PaletteHeader.svelte";
+	import Posts from "$lib/components/Posts.svelte";
+	import Prose from "$lib/components/Prose.svelte";
 	import hero from "$lib/images/Header_ABetterWorld_Louisiana.jpeg?enhanced";
 	import foodDistribution from "$lib/images/baton-rouge-dsa-cover-image.jpg?enhanced";
+	import type { PageProps } from "./$types";
+	import About from "./about/about.md";
 	const options: Intl.DateTimeFormatOptions = {
 		year: "numeric",
 		month: "long",
@@ -80,7 +81,7 @@
 
 	<div class="palette-sibling mt-4">
 		<div class="flex justify-center">
-			<Prose>
+			<Prose adhocStyle="width:100%">
 				<p
 					class="border-l-4 border-l-dsa-red p-2 dark:border-l-dsa-red1 dark:bg-dsa-black1 dark:text-white"
 				>
@@ -88,19 +89,6 @@
 				</p>
 			</Prose>
 		</div>
-		<nav class="mx-auto flex max-w-[65ch] grow p-2">
-			<ul class="flex grow flex-col gap-3">
-				{#each data.posts as post}
-					<li class="flex flex-col">
-						<a href="/blog/{post.slug}" class="text-3xl underline decoration-dsa-red"
-							>{post.title}</a
-						>
-						{#if post.date}
-							<time>{new Date(post.date).toLocaleDateString("en-us", options)}</time>
-						{/if}
-					</li>
-				{/each}
-			</ul>
-		</nav>
+		<Posts {data} />
 	</div>
 </article>
