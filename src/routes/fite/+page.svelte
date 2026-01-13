@@ -7,8 +7,7 @@
 	import HeadSummary from "$lib/components/HeadSummary.svelte";
 	const description = "Information about our food distribution project Famine is the Enemy (FITE)";
 	const title = "Famine Is The Enemy (FITE)";
-	import qrCode from "$lib/images/fite-donation.png?enhanced";
-	import Page from "../+page.svelte";
+	import fiteTent from "$lib/images/fite-tent.jpg?enhanced";
 </script>
 
 <svelte:head>
@@ -58,17 +57,7 @@
 			<Fite />
 		</Prose>
 		<aside class="lg:pr-2">
-			<enhanced:img src={hero} alt="BR DSA members distribute food" />
+			<enhanced:img src={fiteTent} alt="BR DSA members distribute food" />
 		</aside>
-	</div>
-
-	<p class="text-center">This QR code links to the FITE donation page.</p>
-	<div class="flex justify-center py-3">
-		<enhanced:img
-			src={qrCode}
-			class="w-xs"
-			alt="QR code linking to the FITE donation page"
-			title="QR code linking to the FITE donation page"
-		/>
 	</div>
 </article>
