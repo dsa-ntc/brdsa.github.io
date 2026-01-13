@@ -2,24 +2,16 @@
 	import HeadSummary from "$lib/components/HeadSummary.svelte";
 	import PaletteHeader from "$lib/components/PaletteHeader.svelte";
 	import Prose from "$lib/components/Prose.svelte";
-	import dayjs from "dayjs";
-	import customParseFormat from "dayjs/plugin/customParseFormat";
-	import utc from "dayjs/plugin/utc";
-	import timezone from "dayjs/plugin/timezone";
-	
-	dayjs.extend(customParseFormat);
-	dayjs.extend(utc);
-	dayjs.extend(timezone);
-	
-	let { data } = $props();
-	const { post, hero } = data;
-	const { title, description } = post;
 	const options: Intl.DateTimeFormatOptions = {
 		year: "numeric",
 		month: "long",
-		day: "numeric",
-		timeZone: "America/Denver"
+		day: "numeric"
 	};
+	let { data } = $props();
+	const { post, hero } = data;
+	const { title, description } = post;
+
+	// NOTE on weird date parsing https://stackoverflow.com/a/31732581
 </script>
 
 <svelte:head>
@@ -46,7 +38,9 @@
 					<p class="px-2 text-center">
 						{post.author} |
 						{#if post.date}
-							<time>{dayjs.tz(post.date, "YYYY-MM-DD", "America/Chicago").format("YYYY-MM-DD")}</time>.
+							<em>
+								<time>{new Date(post.date.replace(/-/g, '\/').replace(/T.+/, '')).toLocaleDateString("en-us", options)}</time>
+							</em>
 						{/if}
 					</p>
 				{/if}
