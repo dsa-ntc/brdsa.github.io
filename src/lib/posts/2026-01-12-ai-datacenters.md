@@ -2,9 +2,9 @@
 title: The socialist imperative to reject AI
 date: 2026-01-12
 description: The Baton Rouge DSA chapter passed a ban on the use of generative AI for chapter materials. Emerging AI technologies are extractive tools being used to further suppress the working class. Socialists must make a conscientious effort not to use AI.
-imageUrl: boot-roach-graphic-transparent.png.png
+imageUrl: boot-roach-graphic-transparent.png
 imageDescription: graphic of a boot stomping a monacle-wearing roach
-author: Alicia C 
+author: Alicia C. 
 hidden: false
 source: https://docs.google.com/document/d/1nDuMg0208dtHHZWfjNa6EVWvTwQLNldJIgDyuBEwzpE/edit?tab=t.0
 ---
