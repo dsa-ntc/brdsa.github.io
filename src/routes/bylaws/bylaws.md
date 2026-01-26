@@ -13,7 +13,7 @@ Adopted 2019-03-08. Approved by the NPC 2019-11-17. Large amendments adopted 202
     <summary>Table of Contents</summary>
 
 - [PREAMBLE](#preamble)
-- [ARTICLE 1: NAME](#article-1-name)
+- [ARTICLE 1: NAME AND TERRITORY](#article-1-name-and-territory)
   - [Section 1. Name.](#section-1-name)
   - [Section 2. Territory](#section-2-territory)
 - [ARTICLE 2: CHAPTER MEETINGS](#article-2-chapter-meetings)
@@ -33,7 +33,7 @@ Adopted 2019-03-08. Approved by the NPC 2019-11-17. Large amendments adopted 202
   - [Section 5: Voluntary Donations](#section-5-voluntary-donations)
   - [Section 6. Data Security.](#section-6-data-security)
   - [Section 7. Proxy Voting.](#section-7-proxy-voting)
-- [ARTICLE 4: ELECTIONS OF OFFICERS](#article-4-elections-of-officers)
+- [ARTICLE 4: CHAPTER OFFICERS](#article-4-chapter-officers)
   - [Section 1. Officers and Terms.](#section-1-officers-and-terms)
   - [Section 2. Elections.](#section-2-elections)
   - [Section 3. Co-Chairs.](#section-3-co-chairs)
@@ -46,7 +46,7 @@ Adopted 2019-03-08. Approved by the NPC 2019-11-17. Large amendments adopted 202
   - [Section 10. Recall.](#section-10-recall)
     - [a. Recall by Vote of the Membership.](#a-recall-by-vote-of-the-membership)
     - [b. Recall by Vote of the Steering Committee.](#b-recall-by-vote-of-the-steering-committee)
-- [ARTICLE 5: Steering Committee](#article-5-steering-committee)
+- [ARTICLE 5: STEERING COMMITTEE](#article-5-steering-committee)
   - [Section 1. Composition.](#section-1-composition)
   - [Section 2. Duties.](#section-2-duties)
   - [Section 3. Meetings.](#section-3-meetings)
@@ -54,7 +54,7 @@ Adopted 2019-03-08. Approved by the NPC 2019-11-17. Large amendments adopted 202
   - [Section 5. Rules.](#section-5-rules)
   - [Section 6. Voting.](#section-6-voting)
   - [Section 7. Board of Directors.](#section-7-board-of-directors)
-- [ARTICLE 7. COMMITTEES, WORKING GROUPS, AND OTHER FORMATIONS](#article-7-committees-working-groups-and-other-formations)
+- [ARTICLE 6. COMMITTEES, WORKING GROUPS, AND OTHER FORMATIONS](#article-6-committees-working-groups-and-other-formations)
   - [Section 1. Committees.](#section-1-committees)
     - [Section 1.i Definition.](#section-1i-definition)
     - [Section 1.ii. Ad Hoc Committees](#section-1ii-ad-hoc-committees)
@@ -66,19 +66,19 @@ Adopted 2019-03-08. Approved by the NPC 2019-11-17. Large amendments adopted 202
   - [Section 3. Associations.](#section-3-associations)
   - [Section 4: Structure of Committees, Working Groups, and Associations](#section-4-structure-of-committees-working-groups-and-associations)
   - [Section 5: Young Democratic Socialists of America Chapters.](#section-5-young-democratic-socialists-of-america-chapters)
-- [ARTICLE 9. AMENDMENTS](#article-9-amendments)
-- [ARTICLE 10. PROHIBITED ACTIVITY](#article-10-prohibited-activity)
-- [ARTICLE 11. ELECTIONS AND NOMINATIONS TO NATIONAL, STATE, OR REGIONAL CONVENTIONS OR MEETINGS](#article-11-elections-and-nominations-to-national-state-or-regional-conventions-or-meetings)
+- [ARTICLE 7. AMENDMENTS](#article-7-amendments)
+- [ARTICLE 8. PROHIBITED ACTIVITY](#article-8-prohibited-activity)
+- [ARTICLE 9. ELECTIONS AND NOMINATIONS TO NATIONAL, STATE, OR REGIONAL CONVENTIONS OR MEETINGS](#article-9-elections-and-nominations-to-national-state-or-regional-conventions-or-meetings)
   - [Section 1. Eligibility to Vote on Delegates.](#section-1-eligibility-to-vote-on-delegates)
   - [Section 2. Schedule of Elections to National, Regional, or State Organizations.](#section-2-schedule-of-elections-to-national-regional-or-state-organizations)
   - [Section 3. Method of Voting.](#section-3-method-of-voting)
-- [ARTICLE 12: RULES OF ORDER](#article-12-rules-of-order)
+- [ARTICLE 10: RULES OF ORDER](#article-10-rules-of-order)
   - [Section 1: Majority Vote.](#section-1-majority-vote)
   - [Section 2: Rules for Meetings.](#section-2-rules-for-meetings)
   - [Section 3: General Principles.](#section-3-general-principles)
   - [Section 4: Action Out of Order.](#section-4-action-out-of-order)
   - [Section 5: Harassment Policy.](#section-5-harassment-policy)
-- [ARTICLE 13:  DISTRIBUTION OF ASSETS](#article-13--distribution-of-assets)
+- [ARTICLE 11:  DISTRIBUTION OF ASSETS](#article-11--distribution-of-assets)
 
 </details>
 
@@ -91,7 +91,7 @@ We believe we have the resources and technology to end hunger, save the planet, 
 
 We are socialists because we believe in democracy. We believe the power of the people to maintain control over our lives is the key to fulfilling our human potential; whereas the right of a small wealthy elite to own the majority of our vital resources is the path to subjugation and social turmoil. We are socialists because we believe the eventual automation of labor will result in a dystopian nightmare under capitalism, whereas it could mean more time for people to learn and advance under socialism. We seek to build a new democratic and vibrant left movement in the South, as a part of the national movement that has the ability to make democratic socialism in the United States a reality. 
 
-## ARTICLE 1: NAME
+## ARTICLE 1: NAME AND TERRITORY 
 
 ### Section 1. Name.
 
@@ -171,7 +171,7 @@ The Steering Committee shall create and maintain policy and procedures to secure
 ### Section 7. Proxy Voting.
 Members in good standing who cannot vote in person due to unavoidable conflicts must notify the Officers in advance of the vote, and name the proxy voter. A member who is present at an election meeting may only hold up to two proxies.
 
-## ARTICLE 4: ELECTIONS OF OFFICERS 
+## ARTICLE 4: CHAPTER OFFICERS 
 
 ### Section 1. Officers and Terms.
 
@@ -234,7 +234,7 @@ In order to recall or remove an officer, a member in good standing must formally
 
 An officer may be recalled by vote of the Steering Committee only under narrow circumstances for failure to do their duty. If an officer misses three consecutive Steering Committee meetings without excuse and fails to respond to attempts by Steering Committee members to communicate, that officer may be removed from office by a two-thirds (⅔) vote of the Steering Committee. This action must be reported at the next Chapter Meeting, at which time members in good standing may overturn the vote.
 
-## ARTICLE 5: Steering Committee
+## ARTICLE 5: STEERING COMMITTEE
 
 ### Section 1. Composition.
 
@@ -277,7 +277,7 @@ The Steering Committee may make decisions on business by vote of a simple majori
 For the purposes of meeting the requirements of local and state incorporation laws, the Chapter shall have a “Board of Directors” consisting of members of the Steering Committee assigned for the purpose as logical and required by law. 
 
 
-## ARTICLE 7. COMMITTEES, WORKING GROUPS, AND OTHER FORMATIONS
+## ARTICLE 6. COMMITTEES, WORKING GROUPS, AND OTHER FORMATIONS
 
 ### Section 1. Committees. 
 
@@ -317,19 +317,19 @@ Charters must include:
 Young Democratic Socialists of America (YDSA) chapters within the geographic area defined by a DSA Chapter may affiliate as a Branch of that Chapter, in which case the local YDSA chapter may send a representative to the Chapter Steering Committee.
 
 
-## ARTICLE 9. AMENDMENTS 
+## ARTICLE 7. AMENDMENTS 
 
 Proposed amendments to these bylaws must be made by written resolution, endorsed by five (5) members in good standing of the Chapter, and submitted to the Steering Committee at least twenty-one (21) days in advance of a Chapter Meeting as defined in Article IV. The Steering Committee is required to provide the Chapter membership with at least ten (10) days physical or electronic notice of the proposed amendments. The Chapter Meeting may adopt amendments to these bylaws proposed under this article by two-thirds (⅔) vote. 
 
 No amendment to these bylaws may be in conflict with the National DSA Constitution and Bylaws. The Chapter will provide the amended bylaws to the DSA national office. 
 
 
-## ARTICLE 10. PROHIBITED ACTIVITY 
+## ARTICLE 8. PROHIBITED ACTIVITY 
 
 The Chapter will not engage in activity prohibited by the IRS guidelines established for 501(c)(4) organizations or similar rules established by the state of Louisiana. Nor will the Chapter engage in any activity prohibited by resolutions adopted by DSA’s National Convention or DSA’s National Political Committee. 
 
 
-## ARTICLE 11. ELECTIONS AND NOMINATIONS TO NATIONAL, STATE, OR REGIONAL CONVENTIONS OR MEETINGS
+## ARTICLE 9. ELECTIONS AND NOMINATIONS TO NATIONAL, STATE, OR REGIONAL CONVENTIONS OR MEETINGS
 
 ### Section 1. Eligibility to Vote on Delegates.
 
@@ -347,7 +347,7 @@ Following Article III, Section 5 of National DSA’s Bylaws, no candidate may ru
 
 Following Article VI, Section 3, of National DSA’s Bylaws, elections of delegates to the National Convention shall be by Scottish Single Transferable Vote.
 
-## ARTICLE 12: RULES OF ORDER
+## ARTICLE 10: RULES OF ORDER
 
 ### Section 1: Majority Vote.
 Unless otherwise specified in the Bylaws, all decisions are to be made by a simple majority (>50%).
@@ -366,6 +366,6 @@ Any action taken by an officer or member of the Local Chapter in contravention o
  
 The Local Chapter will follow the [Harassment Policy of national DSA](https://www.dsausa.org/about-us/harassment-policy-resolution-33/).
 
-## ARTICLE 13:  DISTRIBUTION OF ASSETS
+## ARTICLE 11:  DISTRIBUTION OF ASSETS
 
 Upon dissolution of the organization, any residual assets shall become property of the national organization of Democratic Socialists of America.
