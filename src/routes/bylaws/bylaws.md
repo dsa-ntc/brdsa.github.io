@@ -1,18 +1,23 @@
 ---
 source: https://docs.google.com/document/d/1JYk_vsMpMA4FdnETuRRCN55oN1MvF_4A8eM-LXs551A/edit?tab=t.0
-lastUpdated: 2025-08-13
+amended2026: https://docs.google.com/document/d/1KSLsnUBSoQcaXcLclIq3pzTIEQU4SbAG1iM3XhUa4C8/edit?tab=t.0
+lastUpdated: 2026-01-26
 ---
 
 <!-- omit from toc -->
 # Bylaws of the Baton Rouge LA Local Chapter of Democratic Socialists of America
 
+Adopted 2019-03-08. Approved by the NPC 2019-11-17. Large amendments adopted 2026-01-25.
+
 <details>
     <summary>Table of Contents</summary>
 
 - [PREAMBLE](#preamble)
-- [ARTICLE 1: NAME](#article-1-name)
-- [ARTICLE 2: BASIC ORGANIZATION AND CONVENTION](#article-2-basic-organization-and-convention)
-  - [Section 1: General Membership.](#section-1-general-membership)
+- [ARTICLE 1: NAME AND TERRITORY](#article-1-name-and-territory)
+  - [Section 1. Name.](#section-1-name)
+  - [Section 2. Territory](#section-2-territory)
+- [ARTICLE 2: CHAPTER MEETINGS](#article-2-chapter-meetings)
+  - [Section 1: Definition.](#section-1-definition)
   - [Section 2: General Meetings.](#section-2-general-meetings)
   - [Section 3: Annual Convention.](#section-3-annual-convention)
   - [Section 4: Special Meetings.](#section-4-special-meetings)
@@ -20,66 +25,60 @@ lastUpdated: 2025-08-13
   - [Section 6: Rules.](#section-6-rules)
   - [Section 7: Electoral Endorsements.](#section-7-electoral-endorsements)
   - [Section 8: Quorum.](#section-8-quorum)
-  - [Section 9: Revenue and Funds.](#section-9-revenue-and-funds)
-    - [Section 9(a).](#section-9a)
-    - [Section 9(b).](#section-9b)
-    - [Section 9(c).](#section-9c)
-    - [Section 9(d).](#section-9d)
-    - [Section 9(e).](#section-9e)
-    - [Section 9(f).](#section-9f)
 - [ARTICLE 3: MEMBERSHIP](#article-3-membership)
-  - [Section 1: Definition.](#section-1-definition)
-  - [Section 2: Voting and Office.](#section-2-voting-and-office)
-  - [Section 3: Proxy Voting.](#section-3-proxy-voting)
-  - [Section 4: Member Discipline, Suspension, and Expulsion.](#section-4-member-discipline-suspension-and-expulsion)
-  - [Section 5: Privacy Concerns.](#section-5-privacy-concerns)
-- [ARTICLE 4: ELECTIONS OF OFFICERS](#article-4-elections-of-officers)
-  - [Section 1: Nominations.](#section-1-nominations)
-  - [Section 2: Process.](#section-2-process)
-  - [Section 3: Notice of Elections.](#section-3-notice-of-elections)
-  - [Section 4: Recall of Officers.](#section-4-recall-of-officers)
-  - [Section 5: Voting](#section-5-voting)
-- [ARTICLE 5: OFFICERS AND OFFICERS’ COUNCIL](#article-5-officers-and-officers-council)
-  - [Section 1: Officers and Terms.](#section-1-officers-and-terms)
-  - [Section 2: Vacancies.](#section-2-vacancies)
-  - [Section 3: Co-Chairs.](#section-3-co-chairs)
-    - [Section 3(a).](#section-3a)
-    - [Section 3(b).](#section-3b)
-    - [Section 3(c).](#section-3c)
-    - [Section 3 (d).](#section-3-d)
-    - [Section 3(e).](#section-3e)
-  - [Section 4: Secretary.](#section-4-secretary)
-    - [Section 4(a).](#section-4a)
-    - [Section 4(b).](#section-4b)
-    - [Section 4(c).](#section-4c)
-  - [Section 5: Treasurer.](#section-5-treasurer)
-  - [Section 6: Additional Duties.](#section-6-additional-duties)
-  - [Section 7: Officers’ Council](#section-7-officers-council)
-  - [Section 8: Quorum.](#section-8-quorum-1)
-- [ARTICLE 6: CAUCUSES](#article-6-caucuses)
-  - [Section 1: Definition and Purpose.](#section-1-definition-and-purpose)
-  - [Section 2: Official Recognition.](#section-2-official-recognition)
-- [ARTICLE 7. COMMITTEES](#article-7-committees)
-  - [Section 1: Duration.](#section-1-duration)
-  - [Section 2: Duties.](#section-2-duties)
-  - [Section 3: Structure.](#section-3-structure)
-- [ARTICLE 8: VOLUNTARY DONATIONS](#article-8-voluntary-donations)
-- [ARTICLE 9. AMENDMENTS](#article-9-amendments)
-  - [Section 1.](#section-1)
-  - [Section 2.](#section-2)
-- [ARTICLE 10. PROHIBITED ACTIVITY](#article-10-prohibited-activity)
-- [ARTICLE 11. ELECTIONS AND NOMINATIONS TO NATIONAL, STATE, OR REGIONAL CONVENTIONS OR MEETINGS](#article-11-elections-and-nominations-to-national-state-or-regional-conventions-or-meetings)
-  - [Section 1:](#section-1-1)
-  - [Section 2: Nominations Committee.](#section-2-nominations-committee)
-  - [Section 3: Method of Voting for Delegates to the National Convention.](#section-3-method-of-voting-for-delegates-to-the-national-convention)
-  - [Section 4. Uncontested Positions.](#section-4-uncontested-positions)
-- [ARTICLE 12: RULES OF ORDER](#article-12-rules-of-order)
+  - [Section 1: Definition.](#section-1-definition-1)
+  - [Section 2: Authority.](#section-2-authority)
+  - [Section 3: Resignation.](#section-3-resignation)
+  - [Section 4: Removal of Members.](#section-4-removal-of-members)
+  - [Section 5: Voluntary Donations](#section-5-voluntary-donations)
+  - [Section 6. Data Security.](#section-6-data-security)
+  - [Section 7. Proxy Voting.](#section-7-proxy-voting)
+- [ARTICLE 4: CHAPTER OFFICERS](#article-4-chapter-officers)
+  - [Section 1. Officers and Terms.](#section-1-officers-and-terms)
+  - [Section 2. Elections.](#section-2-elections)
+  - [Section 3. Co-Chairs.](#section-3-co-chairs)
+  - [Section 4. Secretary.](#section-4-secretary)
+  - [Section 5. Treasurer.](#section-5-treasurer)
+  - [Section 6. Membership Coordinator.](#section-6-membership-coordinator)
+  - [Section 7. Additional Duties and Actions Out of Order.](#section-7-additional-duties-and-actions-out-of-order)
+  - [Section 8. Resignation.](#section-8-resignation)
+  - [Section 9. Suspension.](#section-9-suspension)
+  - [Section 10. Recall.](#section-10-recall)
+    - [a. Recall by Vote of the Membership.](#a-recall-by-vote-of-the-membership)
+    - [b. Recall by Vote of the Steering Committee.](#b-recall-by-vote-of-the-steering-committee)
+- [ARTICLE 5: STEERING COMMITTEE](#article-5-steering-committee)
+  - [Section 1. Composition.](#section-1-composition)
+  - [Section 2. Duties.](#section-2-duties)
+  - [Section 3. Meetings.](#section-3-meetings)
+  - [Section 4. Quorum.](#section-4-quorum)
+  - [Section 5. Rules.](#section-5-rules)
+  - [Section 6. Voting.](#section-6-voting)
+  - [Section 7. Board of Directors.](#section-7-board-of-directors)
+- [ARTICLE 6. COMMITTEES, WORKING GROUPS, AND OTHER FORMATIONS](#article-6-committees-working-groups-and-other-formations)
+  - [Section 1. Committees.](#section-1-committees)
+    - [Section 1.i Definition.](#section-1i-definition)
+    - [Section 1.ii. Ad Hoc Committees](#section-1ii-ad-hoc-committees)
+    - [Section 1.iii. Standing Committees](#section-1iii-standing-committees)
+  - [Section 2. Working Groups.](#section-2-working-groups)
+    - [Section 2.i Definition.](#section-2i-definition)
+    - [Section 2.ii Working Group Membership.](#section-2ii-working-group-membership)
+    - [Section 2.iii Formation and Dissolution of Working Groups.](#section-2iii-formation-and-dissolution-of-working-groups)
+  - [Section 3. Associations.](#section-3-associations)
+  - [Section 4: Structure of Committees, Working Groups, and Associations](#section-4-structure-of-committees-working-groups-and-associations)
+  - [Section 5: Young Democratic Socialists of America Chapters.](#section-5-young-democratic-socialists-of-america-chapters)
+- [ARTICLE 7. AMENDMENTS](#article-7-amendments)
+- [ARTICLE 8. PROHIBITED ACTIVITY](#article-8-prohibited-activity)
+- [ARTICLE 9. ELECTIONS AND NOMINATIONS TO NATIONAL, STATE, OR REGIONAL CONVENTIONS OR MEETINGS](#article-9-elections-and-nominations-to-national-state-or-regional-conventions-or-meetings)
+  - [Section 1. Eligibility to Vote on Delegates.](#section-1-eligibility-to-vote-on-delegates)
+  - [Section 2. Schedule of Elections to National, Regional, or State Organizations.](#section-2-schedule-of-elections-to-national-regional-or-state-organizations)
+  - [Section 3. Method of Voting.](#section-3-method-of-voting)
+- [ARTICLE 10: RULES OF ORDER](#article-10-rules-of-order)
   - [Section 1: Majority Vote.](#section-1-majority-vote)
   - [Section 2: Rules for Meetings.](#section-2-rules-for-meetings)
   - [Section 3: General Principles.](#section-3-general-principles)
   - [Section 4: Action Out of Order.](#section-4-action-out-of-order)
   - [Section 5: Harassment Policy.](#section-5-harassment-policy)
-- [ARTICLE 13:  DISTRIBUTION OF ASSETS](#article-13--distribution-of-assets)
+- [ARTICLE 11:  DISTRIBUTION OF ASSETS](#article-11--distribution-of-assets)
 
 </details>
 
@@ -90,31 +89,36 @@ The Baton Rouge LA Local Chapter of Democratic Socialists of America seeks to de
 
 We believe we have the resources and technology to end hunger, save the planet, and better our children's futures. We are committed to a freedom of speech that includes the freedom to dissent, to a freedom to organize independent trade unions, support groups, political parties, and any collective that might help protect us from the dangers of a militarized police force, rich corporations and monopolies, and other forces that may seek to exploit and control the people. We are committed to a freedom of religion that acknowledges the rights of those for whom spiritual concerns are central. We seek to empower our members and our communities.
 
-We are socialists because we believe in democracy. We believethe power of the people to maintain control over our lives is the key to fulfilling our human potential; whereas the right of a small wealthy elite to own the majority of our vital resources is the path to subjugation and social turmoil. We are socialists because we believe the eventual automation of labor will result in a dystopian nightmare under capitalism, whereas it could mean more time for people to learn and advance under socialism. We seek to build a new democratic and vibrant left movement in the South, as a part of the national movement that has the ability to make democratic socialism in the United States a reality. 
+We are socialists because we believe in democracy. We believe the power of the people to maintain control over our lives is the key to fulfilling our human potential; whereas the right of a small wealthy elite to own the majority of our vital resources is the path to subjugation and social turmoil. We are socialists because we believe the eventual automation of labor will result in a dystopian nightmare under capitalism, whereas it could mean more time for people to learn and advance under socialism. We seek to build a new democratic and vibrant left movement in the South, as a part of the national movement that has the ability to make democratic socialism in the United States a reality. 
 
+## ARTICLE 1: NAME AND TERRITORY 
 
-## ARTICLE 1: NAME
+### Section 1. Name.
 
 The name of this organization will be Baton Rouge Democratic Socialists of America, also known as BRDSA, and referred to throughout this document as “the Chapter.” Democratic Socialists of America (DSA) is a not-for-profit corporation.
 
+### Section 2. Territory
 
-## ARTICLE 2: BASIC ORGANIZATION AND CONVENTION
+The Chapter shall conduct activities in the Greater Baton Rouge area within the territory defined by the charter granted by the national Democratic Socialists of America to BRDSA.
 
-### Section 1: General Membership. 
+## ARTICLE 2: CHAPTER MEETINGS
 
-The General Membership of the Chapter,  defined in Article Three, Section 1, meeting in Convention, Special Meeting or General Meeting, shall be the highest legislative body of the organization; providing that Special Meetings shall have the authority to deal with only those matters for which they may be called.
+### Section 1: Definition.
+
+Chapter Conventions, Special Meetings and General Meetings made up of membership as defined in Article 3: Section 1, shall be the highest authority of decision-making power over the Chapter.;
 
 ### Section 2: General Meetings.
 
-The Chapter will hold meetings monthly if possible (with a minimum of 6 annually) to conduct the business of the Chapter. These will be called General Meetings. An annual schedule of these meetings will be shared among members in good standing. 
+The Chapter shall hold meetings monthly if possible (with a minimum of 6 annually) to conduct the business of the Chapter. These will be called General Meetings. The Steering Committee shall publish the time and place to the membership no less than fourteen (14) days prior to the meeting. The Steering Committee shall set and publish the agenda to the membership no less than five (5) days prior to the meeting. 
 
 ### Section 3: Annual Convention.
 
-The Chapter shall meet in Convention annually during the first six months of the year, with at least thirty days’ notice given to all members. Notice may be sent by electronic means, but individuals who have not provided an email address must be sent a paper copy or contacted by phone or text, provided the member has provided a physical address or phone number. Members shall meet to elect officers, to debate, and to decide primarily, but not exclusively, Chapter issues, the political orientation of the organization, and program direction.
+The Chapter shall meet in Convention annually during the first six months of the year, with at least thirty (30) days’ notice given to all members. Notice may be sent by electronic means, but individuals who have not provided an email address must be sent a paper copy or contacted by phone or text, provided the member has provided a physical address or phone number. Members shall meet to elect officers, to debate, and to decide primarily, but not exclusively, Chapter issues, the political orientation of the organization, and program direction.
+The Chapter Convention may coincide with a General Meeting.
 
 ### Section 4: Special Meetings.
 
-By call of the Officers Council or by petition of ten percent of members, a Special Meeting shall be called, with notice given to all members at least ten days prior to the meeting. The call to the Special Meeting shall specify the matters to be discussed therein and no other matter may be brought to the floor.
+By call of the Steering Committee or by petition of ten percent of members, a Special Meeting shall be called, with notice given to all members at least ten days prior to the meeting. The call to the Special Meeting shall specify the matters to be discussed therein and no other matter may be brought to the floor.
 
 ### Section 5: Public or Informational Meetings.
 
@@ -122,7 +126,12 @@ The Chapter Council may call additional Chapter-wide Public or Informational Mee
 
 ### Section 6: Rules.
 
-All resolutions and reports presented to the Chapter’s membership at the Convention will allow for a question and answer period. All rules covering the conduct of a General, Convention or Special Meetings shall be developed by the Chapter Council and, at the outset of said meeting, may be amended, but must be ratified by a two-thirds majority vote.
+The Chapter may elect to adopt standing rules, which shall not be inconsistent with these bylaws, to administer the process and procedures of Chapter Meetings.
+
+The rules contained in the current edition of Robert’s Rules of Order Newly Revised shall govern all Chapter Meetings to which they apply. If Robert’s Rules are inconsistent with these bylaws or standing rules, then these bylaws or standing rules will apply.
+
+Any action taken by a Chapter Meeting in contravention of these bylaws is null and void.
+
 
 ### Section 7: Electoral Endorsements.
 
@@ -130,222 +139,223 @@ The General Membership in Convention, Special, or General Meeting are the only b
 
 ### Section 8: Quorum.
 
-Unless specified otherwise in these bylaws, a quorum of ten percent or 5 members, whichever is larger, of the membership shall be required for valid meetings of the Convention, Special Meetings, or General Meetings to occur. Should a meeting fail to meet quorum in two consecutive occasions, the Officers Council shall be permitted to modify this formulation, subject to a majority vote of the members present at the next planned Regular Meeting.
-
-### Section 9: Revenue and Funds.
-
-#### Section 9(a).
- The revenue of this Chapter shall be derived from a portion of  national dues shared by national DSA, sale of supplies, interest on deposits, grants, and donations. It is the duty of every officer, agent, employee, and representative of this Chapter to hold its money and property solely for the benefit of the Chapter and the duty of its members to manage, invest, and expend the same in accordance with these Bylaws and any resolutions of the governing bodies adopted thereunder, to refrain from dealing with this Chapter as an adverse party in any matter connected with duties and from holding or acquiring any financial or personal interest that conflicts with the interest of this Chapter, and to account to this organization for any profit received under direction on its behalf. 
-
-Since the Highest Decision-Making Body is vested in the Officers Council between General Meetings, the Chapter Council and the Chapter Treasurer in addition to the General Meeting shall manage, invest and expend the funds and property of this Chapter in accordance with all applicable provisions of these Bylaws and any resolution adopted by the Chapter and General Meeting not inconsistent therewith.
-
-#### Section 9(b).
-
-Except as otherwise provided in Chapter Bylaws, the revenue of the Chapter will be divided into a General Fund, a Rapid Solidarity Fund, and other committee-based funds, at the discretion of the General Meeting or of the Chapter Council between General Meetings.
-
-#### Section 9(c).
-
-The General Fund shall be maintained and disbursed in accordance with the authority vested in Article Two (2) Section One (1), and in accordance with the provisions in Article Twelve (12) of these Bylaws. Purpose of disbursements shall conform to the general welfare and operation of the Chapter.
-
-#### Section 9(d).
-
-Chapter Council and committee funds shall be maintained and disbursed in accordance with the authority vested in Article Five (5) and in accordance with the provisions in Article Twelve (12) of these Bylaws. Purpose of disbursements shall conform to the general welfare and operation of said Chapter Council or committee.
-
-#### Section 9(e).
-
-A uniform system of bookkeeping and records shall be established by the Chapter Council and all officers, committees, and councils will conform to said uniform system of bookkeeping and records in submitting a correspondence with the Chapter Council.
-
-#### Section 9(f).
-
-All monies collected by the Treasurer must be received in the form of money order, bank draft, check, direct deposit, or wire transfer made payable to Baton Rouge LA Democratic Socialists of America, except when petty cash is collected at events, which must be logged in the uniform system of bookkeeping and records established by the Chapter Council. All monies must be deposited in a credit union in the name of Baton Rouge LA Democratic Socialists of America, and only authorized officers may have access to bank transactions.
+Unless specified otherwise in these bylaws, a quorum of ten percent or 5 members, whichever is larger, of the membership shall be required for valid meetings of the Convention, Special Meetings, or General Meetings to occur. Should a meeting fail to meet quorum on two consecutive occasions, the Steering Committee shall be permitted to modify this formulation, subject to a majority vote of the members present at the next planned Regular Meeting.
 
 
 ## ARTICLE 3: MEMBERSHIP
 
 ### Section 1: Definition.
 
-The Membership of Baton Rouge LA DSA shall be composed of all DSA members residing within the jurisdiction of the Chapter. Members in good standing will include all DSA members as verified by the National Office, and are not currently suspended or terminated from the Chapter. All Chapter members in good standing shall have full and equal rights of membership.  In these bylaws, the term “General Membership” refers to these chapter members. 
+Membership of the Chapter shall be defined as being a member in good standing of National DSA and residing in the territory described by the charter granted by National DSA. Individuals may not be members of the Chapter without being members of National DSA. 
 
-### Section 2: Voting and Office. 
+### Section 2: Authority. 
 
-All Members in good standing comprise the Membership and shall be eligible to (1.) vote in all elections and matters brought before the Membership; (2.) be elected or appointed to office in the Chapter, and (3.) be elected or appointed as delegates by the Officers to any Regional, State, or National DSA convention. (Elections for the National Convention delegation will be held on the schedule announced by the national organization.)
+Members shall be responsible for proposing and deliberating questions of Chapter business at Chapter Meetings, electing Chapter officers, electing delegates to the National Convention, and volunteering for Chapter activities and duties. 
 
-### Section 3: Proxy Voting. 
+### Section 3: Resignation. 
 
+A member may resign from the Chapter to become an at-large member of DSA by written notice to the Chapter Secretary and National DSA. A member may resign from DSA by notifying the national office of DSA. 
+
+### Section 4: Removal of Members.
+
+If a member in good standing is found to be in substantial disagreement with the principles or policies of National DSA, or if they are found to be consistently engaging in undemocratic, disruptive behavior, the Chapter may vote to expel them from DSA. In order for such a finding to be made, another DSA member shall formally submit written charges against the member in question to the Chapter Steering Committee, which will set the date of a Chapter meeting for deliberations on the charges. The member in question must receive a copy of the written charges and notice of the meeting a minimum of two (2) weeks before that meeting takes place. Expulsion of a member requires a two-thirds (⅔) vote of the Chapter meeting. Expulsion from a chapter is treated as a suspension by DSA National and must be forwarded up to the National Grievance Panel to begin the national expulsion process. Decisions on expulsion by either the Chapter or National Organization may be appealed to the National Political Committee or to the National Convention.
+
+### Section 5: Voluntary Donations
+
+As mandated by the National Constitution and Bylaws, the Chapter may establish a Chapter pledge system of voluntary donations for its members. The payment of a Chapter donation shall not be a requirement for voting or for holding Chapter office. 
+
+### Section 6. Data Security.
+
+The Steering Committee shall create and maintain policy and procedures to secure all member data, including but not limited to contact and billing information.
+
+### Section 7. Proxy Voting.
 Members in good standing who cannot vote in person due to unavoidable conflicts must notify the Officers in advance of the vote, and name the proxy voter. A member who is present at an election meeting may only hold up to two proxies.
 
-### Section 4: Member Discipline, Suspension, and Expulsion. 
+## ARTICLE 4: CHAPTER OFFICERS 
 
-A two-thirds vote of members in good standing is required to suspend or expel a member from the Local  Chapter. In all cases, prior to discipline, the members and Officers should consider and abide by the principles of privacy, accountability, and restorative justice. In order for such a finding to be made, another DSA member must formally prefer written charges against the member in question to the  Local Chapter Officers’ Council, which will set the date of a  Local Chapter meeting for deliberations on the charges. The member in question must receive a copy of the written charges and notice of the meeting a minimum of two (2) weeks before that meeting takes place. An expelled member in good standing may appeal to the National Political Committee of DSA.
+### Section 1. Officers and Terms.
 
-Members may be suspended or expelled (1.) if they are found to have maliciously inflicted serious emotional or physical harm against another member, (2.) if they are found to be in substantial disagreement with the principles or policies of the organization, including, but not limited to, engaging in behavior or speech that violates DSA’s commitment to anti-racism, feminism, and equality, or (3.) if they consistently engage in undemocratic, disruptive behavior, or if they are found to be engaging in intentionally subversive activities to the detriment of the chapter, or acting on behalf of or under the direction of another organization or body aiming to disrupt the Chapter's activities, membership, or events.
+The officers of the Chapter shall be the two Co-Chairs, the Secretary, the Treasurer, and the Membership Coordinator. Each officer must be a member of the Chapter and be current in their dues by 30 days before the election and throughout the duration of their term. The term of office shall be one year or until their successors are elected. The officers shall not all be cisgender men. No member shall hold more than one office at any given time. 
 
-### Section 5: Privacy Concerns.
+### Section 2. Elections.
 
-Care will be taken to protect the privacy of each member’s information and the safety of all potential new members will be considered when open invitations to social events or meetings occur. The Chapter will encourage members not to share names and contact information publicly. 
+Elections for officers shall be held at the Chapter Convention unless otherwise stated in these bylaws. The Steering Committee shall open nominations no less than thirty (30) days prior to the election and call for nominations to the membership. No candidate may run their own election. Members must be in good standing for 30 days to vote in elections for chapter-wide leadership. Uncontested elections may be decided by acclamation without objection, otherwise elections will be determined by instant-runoff voting. Elections shall be governed by meeting rules and procedures outlined in Article 2.
 
+### Section 3. Co-Chairs.
 
-## ARTICLE 4: ELECTIONS OF OFFICERS 
+The Co-Chairs shall be the Chief Executive Officers of the Chapter. They shall preside over Chapter and Steering Committee Meetings or shall appoint a substitute to assume the powers and duties of the presiding officer as specified in the current edition of Robert's Rules of Order Newly Revised. 
 
-### Section 1: Nominations. 
 
-All Officers of the Chapter shall be elected at the Annual Convention. Nominations to run for the position of Officer must be submitted to the Chapter at least 30 days in advance of the Convention. Any member may nominate for an elected position in the Chapter another member in good standing who has attended at least 33% of the General Meetings of the Chapter in the non-founding year and 25% in the founding year. No one may nominate themselves.
+The Co-Chairs shall be the official public spokespersons for the Chapter and shall initiate such actions and policies as the Chapter’s general welfare may demand. The Co-Chairs shall be responsible for coordinating the day-to-day operations and political work of the Chapter’s Branches, Committees, and other formations. The Co-Chairs shall report to Chapter Meetings on the business of the Steering Committee. 
 
-### Section 2: Process. 
+### Section 4. Secretary.
 
-The elections process shall be fair, transparent, and democratic, occurring at the Annual Convention. The General Membership will be responsible for ensuring that elections are held, and may appoint an Elections Committee to oversee the process.
+The Secretary shall be responsible for answering all correspondence and queries of the Chapter and for maintaining an up-to-date membership list of the Chapter. They shall ensure effective communication with National DSA. They shall temporarily assume the responsibilities of the Co-Chair, if neither Co-Chair is able to do so. 
 
-### Section 3: Notice of Elections. 
+The Secretary shall be responsible for the taking of minutes of all Chapter and Steering Committee Meetings and shall have custody of these minutes, and the resolutions, reports, and other official records of the Chapter. Minutes will include attendance of officers. The Secretary shall be responsible for providing chapter meeting minutes to National DSA.
 
-The Officers shall give notice of any election in a dedicated email announcement no later than fifteen days prior to the election. Notice may be sent by electronic means, but individuals who have not provided an email address must be sent a paper copy or contacted by phone or text, provided the individual has given a physical address. This announcement shall include the time and place of the election, the candidates and/or questions before the membership in the election, and all pertinent instructions.
+The Secretary shall transfer official records, such as meeting minutes and membership lists, in good condition to their successor. The Secretary is responsible for storing and ensuring members’ access to the latest versions of these bylaws, meeting minutes, agendas, resolutions, standing rules, and all other materials in the interest of the membership.
 
-### Section 4: Recall of Officers. 
+### Section 5. Treasurer.
 
-Pursuant to Article 2, Section 4, Officers’ Council Members, including those appointed by committees, may be recalled by a two-thirds vote of the Special Meeting as gathered. If removed by two-thirds vote, said member  may not stand for or serve as a Committee Representative to the Officers’ Council or a Chapter’s Officer for one year.
+The Treasurer shall be responsible for the funds and financial records of the Chapter. All funds collected by the Chapter shall be turned over to the Treasurer, who will hold these funds in a secure place until it is possible to deposit the funds in a credit union or bank account under the name of the Chapter. The Treasurer shall prepare budgets and financial reports for consideration at Chapter Meetings and as requested by the Steering Committee, and ensure the Chapter’s regulatory compliance. In cooperation with the Membership Coordinator, the Treasurer shall be responsible for ensuring that membership dues are current. 
 
-Any officer of the Local Chapter of DSA may be recalled for malfeasance or failure to fulfill their duties or obligations as an officer.  In order to recall or remove an officer, a member in good standing must formally refer a request to remove said officer to the Officers Council, which will set a date of a Local Chapter meeting for deliberations on the accused officer’s removal.  The officer in question must receive written documentation of the specific reasons for the removal request and notice of the meeting a minimum of two weeks before the meeting takes place.  The accused officer will be given a chance to speak in their own defense at this meeting.
+The Treasurer shall create and document policies and procedures for carrying out their duties and for maintaining healthy Chapter finances. The Treasurer shall transfer to their successor the documented policies and procedures, financial records and reports, and access to financial accounts securely.
 
-### Section 5: Voting 
+### Section 6. Membership Coordinator.
 
-In an election for Officers Council positions, voting will be done in-person (except for proxy voting allowed in Article 3, Section 3) and anonymously, and will be open to all members in good standing. Quorum is necessary to validate the results of any election. The Candidates for a given position will be announced by a Voting Commissioner, and members will anonymously fill in their ballots. Once voting has finished, ballots will be turned in to the Voting Commissioner, who will randomize the ballots by hand, and then tally the results. Members may only be a Candidate for one position. If they are nominated for more than one position, the member will choose one position for which they will be a Candidate. For the positions of Co-Chairs, each ballot will contain three Candidates. None of the votes are weighted. The top three vote-getters will be elected to co-chair. If all three of the top vote getters are cis straight white men, then the third-highest vote getter will be excluded and the highest candidate that is not a cis straight white man will be elected. Each ballot will include one candidate for Treasurer and one candidate for Secretary. The highest vote-getter will be elected to each position. Any future positions on the Officers Council will be subject to the same rules as those that apply to the Treasurer and Secretary. The Voting Commissioner will be a member in good standing, who is selected by acclamation at the meeting prior to the election. The Voting Commissioner cannot be a candidate for any council position.
+The Membership Coordinator shall be responsible for the overall health and growth of the Chapter membership by coordinating the outreach, recruitment, and engagement activities of the Chapter. The Membership Coordinator shall oversee initiatives concerning membership growth, retention, engagement, participation, and leadership development. 
 
+The Membership Coordinator shall organize their activities to be inclusive, culturally competent, and non-oppressive to marginalized groups. Special attention shall be devoted to the recruitment of members from marginalized groups. 
 
-## ARTICLE 5: OFFICERS AND OFFICERS’ COUNCIL 
+### Section 7. Additional Duties and Actions Out of Order.
 
-### Section 1: Officers and Terms.
+The Chapter Steering Committee may assign additional temporary duties to an officer of the Chapter, so long as such assignments do not conflict with the designation of responsibilities outlined in these bylaws.
 
-The Officers of the Chapter will be Co-Chairs, Secretary, and Treasurer. Officers will be elected at the Annual Convention and their terms will last until the completion of the following Annual Convention, approximately one year later. The officers may not all be of the same gender.
+Any action taken by an officer in contravention of these bylaws is null and void. 
 
-### Section 2: Vacancies.
+### Section 8. Resignation.
 
-In the event of a vacancy in any Chapter office, the Chapter will appoint a replacement for the remainder of the term.
+Any officer of the Chapter may electronically or physically submit their resignation to either the Steering Committee or Chapter Meeting. Upon resignation, the Steering Committee shall fill the vacancy for the remainder of the term either by scheduling an election no less than thirty (30) days away from a Chapter General Meeting or by appointment via simple majority vote of the Steering Committee.
 
-### Section 3: Co-Chairs.
+### Section 9. Suspension.
 
-#### Section 3(a).
+Any officer of the Chapter may be temporarily suspended for thirty (30) days at a Chapter Meeting as defined in Article IV. Any member may motion to recall and shall state with particularity the acts of malfeasance, nonfeasance, gross negligence, or undemocratic or uncomradely behavior comprising the grounds for removal and must be seconded. The Chapter Meeting may adopt such a motion by a two-thirds (⅔) vote.
 
-The Co-Chairs will be the chief executive officers of the Chapter. They will preside over Chapter and Officer meetings or will appoint a substitute to assume the powers and duties of the presiding officer as specified in Robert's Rules of Order, Newly Revised. The Co-Chairs will be the official public spokespersons for the Chapter and will initiate such actions and policies as the Chapter’s general welfare may demand.
+### Section 10. Recall.
 
-#### Section 3(b).
+Any officer of the Chapter may be recalled for malfeasance or failure to fulfill their duties or obligations as an officer. 
 
-The Co-Chairs will be responsible also for coordinating the day-to-day operations and political work of the Chapter’s branches and committees. 
+#### a. Recall by Vote of the Membership.
 
-#### Section 3(c).
+In order to recall or remove an officer, a member in good standing must formally refer a request to the Steering Committee to remove said officer, which will set a date of a Chapter Meeting for deliberations on the accused officer’s removal. The officer in question must receive written documentation of the specific reasons for the removal request and notice of the meeting a minimum of two (2) weeks before the meeting takes place. The accused officer will be given a chance to speak in their own defense at this meeting. Removal of an officer requires a two-thirds (⅔) vote of the Chapter Meeting.
 
-The Co-Chairs will have signature authority regarding BRDSA’s bank/credit union account.
+#### b. Recall by Vote of the Steering Committee.
 
-#### Section 3 (d).
+An officer may be recalled by vote of the Steering Committee only under narrow circumstances for failure to do their duty. If an officer misses three consecutive Steering Committee meetings without excuse and fails to respond to attempts by Steering Committee members to communicate, that officer may be removed from office by a two-thirds (⅔) vote of the Steering Committee. This action must be reported at the next Chapter Meeting, at which time members in good standing may overturn the vote.
 
-The Co-Chairs will report to Chapter Meetings on the business of the Officers Meetings, at which time a copy of the minutes of those meetings will be available for inspection.
+## ARTICLE 5: STEERING COMMITTEE
 
-#### Section 3(e).
+### Section 1. Composition.
 
-At least one Co-Chair must not identify as white, cisgender, and male; one Co-Chair must identify as working class.
+The Steering Committee shall be composed of the five (5) officers of the Chapter.
 
-### Section 4: Secretary.
+### Section 2. Duties.
 
-#### Section 4(a).
+The Steering Committee administers the affairs of the Chapter and oversees the implementation of the decisions of Chapter Meetings; it may also propose policy to Chapter Meetings. It shall have the power to receive reports of any Branch, Committee, or formally created Working Group, and advise thereon, to call Special Meetings of the Chapter, and to act on any matter that requires immediate and urgent action. The Steering Committee is the regular executive body of the Chapter, and thus subordinate to its Legislative bodies, the Chapter Convention and General Meetings. 
 
-The Secretary will be responsible for answering all correspondence and queries of the Chapter, and for maintaining an up-to-date membership list for the Chapter. They will insure effective communication with national DSA. They will temporarily assume the responsibilities of the Co-Chair, if neither Co-Chair is able to do so.
+The Steering Committee shall be responsible for establishing program activities for the Chapter, for proposing guidelines and policies that shall subsequently be voted on by members in good standing, and for acting on the organization’s behalf between Chapter meetings. 
 
-#### Section 4(b).
+The Steering Committee is responsible for ensuring that the following responsibilities are assigned to Steering Committee members or other individuals: communications, internal and external; development of any standing rules; and preparation of an annual report to be presented to the membership at the beginning of the new fiscal year or at the Chapter Convention. 
 
-The Secretary will be responsible also for the taking of minutes of all Chapter and Officers Meetings, and will have custody of these minutes, and the resolutions, reports, and other official records of the Chapter. They will keep attendance records of all meetings. They will transfer official records in good condition to their successor. Official records will include meeting minutes and member lists.
+### Section 3. Meetings.
 
-#### Section 4(c).
+The meetings of the Steering Committee shall be held at the call of one (1) of the Co-Chairs at such regular intervals as may be determined by a prior Steering Committee Meeting or by consultation with any three (3) members of the Steering Committee. All members of the Steering Committee must be given three (3) days oral, written, or electronic notice of Steering Committee Meetings unless all members of the Steering Committee accept shorter notice. The Steering Committee shall give notice of its meeting schedule to Chapter members. Meeting minutes shall be recorded and accessible to the membership. 
 
-The Secretary will be responsible for ensuring proper recognition of formally recognized caucuses.
+Steering Committee Meetings may be held electronically by any means acceptable to all the members of the Steering Committee. 
 
-### Section 5: Treasurer.
+Any member in good standing of the Chapter may observe Steering Committee Meetings. The Steering Committee shall allow for a question and answer period and a comment period if capacity permits. 
 
-The Treasurer will be responsible for the funds and financial records of the Chapter. All funds collected by the Chapter will be turned over to the Treasurer, who will deposit them in a bank or credit union account under the name of the Chapter. In cooperation with the Secretary, the Treasurer will be responsible for ensuring that membership dues are paid and up-to-date. The Treasurer will prepare the annual Chapter budget and deliver the Chapter financial report to the General Meeting of the Chapter, as well as periodic progress reports as requested by the Officers of the Chapter.
+The Steering Committee may go into executive session by simple majority vote in order to discuss any sensitive matters. 
 
-### Section 6: Additional Duties.
+### Section 4. Quorum.
 
-The Chapter Officers may assign additional temporary duties to an officer of the Chapter, so long as such assignments do not conflict with the designation of responsibilities outlined in these Bylaws.
+A quorum of a simple majority, including at least three (3) of the five (5) officers, is required for the transaction of Steering Committee business. 
 
-### Section 7: Officers’ Council
+### Section 5. Rules.
 
-### Section 8: Quorum.
+The Steering Committee may elect to adopt standing rules to administer the process and procedures of Steering Committee Meetings that are not inconsistent with these bylaws. 
 
-A quorum of three (3) members of the Officers’ Council is required for the transaction of Officers’ Council business.
+Any action taken by the Steering Committee in contravention of these bylaws is null and void.
 
+### Section 6. Voting.
 
-## ARTICLE 6: CAUCUSES 
+The Steering Committee may make decisions on business by vote of a simple majority of the committee at a Steering Committee Meeting or through other means unanimously approved by all Steering Committee members at a Steering Committee Meeting. Any vote that occurs between Steering Committee Meetings shall be reported at the next meeting. 
 
-### Section 1: Definition and Purpose. 
+### Section 7. Board of Directors.
 
-Caucuses are independent, unofficial formations of members within the Chapter. The Chapter encourages the formation of Caucuses to promote a vibrant democratic culture within the organization. With or without consent from or recognition by an official Chapter leadership or the Chapter itself, members may self-organize into temporary or permanent caucuses according to shared interest, affinities, and/or political goals. Caucuses may promote policies and actions for the Chapter to take on, and may challenge Chapter leadership and/or official Chapter policies. 
+For the purposes of meeting the requirements of local and state incorporation laws, the Chapter shall have a “Board of Directors” consisting of members of the Steering Committee assigned for the purpose as logical and required by law. 
 
-### Section 2: Official Recognition.
 
-A Caucus will be formally recognized by the Chapter in one or more official media if no less than five (5) members in good standing sign a mission statement that includes the name and purpose of the Caucus. 
+## ARTICLE 6. COMMITTEES, WORKING GROUPS, AND OTHER FORMATIONS
 
+### Section 1. Committees. 
 
-## ARTICLE 7. COMMITTEES 
+#### Section 1.i Definition.
+A committee is a group within the Local Chapter that is tasked with carrying out an internal function for the chapter. There are two types of committee that the Chapter recognizes: Ad Hoc Committees and Standing Committees.
 
-### Section 1: Duration.
+#### Section 1.ii. Ad Hoc Committees
+Ad Hoc Committees exist for a limited and explicit duration. Ad Hoc Committees may be established by a vote by General Membership at a General Meeting of the Local Chapter or by vote of the Steering Committee. An explicit and limited set of goals for the Ad Hoc Committee whose fulfillment would abolish the committee must be presented at the meeting and must also be made available to the membership upon request. Ad Hoc Committees may be dissolved at any time by a majority vote of either the Steering Committee or by General Membership at a General Meeting.
 
-The Chapter will have Ad Hoc Committees or Working Groups, which will exist for a limited and explicit duration. Ad Hoc Committees may be established by a vote of members in good standing at a General Meeting of the Local Chapter.
+#### Section 1.iii. Standing Committees
+Standing Committees are not limited to an explicit duration. Standing Committees may be established by a vote by General Membership at a General Meeting of the Local Chapter. A Standing Committee is created by a Resolution passed by the General Meeting. Standing committees must draft a charter that details the purpose of the committee, the powers granted to the committee, and the internal structure and functioning of the committee. This charter will be presented at the next General Meeting. Standing Committee charters may be amended by a vote of a General Meeting of the Local Chapter. A Standing Committee that has not met for at least three months will be considered defunct. If a Standing Committee  is found to be defunct, the Steering Committee will schedule a vote for dissolution of the defunct Standing Committee at the next available Chapter Meeting and notify General Membership. If the Steering Committee finds that a Standing Committee has failed to conduct its internal affairs according to BRDSA bylaws or to have acted in violation of formally adopted resolutions or policies of  BRDSA, the Steering Committee may vote to suspend all officially sanctioned meetings, operations, and/or business of the Standing Committee until the next General Meeting of the Local Chapter, at which point General Membership will vote on the question of dissolving the Standing Committee.
 
-### Section 2: Duties.
+### Section 2. Working Groups. 
 
-Chairs of Ad Hoc Committees will keep the Officers’ Council and the General Meetings of the Local Chapter informed on the activities of the committee.
+#### Section 2.i Definition.
+A Working Group is a subgroup of the Local Chapter that does external organizing.
+The Chapter Secretary will keep a regularly-updated list of recognized Working Groups. 
 
-### Section 3: Structure.
+#### Section 2.ii Working Group Membership. 
+Chapter members are considered to be Working Group Members if they have attended at least one meeting of the Working Group and have registered their desire to become a member with the Working Group Secretary. Working Group Members are responsible for executing their respective body’s strategy in fulfillment of its objectives. Working groups are expected to set membership requirements based on attendance. Only Working Group Members may vote during Working Group meetings or run for positions within the Working Group. A quorum of no less than three Working Group Members is required for Working Group meetings to conduct business.
 
-Any representative for a committee must be a member in good standing. 
+#### Section 2.iii Formation and Dissolution of Working Groups. 
+General Membership is empowered to create and dissolve working groups by voting to do so at a General Meeting of the Local Chapter. Members interested in starting a Working Group shall submit a proposal to the Steering Committee detailing the scope and goals of the proposed Working Group along with the names of at least three members who commit to regular participation in the proposed Working Group. If the Steering Committee determines the proposal is actionable, the Steering Committee will schedule for the proposal to be voted on by General Membership at a General Meeting of the Local Chapter. A Working Group that has not met with quorum for at least three months will be considered defunct. If a Working Group is found to be defunct, the Steering Committee will schedule a vote for dissolution of the defunct Working Group at the next available Chapter Meeting and notify General Membership. If the Steering Committee finds that a Working Group has failed to conduct its internal affairs according to BRDSA bylaws or to have acted in violation of formally adopted resolutions or policies of BRDSA, the Steering Committee may vote to suspend the meetings, operations, and business of the Working Group until the next General Meeting of the Local Chapter, at which point General Membership will vote on the question of dissolving the Working Group.
 
-## ARTICLE 8: VOLUNTARY DONATIONS
+### Section 3. Associations.
 
-As mandated by the national Constitution and Bylaws, BRDSA may establish a pledge system of voluntary donations for its members on a monthly, quarterly, or other basis. The payment of a Local Chapter donation may not be a requirement for voting or for holding Local Chapter office.
+An Association is a group of members that associate due to a shared interest. An Association is created when a group of three or more members notifies the Steering Committee of their intent to create the Association. Members of the Association will designate at least one Association Contact. The Association Contact will be responsible for communicating with the Steering Committee about the activities and business of the Association, as well as with the Growth, Development, and Outreach Committee. Associations may be dissolved by a vote of the Steering Committee or a vote by General Membership at a General Meeting of the Local Chapter if either body finds the Association to be defunct, to have failed to conduct its internal affairs according to BRDSA bylaws, or to have acted in violation of formally adopted resolutions or policies of  BRDSA.
 
-## ARTICLE 9. AMENDMENTS 
+### Section 4: Structure of Committees, Working Groups, and Associations
+Chapter committees, working groups, and associations (groups) are to create their own charter, after approval for the creation of the group by general membership. At the General Meeting following the creation of the committee, working group, or association, the charter will be presented for approval by the general membership. 
+Charters must include: 
+- the specific goals of the group
+- the general tasks the group will use to achieve these goals
+- the democratic structure of the group including leadership, quorum, and meeting frequency
 
-### Section 1.
+### Section 5: Young Democratic Socialists of America Chapters.
+Young Democratic Socialists of America (YDSA) chapters within the geographic area defined by a DSA Chapter may affiliate as a Branch of that Chapter, in which case the local YDSA chapter may send a representative to the Chapter Steering Committee.
 
-The Bylaws may be amended by a two-thirds majority vote of members in good standing at an Annual Convention. They may also be amended if a Special Meeting is called according to the procedures outlined in Article II, Section 4.
 
-### Section 2.
+## ARTICLE 7. AMENDMENTS 
 
-Any member of the Chapter may propose Amendments, which must be submitted to the Officers at least one (1) month in advance of a General Meeting. The Chapter is required to provide the Chapter membership with two (2) weeks’  notice of the proposed amendments. Notice may be sent by electronic means, but individuals who have not provided an email address must be sent a paper copy or contacted by phone or text, provided that a physical address has been supplied by the individual. 
+Proposed amendments to these bylaws must be made by written resolution, endorsed by five (5) members in good standing of the Chapter, and submitted to the Steering Committee at least twenty-one (21) days in advance of a Chapter Meeting as defined in Article IV. The Steering Committee is required to provide the Chapter membership with at least ten (10) days physical or electronic notice of the proposed amendments. The Chapter Meeting may adopt amendments to these bylaws proposed under this article by two-thirds (⅔) vote. 
 
+No amendment to these bylaws may be in conflict with the National DSA Constitution and Bylaws. The Chapter will provide the amended bylaws to the DSA national office. 
 
-## ARTICLE 10. PROHIBITED ACTIVITY 
+
+## ARTICLE 8. PROHIBITED ACTIVITY 
 
 The Chapter will not engage in activity prohibited by the IRS guidelines established for 501(c)(4) organizations or similar rules established by the state of Louisiana. Nor will the Chapter engage in any activity prohibited by resolutions adopted by DSA’s National Convention or DSA’s National Political Committee. 
 
 
-## ARTICLE 11. ELECTIONS AND NOMINATIONS TO NATIONAL, STATE, OR REGIONAL CONVENTIONS OR MEETINGS
+## ARTICLE 9. ELECTIONS AND NOMINATIONS TO NATIONAL, STATE, OR REGIONAL CONVENTIONS OR MEETINGS
 
-### Section 1:
+### Section 1. Eligibility to Vote on Delegates.
 
-BRDSA delegates and alternates to the National Convention, as well as to any regional or state organizations, will be elected by BRDSA members in good standing. Elections for the National Convention delegation will be held on the schedule announced by the national organization. Elections to regional or state organizations will be held on the schedule announced by those organizations.
+Members in good standing of the Chapter as of 30 days prior to the election shall elect Chapter delegates and alternates to the National Convention, as well as to any regional or state organizations.
 
-### Section 2: Nominations Committee.
+### Section 2. Schedule of Elections to National, Regional, or State Organizations.
 
-A three (3)-person Nominations Committee will be established at least one (1) month prior to every election by vote of a General Meeting. It will solicit and receive nominations for the positions to be elected.
+Elections for the National Convention delegation will be held on the schedule announced by National DSA. Elections to regional or state organizations will be held on the schedule announced by those organizations. 
 
-### Section 3: Method of Voting for Delegates to the National Convention.
- 
-Following Article V, Section 5 of national DSA’s Constitution delegates to the National Convention must be elected by secret ballot.  Following Article VI, Section 3, of national DSA’s Bylaws, Local Chapters “may determine their own method of election of delegates to the Convention except that a petition from 10% of a Local’s membership or a motion supported by 15% of those present and voting at the Local meeting which determines the method of election will require the use of the Hare system in that Local’s election of delegates to the National Convention.”
- 
-### Section 4. Uncontested Positions.
+### Section 3. Method of Voting.
 
-If a position is uncontested, the nominee may be elected by voice vote. 
+Following Article V, Section 5 of National DSA’s Constitution, delegates to the National Convention must be elected by secret ballot. And, “No election for delegates to the National Convention shall be held more than four months, or less than forty-five days, prior to the opening of the National Convention. No election for delegates shall be conducted before the apportionment of delegates.”
 
-## ARTICLE 12: RULES OF ORDER
+Following Article III, Section 5 of National DSA’s Bylaws, no candidate may run their own election.
+
+Following Article VI, Section 3, of National DSA’s Bylaws, elections of delegates to the National Convention shall be by Scottish Single Transferable Vote.
+
+## ARTICLE 10: RULES OF ORDER
 
 ### Section 1: Majority Vote.
-
 Unless otherwise specified in the Bylaws, all decisions are to be made by a simple majority (>50%).
 
 ### Section 2: Rules for Meetings.
-
-The Officers’ Council and other official bodies may operate by Robert’s Rules of Order, Newly Revised, or by Progressive Stack, or by a different set of rules. Members of a voting body may decide by a simple majority vote to adopt rules for their body or for the duration of any meeting.
+The Officers’ Council and other official bodies may operate by _Robert’s Rules of Order, Newly Revised_, or by Progressive Stack, or by a different set of rules. Members of a voting body may decide by a simple majority vote to adopt rules for their body or for the duration of any meeting.
 
 ### Section 3: General Principles.
-
 The Chapter values the voices of all members. Facilitators and leaders of all official and unofficial gatherings will seek to balance the participation and voices so that all members have their voice heard at meetings and in the general operation of the Membership.
 
 ### Section 4: Action Out of Order.
@@ -354,8 +364,8 @@ Any action taken by an officer or member of the Local Chapter in contravention o
 
 ### Section 5: Harassment Policy.
  
-The Local Chapter will follow the Harassment Policy of national DSA.
+The Local Chapter will follow the [Harassment Policy of national DSA](https://www.dsausa.org/about-us/harassment-policy-resolution-33/).
 
-## ARTICLE 13:  DISTRIBUTION OF ASSETS
+## ARTICLE 11:  DISTRIBUTION OF ASSETS
 
 Upon dissolution of the organization, any residual assets shall become property of the national organization of Democratic Socialists of America.
