@@ -9,8 +9,10 @@ Below are some resources produced by our chapter. We're working on improving thi
 
 ## Handouts
 - [Check out our zines and flyers folder](https://share.mayfirst.org/s/AtRQPAnKoHWdZBL)
-- [Abolish ICE Zine (English)](https://share.mayfirst.org/s/8rG44j5Jeys9Kap)
-- [Abolish ICE Zine (Español)](https://share.mayfirst.org/s/fsDznPbkAgTGppM)
+- [Abolish ICE Zine (English)](https://share.mayfirst.org/s/HZWNM2kSBJoSiot)
+- [Abolish ICE Zine (Español)](https://share.mayfirst.org/s/fmBG77GcEz45mCx)
+- [Anti-War Zine](https://share.mayfirst.org/s/b3BPN6XjgyLxRz2)
+- [BDS Zine](https://share.mayfirst.org/s/kGy2mBpLLKz9oAD)
 - [Defund the Police Zine](https://share.mayfirst.org/s/FCHsH8ZXXkLDiqA)
 - [Fancy Ecosocialism Zine](https://share.mayfirst.org/s/QLgYoySSSeczNsd)
 - [Ecosocialism Zine](https://share.mayfirst.org/s/Cbz9ErCStGTBeje)
@@ -19,6 +21,7 @@ Below are some resources produced by our chapter. We're working on improving thi
 - [Queer Liberation Zine](https://share.mayfirst.org/s/o8wWQ4ZKGSCaPqF)
 - [Socialist Feminism Zine](https://share.mayfirst.org/s/mEJ9HHAnzkf8k72)
 - [Workers Deserve More Zine](https://share.mayfirst.org/s/crXwGjHxNDJoRmk)
+- [Workers Deserver More Flyers](https://share.mayfirst.org/s/TkYonRGd9r2mj6t)
 
 ## For tenants or homeowners
 - [Tenants Rights Trifold Brochure (English)](https://share.mayfirst.org/s/CRAbrfGxLcTQpxb)
