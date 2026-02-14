@@ -1,8 +1,9 @@
 # Materials, resources, and links
 
-Below are some resources produced by our chapter. We're working on improving this area, so please be sure to check back later. 
+Below are some resources produced by our chapter. [Email us](mailto:contact@brdsa.org) if you have a resource that should get posted here! 
 
 ## Chapter Resources
+- [Get an awesome Louisiana DSA t-shirt!](https://shop.worxprinting.coop/collections/brdsa)
 - Baton Rouge Democratic Socialists of America follows the National DSA's [Unified Grievance Policy](https://docs.google.com/document/u/3/d/e/2PACX-1vQDWES0fFuHwAeXvVuD3guK1wSeR9i_Xs5cRIqZ2Fv_ppKeXfyb2u7N_RLpjgPAtQ7alRk8UbKPkLdR/pub).
 - DSA's [Code of Conduct](https://www.dsausa.org/dsa-code-of-conduct-for-members/)
 - [Resolutions Passed by the Chapter](https://share.mayfirst.org/s/Pame6AdtJx72B9e)
