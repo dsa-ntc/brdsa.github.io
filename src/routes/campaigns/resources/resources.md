@@ -18,6 +18,7 @@ Below are some resources produced by our chapter. [Email us](mailto:contact@brds
 - [Fancy Ecosocialism Zine](https://share.mayfirst.org/s/QLgYoySSSeczNsd)
 - [Ecosocialism Zine](https://share.mayfirst.org/s/Cbz9ErCStGTBeje)
 - [Join DSA Zine](https://share.mayfirst.org/s/dtXkt7g8H8zfsWa)
+- [Mutual Aid Zine](https://share.mayfirst.org/s/PiM8PTk3GDWjGfe)
 - [Principles of Party Building Zine](https://share.mayfirst.org/s/4edHxMMezksytWz)
 - [Queer Liberation Zine](https://share.mayfirst.org/s/o8wWQ4ZKGSCaPqF)
 - [Socialist Feminism Zine](https://share.mayfirst.org/s/mEJ9HHAnzkf8k72)
