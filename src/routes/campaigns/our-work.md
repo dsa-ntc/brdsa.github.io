@@ -2,7 +2,7 @@ We're building a [page of relevant resources here](/campaigns/resources).
 
 ## 🚌🚇Reliable Public Transit 
 
-Baton Rouge DSA is currently embarking on a mission to fix the broken public transit system in EBR. Our demands include better working conditions, pay, and benefits for bus drivers, higher standards of competency for CATS board members, and greater input from bus riders. These demands and other are the base on which better and ecological public transit can be built. 
+Baton Rouge DSA is currently embarking on a mission to fix the broken public transit system in EBR. Our demands include better working conditions, pay, and benefits for bus drivers, higher standards of competency for CATS board members, and greater input from bus riders. These demands and others are the base on which better and ecological public transit can be built. 
 
 ## 🗽🌎 Immigrant Rights 
 
