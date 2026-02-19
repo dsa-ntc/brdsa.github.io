@@ -1,9 +1,8 @@
 We're building a [page of relevant resources here](/campaigns/resources).
 
-## 🏠⚖️ Tenant Rights 
+## 🚌🚇Reliable Public Transit 
 
-In 2024, Baton Rouge DSA voted to prioritize a Tenants Rights campaign with the ultimate goal of creating a citywide Tenants Union. We believe that by working together, tenants can take back control of their homes from the wealthy elites who own everything and charge us perpetual rent while contributing nothing. Landlords are organized, tenants should be too. If you agree and are interested in joining this campaign, [join our email list](https://actionnetwork.org/forms/join-brdsa) and consider [joining DSA](https://act.dsausa.org/donate/membership/?source=Baton%20Rouge).
-
+Baton Rouge DSA is currently embarking on a mission to fix the broken public transit system in EBR. Our demands include better working conditions, pay, and benefits for bus drivers, higher standards of competency for CATS board members, and greater input from bus riders. These demands and others are the base on which better and ecological public transit can be built. 
 
 ## 🗽🌎 Immigrant Rights 
 
@@ -17,3 +16,7 @@ The Chevron corporation supplies Israel’s war machine with energy and massive 
 ## 🥖🌹 FITE 
 
 [Famine Is The Enemy (FITE)](/fite/) is an independent mutual aid organization run mostly by Baton Rouge DSA members. It serves food each Saturday from 12-1pm at N 14th Street Park. FITE is interested in expanding its work into clothes and healthcare distribution as well as embracing the true meaning of mutual aid through community education and empowerment. [Donate and learn more here.](/fite/)
+
+## 🏠⚖️ Tenant Rights 
+
+Starting in 2024, Baton Rouge DSA spent over a year of organizing Tenants' Rights Town Halls, distributing literature, knocking on doors, and building relationships among neighbors. We believe that by working together, tenants can take back control of their homes from the wealthy elites who own everything and charge us perpetual rent while contributing nothing. Landlords are organized, tenants should be too. In 2026, in order to focus on other work, BR DSA voted to deprioritize this campaign. If you are interested in restarting this campaign [join DSA](https://go.dsausa.org/batonrouge) and bring your ideas to a monthly chapter meeting!
