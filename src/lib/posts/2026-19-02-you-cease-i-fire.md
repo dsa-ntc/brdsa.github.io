@@ -2,8 +2,8 @@
 title: You cease, I fire
 date: 2026-02-19
 description: The October 2025 ceasefire in Gaza is a sham and cover for continuing the genocide of Palestinians.
-imageUrl: 
-imageDescription: 
+imageUrl: HoustonBannerDrop2025.png
+imageDescription: Members of Houston DSA dropping a banner calling for a boycott of Chevron in 2025
 author: Ben W.
 ---
 
