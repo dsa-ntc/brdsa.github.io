@@ -1,3 +1,12 @@
+---
+title: You cease, I fire
+date: 2026-02-19
+description: The October 2025 ceasefire in Gaza is a sham and cover for continuing the genocide of Palestinians.
+imageUrl: 
+imageDescription: 
+author: Ben W.
+---
+
 > "Ceasefire according to Israel=“you cease, I fire.” Calling it “peace” is both an insult and a distraction." - Francesca Albanese in October 2025
 
 On October 10, 2025 a ceasefire was declared between Hamas and Israel. The [20-point plan](https://www.bbc.com/news/articles/c70155nked7o) was developed by the Trump administration and is touted by Trump as one of the biggest successes in history. 
@@ -15,8 +24,6 @@ The ceasefire is not a success... unless, of course, success is measured not by 
 Baton Rouge DSA refuses to ignore the suffering of fellow workers in Palestine. 
 
 - We call for a boycott of Chevron for fueling Israel's war machine. [Sign the petition here](https://actionnetwork.org/letters/boycottchevron?source=direct_link&referrer=group-baton-rouge-dsa). 
-
-
 - We demand an end to Louisiana's investments in [low-quality Israeli bonds](https://antigravitymagazine.com/feature/op-ed-break-the-bonds-invest-in-our-community-not-genocide/). 
 - We demand a repeal of Louisiana's [anti-BDS law](https://www.hrw.org/news/2019/04/23/us-states-use-anti-boycott-laws-punish-responsible-businesses)
 - We demand universities, including Louisiana State University in Baton Rouge, divest from Israel and Chevron. 
