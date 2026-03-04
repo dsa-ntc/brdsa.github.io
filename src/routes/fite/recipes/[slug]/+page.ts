@@ -1,4 +1,4 @@
-import { getRecipeModules, getRecipes, slugToPath } from '$lib/recipeUtils';
+import { getRecipeModules, getRecipes, findPathForSlug } from '$lib/recipeUtils';
 import { error } from '@sveltejs/kit';
 import type { Picture } from 'vite-imagetools';
 import type { EntryGenerator, PageLoad } from './$types';
@@ -9,7 +9,9 @@ import type { EntryGenerator, PageLoad } from './$types';
 export const load: PageLoad = (async ({ params }) => {
 	try {
 		const posts = getRecipeModules();
-		const contentModule = posts[slugToPath(params.slug)];
+		const filePath = findPathForSlug(params.slug);
+		if (!filePath) throw new Error('Recipe not found');
+		const contentModule = posts[filePath];
 		const { default: component, metadata } = await contentModule().then();
 
 		const imageModules = import.meta.glob(

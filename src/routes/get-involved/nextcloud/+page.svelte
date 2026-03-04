@@ -53,7 +53,7 @@
 
 	<div class="p-2">
 		<iframe width="100%" height="750" src="https://share.mayfirst.org/apps/calendar/embed/rQ4iPFZf4smD47tP" 
-			scrolling="no" title="BR DSA's Calendar"></iframe>
+			scrolling="no" title="BRDSA's Calendar"></iframe>
 	</div>
 
 	<div class="flex justify-center p-2">

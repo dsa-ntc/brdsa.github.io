@@ -10,6 +10,19 @@ export function slugToPath(slug: string): string {
 	return `/src/lib/posts/${slug}.md`;
 }
 
+// Find the actual file path for a given slug (handles custom slug frontmatter overrides)
+export function findPathForSlug(targetSlug: string): string | null {
+	const paths = import.meta.glob("/src/lib/posts/*.md", { eager: true });
+	for (const [path, file] of Object.entries(paths)) {
+		if (file && typeof file === "object" && "metadata" in file) {
+			const metadata = file.metadata as PostMetadata;
+			const slug = metadata.slug || pathToSlug(path);
+			if (slug === targetSlug) return path;
+		}
+	}
+	return null;
+}
+
 // Get all post modules (lazy-loaded for dynamic imports)
 export function getPostModules(): PostModules {
 	return import.meta.glob("/src/lib/posts/*.md") as PostModules;

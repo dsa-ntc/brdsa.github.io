@@ -4,7 +4,8 @@
 	import Prose from "$lib/components/Prose.svelte";
 	import { getSummary } from "$lib/recipeUtils.js";
 	let { data } = $props();
-	const { post, hero } = data;
+	let post = $derived(data.post);
+	let hero = $derived(data.hero);
 </script>
 
 <svelte:head>

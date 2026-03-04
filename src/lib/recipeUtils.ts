@@ -12,6 +12,19 @@ export function slugToPath(slug: string): string {
 	return `/src/lib/posts/recipes/${slug}.md`;
 }
 
+// Find the actual file path for a given slug (handles custom slug frontmatter overrides)
+export function findPathForSlug(targetSlug: string): string | null {
+	const paths = import.meta.glob("/src/lib/posts/recipes/*.md", { eager: true });
+	for (const [path, file] of Object.entries(paths)) {
+		if (file && typeof file === "object" && "metadata" in file) {
+			const metadata = file.metadata as recipe;
+			const slug = metadata.slug || pathToSlug(path);
+			if (slug === targetSlug) return path;
+		}
+	}
+	return null;
+}
+
 export function getRecipeModules(): recipeModules {
 	return import.meta.glob("/src/lib/posts/recipes/*.md") as recipeModules;
 }

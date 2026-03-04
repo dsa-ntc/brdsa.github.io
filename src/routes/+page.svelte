@@ -13,7 +13,7 @@
 		day: "numeric"
 	};
 	let { data }: PageProps = $props();
-	const { title } = data;
+	let title = $derived(data.title);
 	const description = "Home page for Baton Rouge DSA";
 </script>
 
@@ -52,7 +52,7 @@
 		<aside>
 			<enhanced:img
 				src={foodDistribution}
-				alt="BR DSA members distribute food"
+				alt="BRDSA members distribute food"
 				class="object-scale-down"
 			/>
 		</aside>

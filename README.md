@@ -13,23 +13,79 @@ To add new pages (eg. `/about`, `/get-involved`), add a folder under `src/routes
 
 ### Adding posts
 
-Markdown files under `src/lib/posts` will be served as independent pages under the `/blog/[slug]` route, where the slug is the filename of the post. 
+Markdown files under `src/lib/posts` will be served as independent pages under the `/blog/[slug]` route. There are a few ways to submit a post:
 
-At the top of each markdown file is a block of frontmatter. These are properties that we use to help render the page. The `title` entry is **required**, while the others are optional but recommended.
+| Method | Best for |
+|---|---|
+| **Email** [contact@brdsa.org](mailto:contact@brdsa.org) | Anyone — just send your text and a maintainer will handle publishing |
+| **GitHub issue** ([post submission template](https://github.com/dsa-ntc/brdsa.github.io/issues/new?template=post-submission.yml)) | If you have a GitHub account but don't want to deal with files or branches |
+| **GitHub web editor** | If you're comfortable with GitHub and want to submit a pull request directly |
+| **Local development** | For contributors who want to preview changes before submitting (see `HACKING.md`) |
 
-The `hidden` property is used to prevent the post from appearing in the list of posts at `/blog`.
+#### Filename convention
+
+Name your file `YYYY-MM-DD-your-title.md` (e.g. `2026-04-15-may-day-march.md`). The full filename (without `.md`) becomes the URL slug, so this example would be served at `/blog/2026-04-15-may-day-march`. Post sort order in the listing is controlled by the `date` frontmatter field, not the filename.
+
+#### Adding a post via the GitHub web editor
+
+1. Go to [`src/lib/posts/`](https://github.com/dsa-ntc/brdsa.github.io/tree/main/src/lib/posts) in the repository.
+2. Click **Add file → Create new file**.
+3. Name the file following the convention above.
+4. Paste in frontmatter (see below) followed by your post body in [Markdown](https://www.markdownguide.org/basic-syntax/).
+5. Scroll down to **Commit changes**, select **Create a new branch**, give the branch a name like `post/may-day-march`, and click **Propose changes**.
+6. Open the pull request. A maintainer will review and merge it.
+
+If you want to add an image, see [Adding images to a post](#adding-images-to-a-post) below before committing.
+
+#### Frontmatter reference
+
+Every post starts with a YAML frontmatter block between `---` lines. `title` is the only required field; the rest are optional but recommended.
+
+| Field | Required | Description |
+|---|---|---|
+| `title` | **Yes** | Displayed as the page heading and in post listings |
+| `date` | Recommended | ISO date (`YYYY-MM-DD`); controls sort order in `/blog` |
+| `description` | Recommended | 1–2 sentences shown in post listings and social/SEO previews |
+| `author` | Recommended | Display name(s) |
+| `imageUrl` | Optional | Filename only (e.g. `my-photo.jpg`); file must be in `src/lib/images/` (gets enhanced processing) |
+| `imageDescription` | Required if `imageUrl` is set | Alt text — describe what is in the image for screen readers |
+| `hidden` | Optional | Set to `true` to hide the post from `/blog` (useful for drafts) |
+| `slug` | Optional | Override the URL slug; defaults to the full filename without `.md` |
+| `tags` | Optional | Array of tags, e.g. `["labor", "housing"]` |
+
+#### Complete example
+
+```markdown
+---
+title: May Day March 2026
+date: 2026-05-01
+description: Join us on the streets for International Workers Day. Details inside.
+imageUrl: may-day-2026.jpg
+imageDescription: A crowd marching with red DSA flags on a sunny street
+author: Jane D.
+---
+
+Join us this May Day as we take to the streets to seize the means of production and distribution...
+```
+
+#### Adding images to a post
+
+There are two ways to include images in a post, and they use different folders:
+
+**Header image (`imageUrl` frontmatter)** — place the file in `src/lib/images/`. The post layout loads it through the SvelteKit enhanced image pipeline, so it gets converted to modern formats and resized automatically. Only the filename goes in the frontmatter:
 
 ```yaml
----
-title: Speech at Inauguration Day Rally 2025
-date: 2025-01-20
-description: This speech was given on January 20, 2025 by BRDSA member Jacob Newsom outside the Governor's mansion.
-imageUrl: Inaug2025speechphoto.jpg
-imageDescription: Jacob Newsom speaking outside the Governor's mansion
-author: Jacob N
-hidden: false
----
+imageUrl: may-day-2026.jpg
+imageDescription: A crowd marching with red DSA flags on a sunny street
 ```
+
+**Inline images in the post body** — place the file in `src/static/images/` and reference it with a root-relative path in your markdown:
+
+```markdown
+![A crowd marching with red flags](/images/may-day-2026.jpg)
+```
+
+These are served as plain static files with no processing. To upload via the GitHub web editor, navigate to the appropriate folder, click **Add file → Upload files**, then reference the file as shown above.
 
 #### Adding recipes
 
@@ -48,9 +104,37 @@ feeds: 50
 
 ### Adding images
 
-Put any images you want to add in `src/lib/images`. To make the page more performant, we use [SvelteKit enhanced images](https://svelte.dev/docs/kit/images#sveltejs-enhanced-img). You don't have to do this, but it helps, especially if you're using images directly in a `.svelte` file. See `src/routes/about/+page.svelte` for an example of this. 
+There are two places to put images, and which one you use depends on how the image will be referenced.
 
-If you're adding images directly inside markdown, it seems we can't use enhanced images there, so you'd do it the "old fashioned way" instead. Add your images to `src/static/images` and reference them in markdown as `/images/my-image.jpg`.
+#### `src/lib/images/` — enhanced images for `.svelte` files
+
+Images here are processed by Vite at build time: they get converted to modern formats (avif, webp) and resized for different screens. This is good for performance but requires importing the image in a `.svelte` file.
+
+```svelte
+<script>
+  import hero from "$lib/images/my-photo.jpg?enhanced";
+</script>
+
+<enhanced:img src={hero} alt="Description of the photo" />
+```
+
+See [src/routes/about/+page.svelte](src/routes/about/+page.svelte) for a working example. These images **cannot** be referenced by URL path — they are bundled by Vite under a hashed filename.
+
+The `imageUrl` frontmatter field on blog posts also uses this path: `+page.ts` loads the image from `src/lib/images/` using the same enhanced glob, so header images on posts get full optimization even though they're specified in markdown frontmatter.
+
+#### `src/static/images/` — plain static assets
+
+Images here are served as-is at `/images/filename.jpg` with no processing. Use this for:
+
+- Images in markdown posts (mdsvex runs before Vite's image pipeline, so enhanced images don't work there)
+- CSS `background-image: url(...)` references
+- Any image that needs a stable, predictable URL
+
+```markdown
+![Description of the photo](/images/my-photo.jpg)
+```
+
+The favicon, `robots.txt`, and similar files live in `src/static/` (not `src/static/images/`) for the same reason — they need to be at a known URL path.
 
 ### Changing styles
 
