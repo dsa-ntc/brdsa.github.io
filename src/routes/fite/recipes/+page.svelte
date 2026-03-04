@@ -1,15 +1,10 @@
 <script lang="ts">
 	import HeadSummary from "$lib/components/HeadSummary.svelte";
 	import PaletteHeader from "$lib/components/PaletteHeader.svelte";
+	import Posts from "$lib/components/Posts.svelte";
 	import Prose from "$lib/components/Prose.svelte";
-	import { getSummary } from "$lib/recipeUtils";
 	let { data } = $props();
 
-	const options: Intl.DateTimeFormatOptions = {
-		year: "numeric",
-		month: "long",
-		day: "numeric"
-	};
 	const description = "FITE Recipes and Guides";
 	const title = "FITE Cookbook";
 </script>
@@ -29,23 +24,5 @@
 			</p>
 		</Prose>
 	</div>
-	<div class="flex justify-center">
-		<Prose>
-			<nav class="flex grow p-2">
-				<ul class="flex grow flex-col gap-3">
-					{#each data.posts as post}
-						<li class="flex flex-col">
-							<a href="/fite/recipes/{post.slug}" class="text-4xl underline decoration-dsa-red"
-								>{post.title}</a
-							>
-							{#if post.date}
-								<time>{new Date(post.date).toLocaleDateString("en-us", options)}</time>
-							{/if}
-							<span>{getSummary(post)}</span>
-						</li>
-					{/each}
-				</ul>
-			</nav>
-		</Prose>
-	</div>
+	<Posts {data} basePath="/fite/recipes" />
 </article>
