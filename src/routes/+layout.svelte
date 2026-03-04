@@ -28,9 +28,8 @@
 		popover?.addEventListener("toggle", (e) => {
 			if (e.newState === "open") {
 				const searchInput = document.getElementById("searchInput");
-				searchInput?.focus();
-				//Experimental option to force browser to show its focus. 
-				searchInput?.focus({ focusVisible: true});
+				// focusVisible forces the browser to show its focus ring (not yet in TS types)
+				searchInput?.focus({ focusVisible: true } as FocusOptions);
 			} else {
 				searchTerm = "";
 			}
