@@ -57,7 +57,7 @@
 			<Fite />
 		</Prose>
 		<aside class="lg:pr-2">
-			<enhanced:img src={fiteTent} alt="BR DSA members distribute food" />
+			<enhanced:img src={fiteTent} alt="BRDSA members distribute food" />
 		</aside>
 	</div>
 </article>

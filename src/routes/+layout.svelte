@@ -64,7 +64,7 @@
 	<div class="ml-1 hidden h-15 w-15 rounded-full p-0.5 transition hover:scale-105 @md:block">
 		<a href="/" title="Go to the BRDSA home page">
 			<span class="hidden">Go to the home page</span>
-			<enhanced:img src={logo} alt="BR DSA logo" />
+			<enhanced:img src={logo} alt="BRDSA logo" />
 		</a>
 	</div>
 	<nav
@@ -87,7 +87,7 @@
 					><img src={searchIcon} alt="Search Icon" class="searchImage dark:darkIcon" />
 					<div
 						id="searchUnderline"
-						class="h-[2px] w-0 bg-dsa-red transition-all duration-500 group-hover:w-full dark:bg-dsa-red1"
+						class="h-0.5 w-0 bg-dsa-red transition-all duration-500 group-hover:w-full dark:bg-dsa-red1"
 					></div>
 				</button>
 			</li>
@@ -97,7 +97,7 @@
 					<a href={link} class="group font-bold text-dsa-red dark:text-dsa-red1" title={caption}>
 						{title}
 						<div
-							class="h-[2px] w-0 bg-dsa-red transition-all duration-500 group-hover:w-full dark:bg-dsa-red1"
+							class="h-0.5 w-0 bg-dsa-red transition-all duration-500 group-hover:w-full dark:bg-dsa-red1"
 						></div>
 					</a>
 				</li>

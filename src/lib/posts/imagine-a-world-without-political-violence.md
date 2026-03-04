@@ -26,8 +26,6 @@ ICE, the US’s gestapo, is a non-solution to a non-problem. It is making our al
 
 A world without prisons, without detention centers, without poverty is possible. It will take a lot of work, but it is possible. If those deploring "political violence" are serious about stopping it, let’s start with abolishing ICE.
 
-[Join the Baton Rouge Democratic Socialists of America](https://act.dsausa.org/donate/membership/?source=Baton%20Rouge). A better world is possible. Together, we can make it real.🌹
-
 ## References
 
 <ol>

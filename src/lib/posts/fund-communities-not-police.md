@@ -42,8 +42,6 @@ Policing cannot solve the social problems in Baton Rouge. The people here are st
 
 You can make your voice heard by <a href="https://actionnetwork.org/letters/tell-mayor-edwards-fund-our-community-not-more-police?source=fund-communities-not-police" target="_blank" >sending a message to Mayor-President Edwards</a>. 
 
-<a href="https://act.dsausa.org/donate/membership/?source=Baton%20Rouge" target="_blank">Join the Baton Rouge Democratic Socialists of America</a>. A better world is possible. Together, we can make it real.🌹
-
 ## References 
 
 
