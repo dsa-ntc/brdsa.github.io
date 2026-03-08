@@ -59,7 +59,7 @@
 			height="600"
 			frameborder="0"
 			scrolling="no"
-			title="BR DSA's Google Calendar"
+			title="BRDSA's Google Calendar"
 		></iframe>
 	</div>
 

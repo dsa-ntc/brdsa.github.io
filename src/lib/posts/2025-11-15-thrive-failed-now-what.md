@@ -39,4 +39,4 @@ In the future, East Baton Rouge Parish residents should push for a more particip
 
 The way to win your demands is not by waiting for establishment leaders to act, as they have failed to do for many years now. The activists on social media and grassroots community organizations need to unite to make sure their voices are heard. It is vital that we, the people, shape the narrative of why this vote failed. The best way to do that is to organize together.
 
-The Baton Rouge Democratic Socialists of America (BR DSA) is working to build a true democracy in the Greater Baton Rouge area. You should join the movement for a better world at [dsausa.org/join](https://dsausa.org/join)
+The Baton Rouge Democratic Socialists of America (BRDSA) is working to build a true democracy in the Greater Baton Rouge area.

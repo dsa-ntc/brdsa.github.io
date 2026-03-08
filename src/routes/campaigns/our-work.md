@@ -1,4 +1,4 @@
-We're building a [page of relevant resources here](/campaigns/resources).
+BRDSA organizes tenants, supports workers, builds mutual aid networks, and stands in solidarity with liberation movements at home and abroad. We're building a [page of relevant resources here](/campaigns/resources).
 
 ## 🚌🚇Reliable Public Transit 
 
@@ -19,4 +19,4 @@ The Chevron corporation supplies Israel’s war machine with energy and massive 
 
 ## 🏠⚖️ Tenant Rights 
 
-Starting in 2024, Baton Rouge DSA spent over a year of organizing Tenants' Rights Town Halls, distributing literature, knocking on doors, and building relationships among neighbors. We believe that by working together, tenants can take back control of their homes from the wealthy elites who own everything and charge us perpetual rent while contributing nothing. Landlords are organized, tenants should be too. In 2026, in order to focus on other work, BR DSA voted to deprioritize this campaign. If you are interested in restarting this campaign [join DSA](https://go.dsausa.org/batonrouge) and bring your ideas to a monthly chapter meeting!
+Starting in 2024, Baton Rouge DSA spent over a year of organizing Tenants' Rights Town Halls, distributing literature, knocking on doors, and building relationships among neighbors. We believe that by working together, tenants can take back control of their homes from the wealthy elites who own everything and charge us perpetual rent while contributing nothing. Landlords are organized, tenants should be too. In 2026, in order to focus on other work, BRDSA voted to deprioritize this campaign. If you are interested in restarting this campaign [join DSA](https://go.dsausa.org/batonrouge) and bring your ideas to a monthly chapter meeting!

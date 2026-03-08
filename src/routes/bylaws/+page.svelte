@@ -2,7 +2,6 @@
 	import PaletteHeader from "$lib/components/PaletteHeader.svelte";
 	import Prose from "$lib/components/Prose.svelte";
 	import About from "./bylaws.md";
-	import hero from "$lib/images/Debs.jpg?enhanced";
 	import HeadSummary from "$lib/components/HeadSummary.svelte";
 
 	const title = "Bylaws of Baton Rouge DSA";

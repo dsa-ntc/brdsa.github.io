@@ -78,7 +78,13 @@ They may seem weird at first, but they're nice once they click.
 Copied and modified this person's GH workflow, updated the Node version I think?
 https://github.com/khromov/derivault/blob/main/.github/workflows/build.yml
 
-see `.github/deploy.yml`.
+See `.github/workflows/deploy.yml`.
+
+#### Opening a pull request
+
+Once your changes are on a branch, open a pull request (PR) against `main`. The CI workflow will automatically build the site and run checks. A maintainer will review and merge when it looks good.
+
+For content-only changes (new posts, text edits) you don't need local dev at all — the GitHub web editor is fine. For structural changes (new routes, component edits, dependency updates) it's worth running `npm run build` locally first to catch type errors or build failures before pushing.
 
 ### Setting up the blog route
 
@@ -90,7 +96,7 @@ especially if you're getting a weird type error that seems wrong, give a shot ju
 
 ### Quirks with images
 
-for main content included in a page, we use `enhanced:img` wherever possible, including with a hero image optionall specified in the frontmatter of blog posts. however, it s
+For main content included in a `.svelte` page, we use `enhanced:img` wherever possible, including with a hero image optionally specified in the frontmatter of blog posts. However, `enhanced:img` does not work inside markdown files — mdsvex processes the markdown before SvelteKit's image pipeline runs, so enhanced image transforms are never applied. For images inside a markdown post, place the file in `src/static/images/` and reference it with a root-relative path like `/images/my-photo.jpg`.
 
 ### Quirks with Apache
 

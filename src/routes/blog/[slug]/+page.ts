@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
 import type { EntryGenerator, PageLoad } from './$types';
-import { getPosts, getPostModules, slugToPath } from '$lib/postUtils';
+import { getPosts, getPostModules, findPathForSlug } from '$lib/postUtils';
 import type { Picture } from 'vite-imagetools';
 
 // SvelteKit pages are expected to export this load function
@@ -9,7 +9,9 @@ import type { Picture } from 'vite-imagetools';
 export const load: PageLoad = (async ({ params }) => {
 	try {
 		const posts = getPostModules();
-		const contentModule = posts[slugToPath(params.slug)];
+		const filePath = findPathForSlug(params.slug);
+		if (!filePath) throw new Error('Post not found');
+		const contentModule = posts[filePath];
 		const { default: component, metadata } = await contentModule().then();
 
 
@@ -23,17 +25,17 @@ export const load: PageLoad = (async ({ params }) => {
 			}
 		);
 
-		let match: any | undefined = undefined;
+		let match: { default?: Picture } | undefined = undefined;
 		let hero: Picture | undefined;
 		if (metadata.imageUrl) {
 			match = imageModules[`/src/lib/images/${metadata.imageUrl}`];
-			// the typescript compiler says there's no default on match, but the code only works with it, so...
-			if (match) hero = match.default;
+			if (match) hero = (match as { default?: Picture }).default;
 		}
 
 		return {
 			post: {
-				...metadata
+				...metadata,
+				slug: params.slug
 			},
 			hero,
 			component
