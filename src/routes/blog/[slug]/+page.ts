@@ -25,12 +25,11 @@ export const load: PageLoad = (async ({ params }) => {
 			}
 		);
 
-		let match: any | undefined = undefined;
+		let match: { default?: Picture } | undefined = undefined;
 		let hero: Picture | undefined;
 		if (metadata.imageUrl) {
 			match = imageModules[`/src/lib/images/${metadata.imageUrl}`];
-			// the typescript compiler says there's no default on match, but the code only works with it, so...
-			if (match) hero = match.default;
+			if (match) hero = (match as { default?: Picture }).default;
 		}
 
 		return {

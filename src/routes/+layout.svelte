@@ -10,12 +10,14 @@
 
 	import { onMount } from "svelte";
 	import { createPostsIndex, searchPostsIndex } from "$lib/search";
+	import type { SearchResult } from "$lib/types";
 	import pageIcon from "$lib/images/file-lines-regular-full-white.svg";
 	import foodIcon from "$lib/images/bowl-rice-solid-full-white.svg";
+	import Link from "$lib/components/Link.svelte";
 
 	let search: "loading" | "ready" = $state("loading");
 	let searchTerm = $state("");
-	let results: any[] = $state([]);
+	let results: SearchResult[] = $state([]);
 
 	onMount(async () => {
 		const posts = await fetch("/search.json").then((res) => res.json());
@@ -23,7 +25,7 @@
 		search = "ready";
 	});
 
-	const watchPopoverToggle = (e: Event) => {
+	const watchPopoverToggle = () => {
 		const popover = document.getElementById("searchbox");
 		popover?.addEventListener("toggle", (e) => {
 			if (e.newState === "open") {
@@ -61,10 +63,10 @@
 
 <header class="@container flex items-center">
 	<div class="ml-1 hidden h-15 w-15 rounded-full p-0.5 transition hover:scale-105 @md:block">
-		<a href="/" title="Go to the BRDSA home page">
+		<Link href="/" title="Go to the BRDSA home page">
 			<span class="hidden">Go to the home page</span>
 			<enhanced:img src={logo} alt="BRDSA logo" />
-		</a>
+		</Link>
 	</div>
 	<nav
 		title="main pages"
@@ -72,8 +74,8 @@
 	>
 		<ul class="flex flex-wrap gap-x-5 px-2">
 			<li class="@md:hidden">
-				<a href="/" class="font-bold text-dsa-red dark:text-dsa-red1" title="go to the home page"
-					>Home</a
+				<Link href="/" class="font-bold text-dsa-red dark:text-dsa-red1" title="go to the home page"
+					>Home</Link
 				>
 			</li>
 			{#if search === "ready"}
@@ -91,14 +93,14 @@
 				</button>
 			</li>
 			{/if}
-			{#each data.sections as { title, link, caption }}
+			{#each data.sections as { title, link, caption } (link)}
 				<li>
-					<a href={link} class="group font-bold text-dsa-red dark:text-dsa-red1" title={caption}>
+					<Link href={link} class="group font-bold text-dsa-red dark:text-dsa-red1" title={caption}>
 						{title}
 						<div
 							class="h-0.5 w-0 bg-dsa-red transition-all duration-500 group-hover:w-full dark:bg-dsa-red1"
 						></div>
-					</a>
+					</Link>
 				</li>
 			{/each}
 		</ul>
@@ -126,21 +128,24 @@
 				<div class="results">
 					{#if results}
 						<ul>
-							{#each results as result}
-								<li>
-									<a href={result.slug} onclick={clearSearch}>
-										<h3>
-											{#if "Statement" == result.category}
-												<img src={pageIcon} alt="Page Icon" />
-											{:else}
-												<img src={foodIcon} alt="Food Icon" />
-											{/if}
-											<b>{@html result.category}:</b>
-											{@html result.title}
-										</h3>
-										<p>{@html result.text}</p>
-									</a>
-								</li>
+							{#each results as result (result.slug)}
+							<li>
+								<Link href={result.slug} onclick={clearSearch}>
+									<h3>
+										{#if "Statement" == result.category}
+										<img src={pageIcon} alt="Page Icon" />
+										{:else}
+										<img src={foodIcon} alt="Food Icon" />
+										{/if}
+										<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+										<b>{@html result.category}:</b>
+										<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+										{@html result.title}
+									</h3>
+									<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+									<p>{@html result.text}</p>
+								</Link>
+							</li>
 							{/each}
 						</ul>
 					{/if}

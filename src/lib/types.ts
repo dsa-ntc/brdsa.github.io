@@ -27,8 +27,15 @@ export interface recipe extends PostMetadata {
 export interface SearchItem  {
 	category?: string;
 	title?: string;
-	slug?: string;
+	slug: string;
 	text?: string;
+}
+
+export interface SearchResult {
+	slug: string;
+	category: string;
+	title: string;
+	text: string[];
 }
 
 export type PostModules = Record<

@@ -1,4 +1,4 @@
-We're building a [page of relevant resources here](/campaigns/resources).
+BRDSA organizes tenants, supports workers, builds mutual aid networks, and stands in solidarity with liberation movements at home and abroad. We're building a [page of relevant resources here](/campaigns/resources).
 
 ## 🚌🚇Reliable Public Transit 
 

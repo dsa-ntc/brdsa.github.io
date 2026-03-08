@@ -35,6 +35,13 @@ body:
       placeholder: "2026-05-01"
 
   - type: input
+    id: slug
+    attributes:
+      label: URL slug (optional)
+      description: "The path this post will be served at, e.g. `may-day-2026` → `/blog/may-day-2026`. Leave blank and the maintainer will derive one from the title."
+      placeholder: "may-day-2026"
+
+  - type: input
     id: image
     attributes:
       label: Header image (optional)

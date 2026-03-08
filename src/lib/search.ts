@@ -1,5 +1,5 @@
 import { Index } from "flexsearch";
-import type { SearchItem } from "$lib/types";
+import type { SearchItem, SearchResult } from "$lib/types";
 
 let postsIndex: Index;
 let posts: SearchItem[];
@@ -15,7 +15,7 @@ export function createPostsIndex(data: SearchItem[]) {
 	posts = data;
 }
 
-export function searchPostsIndex(searchTerm: string) {
+export function searchPostsIndex(searchTerm: string): SearchResult[] {
 	const match = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 	const results = postsIndex.search(match);
 

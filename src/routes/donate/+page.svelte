@@ -2,6 +2,7 @@
 	import HeadSummary from "$lib/components/HeadSummary.svelte";
 	import PaletteHeader from "$lib/components/PaletteHeader.svelte";
 	import Prose from "$lib/components/Prose.svelte";
+	import Link from "$lib/components/Link.svelte";
 	const description = "Information about donating to Baton Rouge DSA";
 	const title = "Donate to BRDSA";
 </script>
@@ -18,8 +19,8 @@
 			<p
 				class="border-l-4 border-l-dsa-red p-2 dark:border-l-dsa-red1 dark:bg-dsa-black1 dark:text-white"
 			>
-				Want to see where your money goes? Come to <a href="/get-involved"
-					>our next chapter meeting</a
+				Want to see where your money goes? Come to <Link href="/get-involved"
+					>our next chapter meeting</Link
 				> and see what we're up to!
 			</p>
 		</Prose>
