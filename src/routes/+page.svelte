@@ -1,17 +1,12 @@
 <script lang="ts">
 	import HeadSummary from "$lib/components/HeadSummary.svelte";
 	import PaletteHeader from "$lib/components/PaletteHeader.svelte";
+	import Link from "$lib/components/Link.svelte";
 	import Posts from "$lib/components/Posts.svelte";
 	import Prose from "$lib/components/Prose.svelte";
 	import hero from "$lib/images/Header_ABetterWorld_Louisiana.jpeg?enhanced";
 	import foodDistribution from "$lib/images/baton-rouge-dsa-cover-image.jpg?enhanced";
 	import type { PageProps } from "./$types";
-	import About from "./about/about.md";
-	const options: Intl.DateTimeFormatOptions = {
-		year: "numeric",
-		month: "long",
-		day: "numeric"
-	};
 	let { data }: PageProps = $props();
 	let title = $derived(data.title);
 	const description = "Home page for Baton Rouge DSA";
@@ -47,7 +42,13 @@
 
 	<div class="flex flex-col bg-white/90 @5xl:flex-row @5xl:justify-center dark:bg-dsa-black/90">
 		<Prose>
-			<About />
+			<p>
+				The Baton Rouge Chapter of the Democratic Socialists of America is a working class organization fighting for the people of Greater Baton Rouge. We believe the economy and society should be run democratically to meet human needs, not to make profits.
+			</p>
+			<p class="flex flex-col gap-3">
+				<Link href="/about">Learn more about who we are →</Link> 
+				<Link href="/campaigns">See our work →</Link>
+			</p>
 		</Prose>
 		<aside>
 			<enhanced:img

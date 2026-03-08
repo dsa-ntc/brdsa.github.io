@@ -1,5 +1,6 @@
 <script lang="ts">
 	import HeadSummary from "$lib/components/HeadSummary.svelte";
+	import Link from "$lib/components/Link.svelte";
 	import PaletteHeader from "$lib/components/PaletteHeader.svelte";
 	import Posts from "$lib/components/Posts.svelte";
 	import Prose from "$lib/components/Prose.svelte";
@@ -20,7 +21,7 @@
 			<p
 				class="border-l-4 border-l-dsa-red p-2 dark:border-l-dsa-red1 dark:bg-dsa-black1 dark:text-white"
 			>
-				This is a list of recipes submitted by <a href="/fite">FITE</a> contributors.
+				This is a list of recipes submitted by <Link href="/fite">FITE</Link> contributors.
 			</p>
 		</Prose>
 	</div>
