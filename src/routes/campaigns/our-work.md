@@ -15,7 +15,7 @@ The Chevron corporation supplies Israel’s war machine with energy and massive 
 
 ## 🥖🌹 FITE 
 
-[Famine Is The Enemy (FITE)](/fite/) is an independent mutual aid organization run mostly by Baton Rouge DSA members. It serves food each Saturday from 12-1pm at N 14th Street Park. FITE is interested in expanding its work into clothes and healthcare distribution as well as embracing the true meaning of mutual aid through community education and empowerment. [Donate and learn more here.](/fite/)
+[Famine Is The Enemy (FITE)](/fite/) is an independent mutual aid organization run mostly by Baton Rouge DSA members. It serves food each Saturday from 12-1pm at [1410 Convention Street](https://maps.app.goo.gl/Z27zpujqKZCdw9fb9). FITE is interested in expanding its work into clothes and healthcare distribution as well as embracing the true meaning of mutual aid through community education and empowerment. [Donate and learn more here.](/fite/)
 
 ## 🏠⚖️ Tenant Rights 
 
