@@ -42,7 +42,7 @@
 
 	<div class="flex justify-center">
 		<Prose>
-			<p class="p-2 dark:text-white">
+			<p class="p-2 dark:text-white text-2xl">
 				Want to stay in the loop? <a
 					href="https://actionnetwork.org/forms/join-brdsa"
 					target="_blank">Join our email list</a

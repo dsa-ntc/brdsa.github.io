@@ -107,7 +107,6 @@
 	</nav>
 </header>
 <main class="flex grow">
-	
 		<div id="searchbox" popover="auto">
 			<div class="search">
 				<p class="instructions">
