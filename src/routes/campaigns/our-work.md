@@ -12,7 +12,6 @@ BRDSA has been developing relationships with local immigrant advocacy organizati
 
 The Chevron corporation supplies Israel’s war machine with energy and massive tax money via the operation and co-ownership of the major Israeli-claimed fossil gas fields in the Mediterranean. Both Chevron and Israel enrich themselves from these projects – continuing a pattern of ongoing colonial violence, apartheid, and climate degradation. We echo the call from the Palestinian Boycott, Divestment, and Sanctions (BDS) movement along with DSA chapters across the country to build pressure on Chevron through boycott and divestment campaigns until it no longer conducts business that gravely violates Palestinian human rights and benefits Israel’s genocidal regime of settler-colonial apartheid. 
 
-
 [Click here to sign the Boycott Chevron petition!](https://actionnetwork.org/letters/boycottchevron?source=direct_link&referrer=group-baton-rouge-dsa)
 
 <h2>🥖🌹 FITE</h2>
