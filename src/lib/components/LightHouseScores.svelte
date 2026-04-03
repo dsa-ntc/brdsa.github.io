@@ -88,7 +88,7 @@
 
 <em>click to view results for page</em>
 <div class="my-2 flex flex-wrap justify-evenly gap-x-4 gap-y-2 sm:flex-row">
-	{#each pages as page}
+	{#each pages as page (page)}
 		<button
 			class="w-fit rounded-md border-2 border-dsa-red bg-dsa-black2 px-0.5 text-sm font-bold dark:text-white"
 			onclick={() => changePage(page)}

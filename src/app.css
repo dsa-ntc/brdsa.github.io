@@ -12,6 +12,10 @@
 }
 
 @layer base {
+	footer {
+		padding-bottom: env(safe-area-inset-bottom);
+	}
+
 	article {
 		@apply @container flex grow flex-col bg-white/90 dark:bg-dsa-black/90;
 	}

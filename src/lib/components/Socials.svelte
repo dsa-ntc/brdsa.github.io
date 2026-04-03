@@ -11,55 +11,55 @@ The Socials component renders svg icons and links.
 
 <ul class="flex items-center justify-evenly gap-0.5 py-1 md:justify-end md:gap-3">
 	<li>
-		<a href={socials.Instagram}>
+		<a href={socials.Instagram} target="_blank" rel="external noopener noreferrer">
 			{@render instagram()}
 			<span class="hidden">Instagram</span>
 		</a>
 	</li>
 	<li>
-		<a href={socials.Bluesky}>
+		<a href={socials.Bluesky} target="_blank" rel="external noopener noreferrer">
 			{@render bluesky()}
 			<span class="hidden">Bluesky</span>
 		</a>
 	</li>
 	<li>
-		<a href={socials.Facebook}>
+		<a href={socials.Facebook} target="_blank" rel="external noopener noreferrer">
 			{@render facebook()}
 			<span class="hidden">Facebook</span>
 		</a>
 	</li>
 	<li>
-		<a href={socials.Twitter}>
+		<a href={socials.Twitter} target="_blank" rel="external noopener noreferrer">
 			{@render twitter()}
 			<span class="hidden">Twitter</span>
 		</a>
 	</li>
 	<li>
-		<a href={socials.GitHub}>
+		<a href={socials.GitHub} target="_blank" rel="external noopener noreferrer">
 			{@render github()}
 			<span class="hidden">GitHub</span>
 		</a>
 	</li>
 	<li>
-		<a href={socials.EmailUs}>
+		<a href={socials.EmailUs} target="_blank" rel="external noopener noreferrer">
 			{@render send()}
 			<span class="hidden">Email us</span>
 		</a>
 	</li>
 	<li>
-		<a href={socials.Newsletter}>
+		<a href={socials.Newsletter} target="_blank" rel="external noopener noreferrer">
 			{@render mail()}
 			<span class="hidden">Newsletter </span>
 		</a>
 	</li>
 	<li>
-		<a href={`${config.location}/rss.xml`}>
+		<a href={`${config.location}/rss.xml`} rel="external">
 			{@render rss()}
 			<span class="hidden">RSS feed</span>
 		</a>
 	</li>
 	<li>
-		<a href={`${config.location}/sitemap.xml`}>
+		<a href={`${config.location}/sitemap.xml`} rel="external">
 			{@render sitemap()}
 			<span class="hidden">Sitemap</span>
 		</a>

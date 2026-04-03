@@ -2,7 +2,6 @@
 	import PaletteHeader from "$lib/components/PaletteHeader.svelte";
 	import Prose from "$lib/components/Prose.svelte";
 	import Fite from "./fite.md";
-	import hero from "$lib/images/FITE04-2025.png?enhanced";
 	import mlk from "$lib/images/Martin_Luther_King_Jr.jpg?enhanced";
 	import HeadSummary from "$lib/components/HeadSummary.svelte";
 	const description = "Information about our food distribution project Famine is the Enemy (FITE)";
@@ -57,7 +56,7 @@
 			<Fite />
 		</Prose>
 		<aside class="lg:pr-2">
-			<enhanced:img src={fiteTent} alt="BR DSA members distribute food" />
+			<enhanced:img src={fiteTent} alt="BRDSA members distribute food" />
 		</aside>
 	</div>
 </article>
