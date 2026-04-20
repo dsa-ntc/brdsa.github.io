@@ -1,4 +1,4 @@
-import { getRecipeModules, getRecipes, slugToPath } from '$lib/recipeUtils';
+import { getRecipeModules, getRecipes, findPathForSlug } from '$lib/recipeUtils';
 import { error } from '@sveltejs/kit';
 import type { Picture } from 'vite-imagetools';
 import type { EntryGenerator, PageLoad } from './$types';
@@ -9,7 +9,9 @@ import type { EntryGenerator, PageLoad } from './$types';
 export const load: PageLoad = (async ({ params }) => {
 	try {
 		const posts = getRecipeModules();
-		const contentModule = posts[slugToPath(params.slug)];
+		const filePath = findPathForSlug(params.slug);
+		if (!filePath) throw new Error('Recipe not found');
+		const contentModule = posts[filePath];
 		const { default: component, metadata } = await contentModule().then();
 
 		const imageModules = import.meta.glob(
@@ -22,12 +24,11 @@ export const load: PageLoad = (async ({ params }) => {
 			}
 		);
 
-		let match: any | undefined = undefined;
+		let match: { default?: Picture } | undefined = undefined;
 		let hero: Picture | undefined;
 		if (metadata.imageUrl) {
 			match = imageModules[`/src/lib/images/${metadata.imageUrl}`];
-			// the typescript compiler says there's no default on match, but the code only works with it, so...
-			if (match) hero = match.default;
+			if (match) hero = (match as { default?: Picture }).default;
 		}
 
 		return {

@@ -2,20 +2,21 @@
 	import HeadSummary from "$lib/components/HeadSummary.svelte";
 	import PaletteHeader from "$lib/components/PaletteHeader.svelte";
 	import Prose from "$lib/components/Prose.svelte";
+	import { config } from "$lib/config";
 	const options: Intl.DateTimeFormatOptions = {
 		year: "numeric",
 		month: "long",
 		day: "numeric"
 	};
 	let { data } = $props();
-	const { post, hero } = data;
-	const { title, description } = post;
+	let post = $derived(data.post);
+	let hero = $derived(data.hero);
 
 	// NOTE on weird date parsing https://stackoverflow.com/a/31732581
 </script>
 
 <svelte:head>
-	<HeadSummary {title} description={description ?? title} />
+	<HeadSummary title={post.title} description={post.description ?? post.title} />
 </svelte:head>
 
 <article>
@@ -39,7 +40,7 @@
 						{post.author} |
 						{#if post.date}
 							<em>
-								<time>{new Date(post.date.replace(/-/g, '\/').replace(/T.+/, '')).toLocaleDateString("en-us", options)}</time>
+								<time>{new Date(post.date.replace(/-/g, '/').replace(/T.+/, '')).toLocaleDateString("en-us", options)}</time>
 							</em>
 						{/if}
 					</p>
@@ -58,6 +59,13 @@
 	<div class="flex justify-center indent-article">
 		<Prose>
 			<data.component></data.component>
+		</Prose>
+	</div>
+	<div class="palette-sibling flex justify-center">
+		<Prose>
+			<p class="border-l-4 border-l-dsa-red p-2 dark:border-l-dsa-red1 dark:bg-dsa-black1 dark:text-white">
+				Want to get involved? <a href="{config.joinUrl}?source={post.slug}" rel="external">Join Baton Rouge DSA</a>
+			</p>
 		</Prose>
 	</div>
 </article>

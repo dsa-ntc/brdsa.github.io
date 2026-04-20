@@ -1,0 +1,56 @@
+name: Post submission
+description: Submit a blog post or statement for the BRDSA website
+title: "post: "
+labels: ["post submission"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The title of your post (roughly 50 characters or less)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description / abstract
+      description: 1–2 sentences summarizing the post. Shown in the blog listing and social previews.
+    validations:
+      required: true
+
+  - type: input
+    id: author
+    attributes:
+      label: Author(s)
+      description: Name or names to display on the post
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: Publish date
+      description: "Requested publish date (YYYY-MM-DD). Please allow at least one week for editorial review."
+      placeholder: "2026-05-01"
+
+  - type: input
+    id: slug
+    attributes:
+      label: URL slug (optional)
+      description: "The path this post will be served at, e.g. `may-day-2026` → `/blog/may-day-2026`. Leave blank and the maintainer will derive one from the title."
+      placeholder: "may-day-2026"
+
+  - type: input
+    id: image
+    attributes:
+      label: Header image (optional)
+      description: Link to an image or attach one below. Keep phone screens in mind — short, wide photos work best.
+
+  - type: textarea
+    id: content
+    attributes:
+      label: Post content
+      description: Paste the full post text here, or link to a Google Doc / other document.
+    validations:
+      required: true

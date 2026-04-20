@@ -2,6 +2,7 @@
 	import HeadSummary from "$lib/components/HeadSummary.svelte";
 	import PaletteHeader from "$lib/components/PaletteHeader.svelte";
 	import Prose from "$lib/components/Prose.svelte";
+	import Link from "$lib/components/Link.svelte";
 
 	import hero from "$lib/images/Emma_Goldman_seated.jpg?enhanced";
 	import Campaigns from "./our-work.md";
@@ -55,8 +56,8 @@
 			<p
 				class="border-l-4 border-l-dsa-red p-2 dark:border-l-dsa-red1 dark:bg-dsa-black1 dark:text-white"
 			>
-				If you'd like to take action to support these initiatives, please <a href="/get-involved"
-					>check out our calendar</a
+				If you'd like to take action to support these initiatives, please <Link href="/get-involved"
+					>check out our calendar</Link
 				> to see what we have planned
 			</p>
 		</Prose>

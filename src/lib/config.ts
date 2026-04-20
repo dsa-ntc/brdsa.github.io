@@ -5,10 +5,10 @@
 	description: 'Website for the Baton Rouge chapter of the Democratic Socialists of America (BRDSA)',
 	author: "BRDSA",
 	email: "contact@brdsa.org",
+	joinUrl: "https://go.dsausa.org/batonrouge",
 	// title is visible, link is link, caption is put in tooltip <a href={link} title={caption}>{title}</a>
 	headerLinks: [
 		{ title: 'About', link: '/about', caption:'Learn about our organization' },
-		{ title: 'Our Work', link: '/campaigns', caption:'Learn about what we do' },
 		{ title: 'Get Involved', link: '/get-involved', caption:'Learn how you can get involved' },
 		{ title: 'Donate', link: '/donate', caption:'Information about donating to BRDSA' },
 		{ title: 'Statements', link: '/blog', caption:'See our statements and posts' },
