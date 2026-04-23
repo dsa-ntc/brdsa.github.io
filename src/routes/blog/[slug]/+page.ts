@@ -9,7 +9,7 @@ import type { Picture } from 'vite-imagetools';
 export const load: PageLoad = (async ({ params }) => {
 	try {
 		const posts = getPostModules();
-		const filePath = findPathForSlug(params.slug);
+		const filePath = findPathForSlug(params.slug.toLowerCase());
 		if (!filePath) throw new Error('Post not found');
 		const contentModule = posts[filePath];
 		const { default: component, metadata } = await contentModule().then();
