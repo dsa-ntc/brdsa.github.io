@@ -4,7 +4,7 @@ import type { recipe, recipeModules } from "./types";
 
 // Convert file path to default slug (filename without extension)
 export function pathToSlug(path: string): string {
-	return path.replace("/src/lib/posts/recipes/", "").replace(".md", "");
+	return path.replace("/src/lib/posts/recipes/", "").replace(".md", "").toLowerCase();
 }
 
 // Convert slug back to file path
@@ -14,12 +14,13 @@ export function slugToPath(slug: string): string {
 
 // Find the actual file path for a given slug (handles custom slug frontmatter overrides)
 export function findPathForSlug(targetSlug: string): string | null {
+	const normalized = targetSlug.toLowerCase();
 	const paths = import.meta.glob("/src/lib/posts/recipes/*.md", { eager: true });
 	for (const [path, file] of Object.entries(paths)) {
 		if (file && typeof file === "object" && "metadata" in file) {
 			const metadata = file.metadata as recipe;
-			const slug = metadata.slug || pathToSlug(path);
-			if (slug === targetSlug) return path;
+			const slug = (metadata.slug || pathToSlug(path)).toLowerCase();
+			if (slug === normalized) return path;
 		}
 	}
 	return null;
@@ -40,7 +41,7 @@ export function getRecipes(includeHidden = false): recipe[] {
 			const metadata = file.metadata as recipe;
 
 			// Use custom slug from frontmatter, or fall back to filename
-			const slug = metadata.slug || pathToSlug(path);
+			const slug = (metadata.slug || pathToSlug(path)).toLowerCase();
 
 			// Check for duplicate slugs
 			if (seenSlugs.has(slug)) {
@@ -85,9 +86,9 @@ export async function getPostBySlug(targetSlug: string): Promise<recipe | null> 
 	for (const [path, moduleLoader] of Object.entries(modules)) {
 		const module = await moduleLoader();
 		const metadata = (module as Record<string, unknown>).metadata as recipe;
-		const slug = metadata.slug || pathToSlug(path);
+		const slug = (metadata.slug || pathToSlug(path)).toLowerCase();
 
-		if (slug === targetSlug) {
+		if (slug === targetSlug.toLowerCase()) {
 			return {
 				...metadata,
 				slug,
