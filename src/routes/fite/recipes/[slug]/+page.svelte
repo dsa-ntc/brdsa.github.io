@@ -3,7 +3,6 @@
 	import PaletteHeader from "$lib/components/PaletteHeader.svelte";
 	import Prose from "$lib/components/Prose.svelte";
 	import Link from "$lib/components/Link.svelte";
-	import Link from "$lib/components/Link.svelte";
 	import { getSummary } from "$lib/recipeUtils.js";
 	let { data } = $props();
 	let post = $derived(data.post);
