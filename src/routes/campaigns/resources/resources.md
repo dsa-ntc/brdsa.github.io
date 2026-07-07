@@ -5,6 +5,7 @@ Below are some resources produced by our chapter. [Email us](mailto:contact@brds
 ## Chapter Resources
 - [Get an awesome Louisiana DSA t-shirt!](https://shop.worxprinting.coop/collections/brdsa)
 - Baton Rouge Democratic Socialists of America follows the National DSA's [Unified Grievance Policy](https://docs.google.com/document/u/3/d/e/2PACX-1vQDWES0fFuHwAeXvVuD3guK1wSeR9i_Xs5cRIqZ2Fv_ppKeXfyb2u7N_RLpjgPAtQ7alRk8UbKPkLdR/pub).
+- Please report grievances to [hgo@brdsa.org](mailto:hgo@brdsa.org)
 - DSA's [Code of Conduct](https://www.dsausa.org/dsa-code-of-conduct-for-members/)
 - [Resolutions Passed by the Chapter](https://share.mayfirst.org/s/Pame6AdtJx72B9e)
 
@@ -14,10 +15,12 @@ Below are some resources produced by our chapter. [Email us](mailto:contact@brds
 - [Abolish ICE Zine (Español)](https://share.mayfirst.org/s/fmBG77GcEz45mCx)
 - [Anti-War Zine](https://share.mayfirst.org/s/b3BPN6XjgyLxRz2)
 - [BDS Zine](https://share.mayfirst.org/s/kGy2mBpLLKz9oAD)
+- [Boycott Chevron Zine](https://share.mayfirst.org/s/cpasQs2LoqdBPmG)
 - [Defund the Police Zine](https://share.mayfirst.org/s/FCHsH8ZXXkLDiqA)
 - [Fancy Ecosocialism Zine](https://share.mayfirst.org/s/QLgYoySSSeczNsd)
 - [Ecosocialism Zine](https://share.mayfirst.org/s/Cbz9ErCStGTBeje)
 - [Join DSA Zine](https://share.mayfirst.org/s/dtXkt7g8H8zfsWa)
+- [EVs or Public Transit Zine](https://share.mayfirst.org/s/yMJYCJ5K9textq7)
 - [Mutual Aid Zine](https://share.mayfirst.org/s/PiM8PTk3GDWjGfe)
 - [Principles of Party Building Zine](https://share.mayfirst.org/s/4edHxMMezksytWz)
 - [Queer Liberation Zine](https://share.mayfirst.org/s/o8wWQ4ZKGSCaPqF)
@@ -41,7 +44,7 @@ Below are some resources produced by our chapter. [Email us](mailto:contact@brds
 - [Baton Rouge Unido](https://www.facebook.com/p/Baton-Rouge-Unido-61581212447544/)
 - [Louisiana Organization for Refugees and Immigrants](https://www.mylori.org/)
 - [eVOLVe (Victory Over Louisiana Violence)](https://www.instagram.com/evolvelouisiana/)
-- [VOTE (Voice Of The Experience)](https://www.voiceoftheexperienced.org/)
+- [VOTE (Voice Of The Experienced)](https://www.voiceoftheexperienced.org/)
 - [Southeast Louisiana Legal Services](https://slls.org/en/)
 - [NOW (National Organization for Women) Baton Rouge](https://www.instagram.com/nowbatonrouge/)
 - [BR Community Fridge Network](https://www.instagram.com/brcommunityfridge/)
