@@ -64,7 +64,7 @@
 	<div class="palette-sibling flex justify-center">
 		<Prose>
 			<p class="border-l-4 border-l-dsa-red p-2 dark:border-l-dsa-red1 dark:bg-dsa-black1 dark:text-white">
-				Want to get involved? <a href="{config.joinUrl}?source={post.slug}" rel="external">Join Baton Rouge DSA</a>
+				Want to get involved? <a href="{config.joinUrl}?r={post.slug}" rel="external">Join Baton Rouge DSA</a>
 			</p>
 		</Prose>
 	</div>
