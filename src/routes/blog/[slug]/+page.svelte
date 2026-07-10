@@ -13,6 +13,7 @@
 	let hero = $derived(data.hero);
 
 	// NOTE on weird date parsing https://stackoverflow.com/a/31732581
+	// NOTE on solidarity tech referral links https://www.solidarity.tech/docs/referrals
 </script>
 
 <svelte:head>
