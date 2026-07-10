@@ -108,9 +108,6 @@ https://git-scm.com/downloads/win
 
 https://www.markdownguide.org/basic-syntax/#reference-style-links
 
-action network css examples
-https://help.actionnetwork.org/hc/en-us/articles/115005729066-CSS-snippets-for-embed-customization
-
 text contrast checker https://webaim.org/resources/contrastchecker/
 
 sveltekit project structure
