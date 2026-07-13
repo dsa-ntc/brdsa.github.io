@@ -1,0 +1,70 @@
+{
+  "presets": [
+    {
+      "id": "light-red-brdsa",
+      "name": "Light Red - BRDSA",
+      "props": {
+        "width": 4000,
+        "height": 4000,
+        "margin": "",
+        "dotsOptions":          { "color": "#ec1f27", "type": "extra-rounded" },
+        "cornersSquareOptions": { "color": "#3b3838", "type": "extra-rounded" },
+        "cornersDotOptions":    { "color": "#3b3838", "type": "square" },
+        "imageOptions":         { "margin": 3, "imageSize": 0.6 },
+        "qrOptions":            { "errorCorrectionLevel": "H" }
+      },
+      "style": { "borderRadius": "13px", "background": "#f7a5a9" },
+      "frame": null
+    },
+    {
+      "id": "light-red-national",
+      "name": "Light Red - National",
+      "image": "/images/dsa-national-qr-logo.png",
+      "props": {
+        "width": 4000,
+        "height": 4000,
+        "margin": "",
+        "dotsOptions":          { "color": "#ec1f27", "type": "extra-rounded" },
+        "cornersSquareOptions": { "color": "#3b3838", "type": "extra-rounded" },
+        "cornersDotOptions":    { "color": "#3b3838", "type": "square" },
+        "imageOptions":         { "margin": 0, "imageSize": 0.6 },
+        "qrOptions":            { "errorCorrectionLevel": "H" }
+      },
+      "style": { "borderRadius": "13px", "background": "#f7a5a9" },
+      "frame": null
+    },
+    {
+      "id": "dark-brdsa",
+      "name": "Dark - BRDSA",
+      "props": {
+        "width": 4000,
+        "height": 4000,
+        "margin": "",
+        "dotsOptions":          { "color": "#3b3838", "type": "extra-rounded" },
+        "cornersSquareOptions": { "color": "#3b3838", "type": "extra-rounded" },
+        "cornersDotOptions":    { "color": "#3b3838", "type": "square" },
+        "imageOptions":         { "margin": 3, "imageSize": 0.6 },
+        "qrOptions":            { "errorCorrectionLevel": "H" }
+      },
+      "style": { "borderRadius": "13px", "background": "#ffffff" },
+      "frame": null
+    },
+    {
+      "id": "dark-national",
+      "name": "Dark - National",
+      "image": "/images/dsa-national-qr-logo.png",
+      "props": {
+        "width": 4000,
+        "height": 4000,
+        "margin": "",
+        "dotsOptions":          { "color": "#3b3838", "type": "extra-rounded" },
+        "cornersSquareOptions": { "color": "#3b3838", "type": "extra-rounded" },
+        "cornersDotOptions":    { "color": "#3b3838", "type": "square" },
+        "imageOptions":         { "margin": 0, "imageSize": 0.6 },
+        "qrOptions":            { "errorCorrectionLevel": "H" }
+      },
+      "style": { "borderRadius": "13px", "background": "#ffffff" },
+      "frame": null
+    }
+  ]
+}

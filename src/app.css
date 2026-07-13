@@ -16,6 +16,10 @@
 		padding-bottom: env(safe-area-inset-bottom);
 	}
 
+	input[type='checkbox'] {
+		@apply rounded-sm accent-dsa-red focus:ring-2 focus:ring-dsa-red focus:ring-offset-0 hover:border-dsa-red1 checked:bg-dsa-red checked:border-dsa-red checked:hover:bg-dsa-red1 checked:hover:border-dsa-red1 checked:focus:bg-dsa-red checked:focus:border-dsa-red;
+	}
+
 	article {
 		@apply @container flex grow flex-col bg-white/90 dark:bg-dsa-black/90;
 	}
