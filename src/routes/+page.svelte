@@ -56,7 +56,7 @@
 	</div>
 
 	<div class="mx-auto max-w-5xl grow p-2">
-		<SolidarityTechEmbed path="join" title="Join Us" />
+		<SolidarityTechEmbed path="join" title="Join Us!" full />
 	</div>
 
 	<div class="palette-sibling mt-4">
