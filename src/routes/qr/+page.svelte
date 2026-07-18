@@ -6,12 +6,12 @@
 	import HeadSummary from '$lib/components/HeadSummary.svelte';
 	import { buildZip } from '$lib/qrUtils';
 	import { browser } from '$app/environment';
+	import { SvelteSet } from 'svelte/reactivity';
+	import { defaultQrUrls } from '$lib/config';
 
 	const builtinPresets: QRPreset[] = presetsData.presets as QRPreset[];
 
-	let urlText = $state(
-		'https://platform.dsausa.org/\nhttps://www.brdsa.org/donate/\nhttps://go.dsausa.org/batonrouge/\nhttps://www.venmo.com/u/BRDSA/'
-	);
+	let urlText = $state(defaultQrUrls.join('\n'));
 	let selected = $state(new Set<string>());
 	let customPresets = $state<QRPreset[]>([]);
 	let generating = $state(false);
@@ -32,7 +32,7 @@
 	const canDownload = $derived(urlList.length > 0 && activePresets.length > 0 && !generating);
 
 	function togglePreset(id: string) {
-		const next = new Set(selected);
+		const next = new SvelteSet(selected);
 		if (next.has(id)) next.delete(id);
 		else next.add(id);
 		selected = next;
@@ -85,7 +85,7 @@
 
 	function removeCustomPreset(id: string) {
 		customPresets = customPresets.filter((p) => p.id !== id);
-		const next = new Set(selected);
+		const next = new SvelteSet(selected);
 		next.delete(id);
 		selected = next;
 	}
