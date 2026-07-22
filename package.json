@@ -25,6 +25,7 @@
 		"@tailwindcss/forms": "^0.5.9",
 		"@tailwindcss/typography": "^0.5.15",
 		"@tailwindcss/vite": "^4.0.0",
+		"@types/file-saver": "^2.0.7",
 		"chrome-launcher": "^1.2.0",
 		"eslint": "^9.18.0",
 		"eslint-config-prettier": "^10.0.1",
@@ -48,8 +49,12 @@
 	},
 	"dependencies": {
 		"chart.js": "^4.5.0",
+		"file-saver": "^2.0.5",
 		"flexsearch": "^0.8.212",
 		"gray-matter": "^4.0.3",
+		"jszip": "^3.10.1",
+		"qr-code-styling": "^1.9.2",
+		"qr-scanner": "^1.4.2",
 		"rehype-external-links": "^3.0.0"
 	}
 }

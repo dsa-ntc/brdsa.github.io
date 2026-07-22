@@ -24,3 +24,11 @@
 		Newsletter: 'https://actionnetwork.org/forms/join-brdsa',
 	}
 };
+
+export const defaultQrUrls = [
+	'https://program.dsausa.org/#what-we-fight-for-heading',
+	'https://go.dsausa.org/batonrouge/',
+	'https://www.brdsa.org/',
+	'https://www.brdsa.org/donate/',
+	'https://www.venmo.com/u/BRDSA/'
+];
