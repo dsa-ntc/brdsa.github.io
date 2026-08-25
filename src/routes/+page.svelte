@@ -65,7 +65,7 @@
 				<p
 					class="border-l-4 border-l-dsa-red p-2 dark:border-l-dsa-red1 dark:bg-dsa-black1 dark:text-white"
 				>
-					Here are some recent posts from us
+					Here are some recent posts from us. <Link href="/blog">Read more here.</Link>
 				</p>
 			</Prose>
 		</div>

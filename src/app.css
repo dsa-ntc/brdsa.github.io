@@ -85,6 +85,12 @@
 	@apply break-all;
 }
 
+/* Footnote bodies can contain long bare URLs; let them wrap rather than
+   overflow, but leave the backref arrow alone. */
+.footnotes a:not(.footnote-backref) {
+	@apply wrap-break-word;
+}
+
 nav li.searchIcon {
 	display: flex;
 	align-items: self-end;
