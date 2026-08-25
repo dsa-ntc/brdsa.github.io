@@ -47,3 +47,23 @@ export type recipeModules = Record<
 	string,
 	() => Promise<{default: Component; metadata: recipe;}>
 >;
+
+export interface QRPresetProps {
+	width?: number;
+	height?: number;
+	margin?: string | number;
+	dotsOptions?: Record<string, unknown>;
+	cornersSquareOptions?: Record<string, unknown>;
+	cornersDotOptions?: Record<string, unknown>;
+	imageOptions?: Record<string, unknown>;
+	qrOptions?: Record<string, unknown>;
+}
+
+export interface QRPreset {
+	id: string;
+	name: string;
+	image?: string; // logo URL; defaults to BRDSA logo if omitted
+	props: QRPresetProps;
+	style: { borderRadius?: string; background?: string };
+	frame: null;
+}
