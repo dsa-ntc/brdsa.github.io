@@ -4,7 +4,7 @@ date: 2026-08-31
 description: A BRDSA member reflects on the relationship between motherhood, the construction of local concentration camps for children, and the ongoing struggle for worldwide liberation. 
 imageUrl: imagine-a-world-without-political-violence.jpg
 imageDescription: a graphic of a group of people unweaving a chain fence
-author: Baton Rouge DSA
+author: Lydia K
 ---
 
 For months, the inhumane conditions at the Dilley Detention Center in Texas have been coming across my social media feeds. I’ve read letters from kids who feel that they are in prison. I’ve read accounts from parents saying that their children have started wetting the bed again, have begun to self-harm, and have even tried to take their own lives. The stories are difficult and often harrowing to read. And yet, after increasing publicity about the poor conditions at Dilley and public demands that it be shut down, we in Louisiana have found ourselves needing to pivot our organizing efforts toward protesting the opening of yet another of these "family detention facilities" – the Alexandria Child Detention Center located at the Alexandria International Airport. 
