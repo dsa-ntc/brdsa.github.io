@@ -88,23 +88,50 @@ export function sanitizeFilename(url: string): string {
 	return url
 		.replace(/^https?:\/\//, '')
 		.replace(/[/?=&#.]/g, '-')
+		// Anything else unsafe in a zip entry name (spaces, quotes, colons, ...)
+		.replace(/[^a-zA-Z0-9_-]+/g, '-')
 		.replace(/-+/g, '-')
-		.replace(/-$/, '');
+		.replace(/^-|-$/g, '');
 }
 
-export async function buildZip(urls: string[], presets: QRPreset[]): Promise<Blob> {
-	const [{ default: JSZip }, { saveAs: _saveAs }] = await Promise.all([
-		import('jszip'),
-		import('file-saver'),
-	]);
+/** One row of work: a URL plus the presets selected for that URL alone. */
+export interface QRJob {
+	url: string;
+	/** Optional folder name; falls back to a sanitized form of the URL. */
+	label?: string;
+	presets: QRPreset[];
+}
+
+export function countJobImages(jobs: QRJob[]): number {
+	return jobs.reduce((n, job) => n + job.presets.length, 0);
+}
+
+export async function buildZip(
+	jobs: QRJob[],
+	onProgress?: (done: number, total: number) => void
+): Promise<Blob> {
+	const { default: JSZip } = await import('jszip');
 
 	const zip = new JSZip();
+	const total = countJobImages(jobs);
+	let done = 0;
+	const usedNames = new Set<string>();
 
-	for (const url of urls) {
-		const folder = zip.folder(sanitizeFilename(url))!;
-		for (const preset of presets) {
-			const blob = await renderQRToBlobVerified(url, preset);
+	for (const job of jobs) {
+		if (job.presets.length === 0) continue;
+
+		// Distinct folder per row, so two rows sharing a URL don't collide
+		const base = sanitizeFilename(job.label?.trim() || job.url) || 'qr';
+		let name = base;
+		let n = 2;
+		while (usedNames.has(name)) name = `${base}-${n++}`;
+		usedNames.add(name);
+
+		const folder = zip.folder(name)!;
+		for (const preset of job.presets) {
+			const blob = await renderQRToBlobVerified(job.url, preset);
 			folder.file(`${preset.id}.png`, blob);
+			onProgress?.(++done, total);
 		}
 	}
 
