@@ -3,7 +3,7 @@
 Below are some resources produced by our chapter. [Email us](mailto:contact@brdsa.org) if you have a resource that should get posted here! 
 
 ## Chapter Resources
-- [Get an awesome Louisiana DSA t-shirt!](https://shop.worxprinting.coop/collections/brdsa)
+- [Get an awesome Louisiana DSA t-shirt or hat!](https://shop.goodpress.coop/collections/brdsa)
 - Baton Rouge Democratic Socialists of America follows the National DSA's [Unified Grievance Policy](https://docs.google.com/document/u/3/d/e/2PACX-1vQDWES0fFuHwAeXvVuD3guK1wSeR9i_Xs5cRIqZ2Fv_ppKeXfyb2u7N_RLpjgPAtQ7alRk8UbKPkLdR/pub).
 - Please report grievances to [hgo@brdsa.org](mailto:hgo@brdsa.org)
 - DSA's [Code of Conduct](https://www.dsausa.org/dsa-code-of-conduct-for-members/)
@@ -22,11 +22,13 @@ Below are some resources produced by our chapter. [Email us](mailto:contact@brds
 - [Join DSA Zine](https://share.mayfirst.org/s/dtXkt7g8H8zfsWa)
 - [EVs or Public Transit Zine](https://share.mayfirst.org/s/yMJYCJ5K9textq7)
 - [Mutual Aid Zine](https://share.mayfirst.org/s/PiM8PTk3GDWjGfe)
+- [PACs in BR Zine](https://share.mayfirst.org/s/pBcSSayK6aMETxi)
 - [Principles of Party Building Zine](https://share.mayfirst.org/s/4edHxMMezksytWz)
-- [Queer Liberation Zine](https://share.mayfirst.org/s/o8wWQ4ZKGSCaPqF)
+- [Prison Abolition Zine](https://share.mayfirst.org/s/yWGn59wko7C27dG)
+- [Queer Liberation Zine](https://share.mayfirst.org/s/c2kSbGztkNWwpTb)
 - [Socialist Feminism Zine](https://share.mayfirst.org/s/mEJ9HHAnzkf8k72)
-- [Workers Deserve More Zine](https://share.mayfirst.org/s/crXwGjHxNDJoRmk)
-- [Workers Deserver More Flyers](https://share.mayfirst.org/s/TkYonRGd9r2mj6t)
+- [Workers Deserve More Zine](https://share.mayfirst.org/s/PCWKPbR4WERZCHS)
+- [Workers Deserver More Programs](https://share.mayfirst.org/s/ajf2oYswSe8YCq2)
 
 ## For tenants or homeowners
 - [Tenants Rights Trifold Brochure (English)](https://share.mayfirst.org/s/CRAbrfGxLcTQpxb)
