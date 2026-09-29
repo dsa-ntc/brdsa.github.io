@@ -4,6 +4,6 @@ Baton Rouge DSA members facilitate and participate in a number of community outr
 
 Our weekly [FITE food distribution team](/fite) could always use a hand with prepping meals, and our monthly Coffee With Comrades events are a great way to relax and make some friends. 
 
-If you haven't already, we invite you to [join DSA](https://act.dsausa.org/donate/membership/?source=Baton%20Rouge) today!
+If you haven't already, we invite you to [join DSA](https://act.dsausa.org/donate/membership/?source=brdsa) today!
 
 
