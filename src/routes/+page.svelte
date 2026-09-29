@@ -4,6 +4,7 @@
 	import Link from "$lib/components/Link.svelte";
 	import Posts from "$lib/components/Posts.svelte";
 	import Prose from "$lib/components/Prose.svelte";
+	import SolidarityTechEmbed from "$lib/components/SolidarityTechEmbed.svelte";
 	import hero from "$lib/images/Header_ABetterWorld_Louisiana.jpeg?enhanced";
 	import foodDistribution from "$lib/images/baton-rouge-dsa-cover-image.jpg?enhanced";
 	import type { PageProps } from "./$types";
@@ -14,11 +15,6 @@
 
 <svelte:head>
 	<HeadSummary {title} {description} />
-	<link
-		href="https://actionnetwork.org/css/style-embed-whitelabel-v3.css"
-		rel="stylesheet"
-		type="text/css"
-	/>
 </svelte:head>
 
 <article>
@@ -60,24 +56,7 @@
 	</div>
 
 	<div class="mx-auto max-w-5xl grow p-2">
-		<style>
-			.can_embed #can_embed_form #can_embed_form_inner input[type="checkbox"] {
-				border-color: var(--color-dsa-red) !important;
-				accent-color: var(--color-red-500) !important;
-				appearance: auto !important;
-			}
-			@media (prefers-color-scheme: dark) {
-				.can_embed #can_embed_form_inner input[type="checkbox"] {
-					border: 1px !important;
-					border-color: var(--color-red) !important;
-				}
-			}
-		</style>
-		<script
-			src="https://actionnetwork.org/widgets/v5/form/join-brdsa?format=js&source=widget"
-			fetchpriority="low"
-		></script>
-		<div id="can-form-area-join-brdsa" class="w-full bg-white/80 dark:bg-dsa-black/80"></div>
+		<SolidarityTechEmbed path="join" title="Join Us!" full />
 	</div>
 
 	<div class="palette-sibling mt-4">
@@ -86,7 +65,7 @@
 				<p
 					class="border-l-4 border-l-dsa-red p-2 dark:border-l-dsa-red1 dark:bg-dsa-black1 dark:text-white"
 				>
-					Here are some recent posts from us
+					Here are some recent posts from us. <Link href="/blog">Read more here.</Link>
 				</p>
 			</Prose>
 		</div>
