@@ -47,7 +47,7 @@
 			</p>
 			<p class="flex flex-col gap-3">
 				<Link href="/about">Learn more about who we are →</Link> 
-				<Link href="/campaigns">See our work →</Link>
+				<Link href="/about/campaigns">See our work →</Link>
 			</p>
 		</Prose>
 		<aside>

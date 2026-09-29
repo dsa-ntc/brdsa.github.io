@@ -21,7 +21,7 @@ function getUrls(domain) {
     'About': `${domain}/about`,
     'FITE': `${domain}/fite`,
     'Get Involved': `${domain}/get-involved`,
-    'Our Work': `${domain}/campaigns`,
+    'Our Work': `${domain}/about/campaigns`,
     'Donate': `${domain}/donate`,
   }
 }
