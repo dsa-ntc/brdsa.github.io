@@ -50,12 +50,17 @@
 			<enhanced:img
 				src={foodDistribution}
 				alt="BRDSA members distribute food"
-				class="object-scale-down"
+				class="object-scale-down max-h-135"
 			/>
 		</aside>
 	</div>
 
-	<div class="mx-auto max-w-5xl grow p-2">
+	<div class="forWidescreen hidden @4xl:block p-1 items-center">
+		<div class="w-4xl">
+			<SolidarityTechEmbed path="join" title="Join Us!" full />
+		</div>
+	</div>
+	<div class="forMobile block @4xl:hidden max-w-5xl p-1">
 		<SolidarityTechEmbed path="join" title="Join Us!" full />
 	</div>
 
