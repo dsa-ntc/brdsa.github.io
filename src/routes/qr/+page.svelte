@@ -221,7 +221,7 @@
 				<h2 class="mb-2 text-lg font-bold dark:text-white">Codes</h2>
 
 				<div class="overflow-x-auto rounded-md border border-dsa-black3 dark:border-dsa-black2">
-					<table class="w-full min-w-128 border-collapse text-sm">
+					<table class="w-full min-w-lg border-collapse text-sm">
 						<thead>
 							<tr class="bg-dsa-red4/40 dark:bg-dsa-black1">
 								<th class="w-7 px-1.5 py-1.5"></th>

@@ -32,7 +32,7 @@
 </script>
 
 <div
-	class="flex w-[132px] flex-col items-center gap-1.5 rounded-lg border border-dsa-black3 bg-white
+	class="flex w-33 flex-col items-center gap-1.5 rounded-lg border border-dsa-black3 bg-white
 	       p-2 dark:border-dsa-black2 dark:bg-dsa-black"
 >
 	<div
