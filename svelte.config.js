@@ -4,9 +4,15 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeSlug from 'rehype-slug';
 import rehypeExternalLinks from 'rehype-external-links';
+import remarkGfm from 'remark-gfm';
+import remarkFootnotes from './plugins/remark-footnotes.js';
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
 	extensions: ['.svx', '.md'],
+	// remarkGfm gives writers tables and strikethrough. Its *footnote* support
+	// does not work under mdsvex's vendored legacy parser, so remarkFootnotes
+	// supplies `[^1]` citations instead - see plugins/remark-footnotes.js.
+	remarkPlugins: [remarkGfm, remarkFootnotes],
 	rehypePlugins:
 		[
 			[rehypeSlug],
