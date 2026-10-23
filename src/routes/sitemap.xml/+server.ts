@@ -47,6 +47,9 @@ export async function GET() {
             <url>
                 <loc>${config.location}/blog</loc>
             </url>
+            <url>
+                <loc>${config.location}/newsletters</loc>
+            </url>
             ${posts.map((post) => getItemsForPost(post)).join('\n')}
 		</urlset>`.trim(),
 		{

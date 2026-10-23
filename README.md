@@ -17,7 +17,7 @@ Markdown files under `src/lib/posts` will be served as independent pages under t
 
 | Method | Best for |
 |---|---|
-| **Email** [contact@brdsa.org](mailto:contact@brdsa.org) | Anyone — just send your text and a maintainer will handle publishing |
+| **Email** [contact@brdsa.org](mailto:contact@brdsa.org) | Anyone. just send your text and a maintainer will handle publishing |
 | **GitHub issue** ([post submission template](https://github.com/dsa-ntc/brdsa.github.io/issues/new?template=post-submission.yml)) | If you have a GitHub account but don't want to deal with files or branches |
 | **GitHub web editor** | If you're comfortable with GitHub and want to submit a pull request directly |
 | **Local development** | For contributors who want to preview changes before submitting (see `HACKING.md`) |
@@ -102,13 +102,13 @@ feeds: 50
 ---
 ```
 
-### Adding images
+### Adding images generally
 
 There are two places to put images, and which one you use depends on how the image will be referenced.
 
 #### `src/lib/images/` — enhanced images for `.svelte` files
 
-Images here are processed by Vite at build time: they get converted to modern formats (avif, webp) and resized for different screens. This is good for performance but requires importing the image in a `.svelte` file.
+Images here are processed by Vite at build time: they get converted to modern formats (`avif`, `webp`) and resized for different screens. This is good for performance but requires importing the image in a `.svelte` file.
 
 ```svelte
 <script>
@@ -118,7 +118,7 @@ Images here are processed by Vite at build time: they get converted to modern fo
 <enhanced:img src={hero} alt="Description of the photo" />
 ```
 
-See [src/routes/about/+page.svelte](src/routes/about/+page.svelte) for a working example. These images **cannot** be referenced by URL path — they are bundled by Vite under a hashed filename.
+See [src/routes/about/+page.svelte](src/routes/about/+page.svelte) for a working example. These images **cannot** be referenced by URL path like a regular image because they are bundled by Vite under a hashed filename.
 
 The `imageUrl` frontmatter field on blog posts also uses this path: `+page.ts` loads the image from `src/lib/images/` using the same enhanced glob, so header images on posts get full optimization even though they're specified in markdown frontmatter.
 
@@ -135,6 +135,11 @@ Images here are served as-is at `/images/filename.jpg` with no processing. Use t
 ```
 
 The favicon, `robots.txt`, and similar files live in `src/static/` (not `src/static/images/`) for the same reason — they need to be at a known URL path.
+
+
+### Adding newsletters
+
+Newsletter files can be added from the GitHub web app alone by uploading a PDF. Add the file under `static/newsletters` according to the naming scheme there. For example, `2026/october.pdf` and `2026/mid-october.pdf`. The page generation code in `/src/routes/newsletters` will sort them accordingly for display. 
 
 ### Changing styles
 
