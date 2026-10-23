@@ -15,7 +15,7 @@ export const load: PageLoad = (async ({ params }) => {
 		const { default: component, metadata } = await contentModule().then();
 
 
-		const imageModules = import.meta.glob(
+		const imageModules = import.meta.glob<{ default: Picture }>(
 			'/src/lib/images/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
 			{
 				eager: true,
@@ -25,12 +25,9 @@ export const load: PageLoad = (async ({ params }) => {
 			}
 		);
 
-		let match: { default?: Picture } | undefined = undefined;
-		let hero: Picture | undefined;
-		if (metadata.imageUrl) {
-			match = imageModules[`/src/lib/images/${metadata.imageUrl}`];
-			if (match) hero = (match as { default?: Picture }).default;
-		}
+		const hero: Picture | undefined = metadata.imageUrl
+			? imageModules[`/src/lib/images/${metadata.imageUrl}`]?.default
+			: undefined;
 
 		return {
 			post: {
