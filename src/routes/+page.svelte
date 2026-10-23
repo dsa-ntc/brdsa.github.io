@@ -55,13 +55,10 @@
 		</aside>
 	</div>
 
-	<div class="forWidescreen hidden @4xl:block p-1 items-center">
-		<div class="w-4xl">
+	<div class="flex justify-center bg-white/90 p-2 dark:bg-dsa-black/90">
+		<div class="w-full max-w-4xl">
 			<SolidarityTechEmbed path="join" title="Join Us!" full />
 		</div>
-	</div>
-	<div class="forMobile block @4xl:hidden max-w-5xl p-1">
-		<SolidarityTechEmbed path="join" title="Join Us!" full />
 	</div>
 
 	<div class="palette-sibling mt-4">
