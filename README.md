@@ -136,6 +136,11 @@ Images here are served as-is at `/images/filename.jpg` with no processing. Use t
 
 The favicon, `robots.txt`, and similar files live in `src/static/` (not `src/static/images/`) for the same reason — they need to be at a known URL path.
 
+
+### Adding newsletters
+
+Newsletter files can be added from the GitHub web app alone by uploading a PDF. Add the file under `static/newsletters` according to the naming scheme there. For example, `2026/october.pdf` and `2026/mid-october.pdf`. The page generation code in `/src/routes/newsletters` will sort them accordingly for display. 
+
 ### Changing styles
 
 The base stylesheet is at `src/app.css`. We are using [tailwindcss](https://tailwindcss.com/docs/styling-with-utility-classes) and have expressed the DSA Design Palette as `src/DSATheme.css`.
