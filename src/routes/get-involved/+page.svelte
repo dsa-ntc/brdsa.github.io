@@ -4,7 +4,7 @@
 	import GetInvolved from "./get-involved.md";
 	import hero from "$lib/images/Ella_Baker.jpg?enhanced";
 	import HeadSummary from "$lib/components/HeadSummary.svelte";
-	import Link from "$lib/components/Link.svelte";
+	import { config } from "$lib/config";
 	const description = "How you can get involved with Baton Rouge DSA";
 	const title = "Get Involved";
 </script>
@@ -44,12 +44,9 @@
 	<div class="flex justify-center">
 		<Prose>
 			<p class="p-2 dark:text-white text-2xl">
-				Want to stay in the loop? <a
-					href="https://actionnetwork.org/forms/join-brdsa"
-					target="_blank">Join our email list</a
-				> or save a link to the calendar below. You can also read our past <Link href="/newsletters/"
-					>newsletters</Link
-				>.
+				Want to stay in the loop? <a href={config.socials.Newsletter} target="_blank"
+					>Join our email list</a
+				> or save a link to the calendar below.
 			</p>
 		</Prose>
 	</div>

@@ -21,7 +21,7 @@
 		Twitter: 'https://twitter.com/BatonRougeDSA',
 		GitHub: 'https://github.com/dsa-ntc/brdsa.github.io',
 		EmailUs: 'mailto:contact@brdsa.org',
-		Newsletter: 'https://actionnetwork.org/forms/join-brdsa',
+		Newsletter: 'https://brdsa.solidarity.tech/join',
 	}
 };
 
