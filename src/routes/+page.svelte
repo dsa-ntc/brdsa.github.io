@@ -18,7 +18,7 @@
 </svelte:head>
 
 <article>
-	<PaletteHeader>Welcome to Baton Rouge DSA</PaletteHeader>
+	<PaletteHeader>Baton Rouge DSA</PaletteHeader>
 	<div class="palette-sibling flex justify-center">
 		<Prose>
 			<blockquote>
@@ -55,8 +55,25 @@
 		</aside>
 	</div>
 
+	<PaletteHeader>	
+		A better world is possible. Join us today.
+	</PaletteHeader>
+	<div class="palette-sibling">
+		<div class="flex justify-center">
+			<Prose adhocStyle="width:100%">
+				<p
+					class="border-l-4 border-l-dsa-red p-2 dark:border-l-dsa-red1 dark:bg-dsa-black1 dark:text-white"
+				>
+					Use this form to join our chapter and get involved in our work. We will reach out to you with more information about how to get involved. You can opt out at any time. 
+				</p>
+			</Prose>
+		</div>
+	</div>
+
+	
+
 	<div class="flex justify-center bg-white/90 p-2 dark:bg-dsa-black/90">
-		<div class="w-full max-w-4xl">
+		<div class="w-full max-w-3xl">
 			<SolidarityTechEmbed path="join" title="Join Us!" full />
 		</div>
 	</div>
