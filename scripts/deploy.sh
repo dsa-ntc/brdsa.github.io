@@ -25,12 +25,29 @@ fi
 # Build website
 npm run build
 
-# Copy build to MFM server
-echo "${MFM_SSH_KEY_PATH}" >__TEMP_INPUT_KEY_FILE
+# Mirror build to MFM server. rsync --delete removes files that are no longer
+# in the build; --delete-after keeps the old site up until the new files land.
+# Set DRY_RUN=true to only list what would change.
+! which rsync >/dev/null && printf "Please install rsync.\n" && exit 1
+
+# --delete against an empty remote path would target the login home
+test -n "${MFM_SCP_PATH}" || {
+  printf "MFM_SCP_PATH is empty, refusing to run --delete.\n"
+  exit 1
+}
+
+# ssh refuses keys that other users can read, so work on a private copy
+cp "${MFM_SSH_KEY_PATH}" __TEMP_INPUT_KEY_FILE
 chmod 600 __TEMP_INPUT_KEY_FILE
+trap 'rm -f __TEMP_INPUT_KEY_FILE' EXIT
 
-scp -o StrictHostKeyChecking=no -v \
-  -i __TEMP_INPUT_KEY_FILE -P "${MFM_SSH_PORT}" \
-  -r ./build/* "${MFM_USER}"@"${MFM_SSH_HOST}":"${MFM_SCP_PATH}"
+dry=""
+if [ "${DRY_RUN}" = "true" ]; then
+  dry="-n"
+  printf "Dry run, nothing will be changed on the server.\n"
+fi
 
-rm __TEMP_INPUT_KEY_FILE
+# $dry is intentionally unquoted so it vanishes when empty
+rsync -rltz --delete-after --itemize-changes $dry \
+  -e "ssh -i __TEMP_INPUT_KEY_FILE -p ${MFM_SSH_PORT} -o StrictHostKeyChecking=accept-new" \
+  build/ "${MFM_USER}"@"${MFM_SSH_HOST}":"${MFM_SCP_PATH}"/

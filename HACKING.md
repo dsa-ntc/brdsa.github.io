@@ -194,7 +194,10 @@ Copied and modified this person's GH workflow, updated the Node version I think?
 https://github.com/khromov/derivault/blob/main/.github/workflows/build.yml
 
 See `.github/workflows/deploy.yml`. It builds on push to `main` and copies the
-output to the MFM server over SCP.
+output to the MFM server with `rsync --delete-after`, so the server mirrors
+`build/` and stale files are removed. To preview what a deploy would add or
+delete, run the workflow manually with the `dry_run` box ticked. Setting the
+repo variable `MFM_DRY_RUN` to `true` makes pushes to `main` dry runs too.
 
 Credentials come from GitHub repo `vars` and `secrets` in CI, which are the same
 values the local deploy scripts read from `.env`.

@@ -11,6 +11,17 @@ on:
         required: true
         default: "Manual deployment"
         type: string
+      dry_run:
+        description: "Dry run: list what rsync would add and delete, change nothing"
+        required: false
+        default: false
+        type: boolean
+
+# Never let two deploys run rsync --delete against the server at once, and
+# don't kill one that is mid-transfer.
+concurrency:
+  group: deploy
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -35,12 +46,39 @@ jobs:
       - name: Build website
         run: npm run build
 
-      - name: Copy build to MFM server
-        uses: nogsantos/ssh-scp-deploy@v1.3.0
-        with:
-          src: ./build/*
-          host: ${{ vars.MFM_SSH_HOST }}
-          remote: ${{ vars.MFM_SCP_PATH }}
-          port: ${{ vars.MFM_SSH_PORT }}
-          user: ${{ vars.MFM_USER }}
-          key: ${{ secrets.MFM_SSH_KEY }}
+      # Mirror build/ to the server. Unlike scp, rsync --delete removes files
+      # that are no longer in the build. --delete-after keeps the old site
+      # intact until every new file has landed, so there is no window where
+      # the site is down.
+      - name: Sync build to MFM server
+        env:
+          MFM_USER: ${{ vars.MFM_USER }}
+          MFM_SSH_HOST: ${{ vars.MFM_SSH_HOST }}
+          MFM_SSH_PORT: ${{ vars.MFM_SSH_PORT }}
+          MFM_SCP_PATH: ${{ vars.MFM_SCP_PATH }}
+          MFM_SSH_KEY: ${{ secrets.MFM_SSH_KEY }}
+          # Manual dry_run input, or the MFM_DRY_RUN repo variable. The
+          # variable lets the first push to main after merging stay a dry
+          # run; delete it once the deletion list has been reviewed.
+          DRY_RUN: ${{ inputs.dry_run || vars.MFM_DRY_RUN == 'true' }}
+        run: |
+          set -eu
+
+          # --delete against an empty remote path would target the login home
+          test -n "$MFM_SCP_PATH" || { echo "MFM_SCP_PATH is empty, refusing to run --delete"; exit 1; }
+
+          key="$RUNNER_TEMP/mfm_key"
+          trap 'rm -f "$key"' EXIT
+          (umask 077 && printf '%s\n' "$MFM_SSH_KEY" > "$key")
+          chmod 600 "$key"
+
+          dry=""
+          if [ "$DRY_RUN" = "true" ]; then
+            dry="-n"
+            echo "::notice::Dry run, nothing will be changed on the server"
+          fi
+
+          # $dry is intentionally unquoted so it vanishes when empty
+          rsync -rltz --delete-after --itemize-changes $dry \
+            -e "ssh -i $key -p $MFM_SSH_PORT -o StrictHostKeyChecking=accept-new" \
+            build/ "$MFM_USER@$MFM_SSH_HOST:$MFM_SCP_PATH/"
