@@ -23,7 +23,8 @@
 			>
 				This is an archive of newsletters sent to our chapter's email list. Want them in your inbox? <a
 					href={config.newsletterUrl}
-					target="_blank">Join our email list</a
+					target="_blank"
+					rel="noopener noreferrer">Join our email list</a
 				>.
 			</p>
 		</Prose>
@@ -39,6 +40,7 @@
 							<Link
 								href={newsletter.href}
 								target="_blank"
+								rel="noopener noreferrer"
 								data-sveltekit-reload
 								class="text-xl underline decoration-dsa-red decoration-2 underline-offset-4 hover:decoration-dsa-red1"
 								>{newsletter.title}</Link

@@ -140,6 +140,20 @@ The URLs for joining DSA and for joining our email list live in `src/lib/config.
 
 Campaign links (petitions, letters, the FITE donate widget) are separate and can stay inline.
 
+### Why `rel="noopener noreferrer"`
+
+Any link that opens in a new tab (`target="_blank"`) should also carry `rel="noopener noreferrer"`:
+
+- `noopener` stops the new page from getting a handle on ours via `window.opener`, so a third-party site can't redirect or tamper with the tab it was opened from. Current browsers imply this for `_blank`, but older ones don't, and spelling it out keeps it from depending on that.
+- `noreferrer` stops the browser from telling the destination which page the visitor came from. We'd rather not leak that to external sites.
+
+Where this comes from:
+
+- **Markdown content**: `svelte.config.js` runs `rehype-external-links` over every markdown link to a non-brdsa.org host, which adds `target="_blank"` and the `rel` for us. Writers don't need to do anything. It skips raw HTML, which is why the raw `<a>` tags above need both attributes written by hand.
+- **Svelte components and pages**: nothing adds it automatically. Write it whenever you use `target="_blank"`, as `Socials.svelte` does.
+
+Links to our own site (`brdsa.org/...` or `/relative`) stay in the same tab and don't need any of this.
+
 ## Changing styles
 
 The base stylesheet is at `src/app.css`. We are using
