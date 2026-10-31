@@ -44,7 +44,7 @@
 	<div class="flex justify-center">
 		<Prose>
 			<p class="p-2 dark:text-white text-2xl">
-				Want to stay in the loop? <a href={config.socials.Newsletter} target="_blank"
+				Want to stay in the loop? <a href={config.newsletterUrl} target="_blank"
 					>Join our email list</a
 				> or save a link to the calendar below.
 			</p>
