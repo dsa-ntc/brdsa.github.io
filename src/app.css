@@ -95,6 +95,21 @@
 	@apply wrap-break-word;
 }
 
+/* Print the page content only: drop the site chrome (the layout's own header and footer)
+   and force a plain white page, whatever the color scheme. */
+@media print {
+	.content > header,
+	.content > footer {
+		display: none;
+	}
+
+	body,
+	.content {
+		background: white;
+		color: black;
+	}
+}
+
 nav li.searchIcon {
 	display: flex;
 	align-items: self-end;
