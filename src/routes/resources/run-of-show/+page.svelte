@@ -60,8 +60,7 @@
 				<p class="text-sm">
 					Add a segment for each topic, give it a duration (minutes and seconds), and drag the
 					handle to reorder. Begin and end are measured from the top of the show; set a recording
-					start time to see clock times too. The address bar always holds your plan, so copy the
-					link to share it.
+					start time to see clock times.
 				</p>
 				<ShowDetailsForm bind:details={plan.details} />
 				<SegmentEditor bind:segments={plan.segments} {scheduled} />

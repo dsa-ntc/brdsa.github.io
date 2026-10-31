@@ -18,7 +18,7 @@
 	{:else if diff > 0}
 		{formatDuration(diff)} left to fill
 	{:else}
-		<strong class="text-dsa-red dark:text-dsa-red1 print:text-black">
+		<strong class="text-dsa-red3 print:text-black">
 			{formatDuration(-diff)} over
 		</strong>
 	{/if}
