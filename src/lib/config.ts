@@ -1,11 +1,16 @@
- export const config  = {
+const newsletterUrl = "https://brdsa.solidarity.tech/join";
+
+export const config  = {
 	title: 'Baton Rouge DSA',
 	location: 'https://brdsa.org',
 	tagLine: 'Homepage for Baton Rouge DSA (BRDSA)',
 	description: 'Website for the Baton Rouge chapter of the Democratic Socialists of America (BRDSA)',
 	author: "BRDSA",
 	email: "contact@brdsa.org",
+	// national DSA membership, via the chapter's landing page
 	joinUrl: "https://go.dsausa.org/batonrouge",
+	// chapter email list
+	newsletterUrl,
 	// title is visible, link is link, caption is put in tooltip <a href={link} title={caption}>{title}</a>
 	headerLinks: [
 		{ title: 'About', link: '/about', caption:'Learn about our organization' },
@@ -21,7 +26,7 @@
 		Twitter: 'https://twitter.com/BatonRougeDSA',
 		GitHub: 'https://github.com/dsa-ntc/brdsa.github.io',
 		EmailUs: 'mailto:contact@brdsa.org',
-		Newsletter: 'https://brdsa.solidarity.tech/join',
+		Newsletter: newsletterUrl,
 	}
 };
 

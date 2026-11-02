@@ -42,6 +42,7 @@
 						<a
 							href="https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr..jpg"
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							Nobel Foundation
 						</a>, Public domain, via Wikimedia Commons

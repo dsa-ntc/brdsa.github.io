@@ -39,7 +39,7 @@
 						class="float-right mt-0 mb-0 max-h-55 object-scale-down py-2"
 					/>
 					<figcaption class="min-w-3xs">
-						<a href="https://www.dol.gov/general/aboutdol/hallofhonor/1990_debs" target="_blank"
+						<a href="https://www.dol.gov/general/aboutdol/hallofhonor/1990_debs" target="_blank" rel="noopener noreferrer"
 							>U.S. Department of Labor</a
 						>
 					</figcaption>

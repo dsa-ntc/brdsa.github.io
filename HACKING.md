@@ -111,7 +111,7 @@ They may seem weird at first, but they're nice once they click.
   - `app.html` is the root document, and our content gets injected in there
   - `app.css` is the root stylesheet
   - `lib` holds some TypeScript files that the site uses
-    - `config.ts` has some settings that affect the site, like it's title, a list of nav links to show in the header, etc.
+    - `config.ts` has some settings that affect the site, like it's title, a list of nav links to show in the header, the join and email list URLs (see [Join and signup links](#join-and-signup-links)), etc.
     - `types.ts` has a type definition in it called `PostMetadata` which is what the site expects to show up in the frontmatter of Markdown content
     - `images` holds images that get optimized at build time, see [Images](#images)
   - `posts` holds all the copy in the form of markdown files
@@ -129,6 +129,30 @@ They may seem weird at first, but they're nice once they click.
 To add a new page (eg. `/about`, `/get-involved`), add a folder under
 `src/routes` and create a `+page.svelte` file in it. Copying and editing an
 existing page is usually the easiest way to start.
+
+## Join and signup links
+
+The URLs for joining DSA and for joining our email list live in `src/lib/config.ts` as `joinUrl` and `newsletterUrl`. Don't paste those URLs elsewhere; read them from config so there's one place to change.
+
+- **Markdown blog posts**: leave join links out of the post body. Every post gets a "Want to get involved?" footer from `blog/[slug]/+page.svelte`, which links to `joinUrl` with `?source=<post slug>` so we can see which posts bring people in. A second link in the body would be untracked and would duplicate the footer.
+- **Regular Svelte pages**: `import { config } from "$lib/config"` and use `href={config.joinUrl}`.
+- **Markdown content for regular pages** (`about.md`, `get-involved.md`): add a `<script>` block with the same import at the top of the file, and write the link as a raw `<a href={config.joinUrl} target="_blank" rel="noopener noreferrer">` tag, since markdown link syntax can't take `{expr}`. Add `target` and `rel` yourself, since the automatic external-link handling skips raw HTML.
+
+Campaign links (petitions, letters, the FITE donate widget) are separate and can stay inline.
+
+### Why `rel="noopener noreferrer"`
+
+Any link that opens in a new tab (`target="_blank"`) should also carry `rel="noopener noreferrer"`:
+
+- `noopener` stops the new page from getting a handle on ours via `window.opener`, so a third-party site can't redirect or tamper with the tab it was opened from. Current browsers imply this for `_blank`, but older ones don't, and spelling it out keeps it from depending on that.
+- `noreferrer` stops the browser from telling the destination which page the visitor came from. We'd rather not leak that to external sites.
+
+Where this comes from:
+
+- **Markdown content**: `svelte.config.js` runs `rehype-external-links` over every markdown link to a non-brdsa.org host, which adds `target="_blank"` and the `rel` for us. Writers don't need to do anything. It skips raw HTML, which is why the raw `<a>` tags above need both attributes written by hand.
+- **Svelte components and pages**: nothing adds it automatically. Write it whenever you use `target="_blank"`, as `Socials.svelte` does.
+
+Links to our own site (`brdsa.org/...` or `/relative`) stay in the same tab and don't need any of this.
 
 ## Changing styles
 

@@ -37,7 +37,8 @@
 					<figcaption class="min-w-2xs">
 						<a
 							href="https://commons.wikimedia.org/wiki/File:Emma_Goldman_seated.jpg"
-							target="_blank">Takuma Kajiwara</a
+							target="_blank"
+							rel="noopener noreferrer">Takuma Kajiwara</a
 						>, Public domain, via Wikimedia Commons
 					</figcaption>
 				</figure>
