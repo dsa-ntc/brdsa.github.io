@@ -64,7 +64,7 @@
 				<p
 					class="border-l-4 border-l-dsa-red p-2 dark:border-l-dsa-red1 dark:bg-dsa-black1 dark:text-white"
 				>
-					Use this form to join our chapter and get involved in our work. We will reach out to you with more information about how to get involved. You can opt out at any time. 
+					Want to learn more about what we do? Use this form to join our mailing list. We will reach out to you with more information about how to get involved. You can opt out at any time. 
 				</p>
 			</Prose>
 		</div>
