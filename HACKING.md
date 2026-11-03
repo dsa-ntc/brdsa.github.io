@@ -218,7 +218,10 @@ Copied and modified this person's GH workflow, updated the Node version I think?
 https://github.com/khromov/derivault/blob/main/.github/workflows/build.yml
 
 See `.github/workflows/deploy.yml`. It builds on push to `main` and copies the
-output to the MFM server over SCP.
+output to the MFM server with `rsync --delete-after`, so the server mirrors
+`build/` and stale files are removed. To preview what a deploy would add or
+delete, run the workflow manually with the `dry_run` box ticked. Setting the
+repo variable `MFM_DRY_RUN` to `true` makes pushes to `main` dry runs too.
 
 Credentials come from GitHub repo `vars` and `secrets` in CI, which are the same
 values the local deploy scripts read from `.env`.
@@ -242,6 +245,31 @@ especially if you're getting a weird type error that seems wrong, give a shot ju
 ## Quirks with Apache
 
 On moving to MFM hosting, we ran into an issue with our build output not matching the directory structure that Apache expects. We fixed that by enabling this https://svelte.dev/docs/kit/page-options#trailingSlash
+
+## DNS and the site being unreachable
+
+Nameservers for `brdsa.org` are Cloudflare's (`asa`/`cris.ns.cloudflare.com`), so
+**Cloudflare is the live DNS**. The DNS panel at members.mayfirst.org also has a
+zone for `brdsa.org`, but nothing queries it. Treat it as a reference for what
+MFM expects, not as something that takes effect.
+
+The proxied `brdsa.org` (and `www`) record in Cloudflare must be a CNAME to the
+web proxy that MFM lists for our site, which is the `alias` record in the MFM
+DNS panel. At the time of writing that is `b.webproxy.mayfirst.org`. If MFM
+moves the site to another proxy, update Cloudflare to match. Email records
+(MX, SPF, DKIM, SendGrid CNAMEs) also need to exist in Cloudflare.
+
+If the site loads but shows a "May First Movement Technology" page (and our
+pages 404), the deploy is fine and Cloudflare is pointed at the wrong proxy.
+Confirm by asking each proxy for our site directly:
+
+```sh
+curl -sk --resolve brdsa.org:443:$(dig +short b.webproxy.mayfirst.org | tail -1) https://brdsa.org/ | grep -i '<title>'
+```
+
+Repeat with `a.webproxy.mayfirst.org`. The one that returns "Baton Rouge DSA" is
+the right target. This happened on 2026-11-01: Cloudflare pointed at `a`, which
+had apparently been working until MFM changed something on their side.
 
 ## Useful links
 
